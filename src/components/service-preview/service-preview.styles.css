@@ -1,0 +1,11 @@
+.service-preview-wrapper {
+    margin: 4% 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.service-preview{
+   margin: 20px;
+   display:flex;
+
+}

@@ -1,0 +1,24 @@
+.info-section-container {
+
+    margin: 70px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.row-reverse {
+
+    flex-flow: row-reverse;
+}
+
+.info-description {
+     display: flex;
+     align-items: center;
+      width: 30vw;
+}
+
+img {
+ width: 30vw;
+ height: 70vh;
+
+}

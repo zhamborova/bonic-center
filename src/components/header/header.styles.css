@@ -1,0 +1,30 @@
+.header-container {
+    font-family:  'Cardo', serif;
+    cursor: pointer;
+    padding: 10px 5px;
+}
+
+.header-options{
+    display: flex;
+    justify-content: center;
+}
+
+.option{
+    color: #21243d;
+    padding: 8px 20px;
+    font-size: 24px;
+    transition: color 1.5s;
+}
+
+.option:hover{
+    color: #6f7c85 ;
+}
+
+.logo {
+    color: #142850;
+    font-size: 45px;
+    padding: 0 10px;
+    display: block;
+    margin: auto;
+}
+
