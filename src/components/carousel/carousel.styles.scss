@@ -1,0 +1,20 @@
+.carousel-item > img {
+    height: 100%;
+    width: 90vw;
+}
+
+.carousel-container{
+    overflow: hidden;
+    height: 450px;
+}
+
+.carousel{
+   width: 90vw;
+    margin: auto;
+}
+
+div.carousel-container > div > ol > li {
+ border-top: 1px solid black;
+ border-bottom: 10px solid black;
+
+}

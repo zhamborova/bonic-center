@@ -1,10 +1,13 @@
 .header-container {
-    font-family:  'Cardo', serif;
+
     cursor: pointer;
     padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-options{
+    margin: auto 50px;
     display: flex;
     justify-content: center;
 }
@@ -12,7 +15,7 @@
 .option{
     color: #21243d;
     padding: 8px 20px;
-    font-size: 24px;
+    font-size: 20px;
     transition: color 1.5s;
 }
 
@@ -21,10 +24,14 @@
 }
 
 .logo {
+    margin-left: 40px;
     color: #142850;
-    font-size: 45px;
+    font-size: 35px;
     padding: 0 10px;
-    display: block;
-    margin: auto;
+    justify-self: left;
 }
 
+.sub-logo{
+    margin-left: 50px;
+    color: #142850;
+}
