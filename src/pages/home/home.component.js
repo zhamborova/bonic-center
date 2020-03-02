@@ -1,29 +1,32 @@
 import React from 'react';
-import './home.styles.css';
+import './home.styles.scss';
 import CarouselCustom from "../../components/carousel/carouser.component";
+import ServicePreview from "../../components/service-preview/service-preview.component";
 import InfoSection from "../../components/info-section/info-section.component";
-import im3 from '../../assets/im3.png' ;
-import im2 from '../../assets/im2.png' ;
-import ServicePreview from "../../components/service-preview/service-preview";
+import Footer from "../../components/footer/footer.component";
 
-const desc = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, ' +
-    'sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ' +
-    'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi' +
-    ' ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in ' +
-    'voluptate velit esse cillum dolore eu fugiat nulla pariatur.' +
-    ' Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt ' +
-    'mollit anim id est laborum.';
+const images =    ['https://aesteemclinic.sg/wp-content/uploads/2019/09/banner2.png',
+                   'https://aesteemclinic.sg/wp-content/uploads/2019/09/banner1.png'];
+
+const info = {
+    image: 'https://www.vitadentalwellness.ca/wp-content/uploads/2016/10/Untitled_design_2048x2048.png',
+    description: 'Наш центр предлагает широкий спектр процедур по омоложению и решению различных эстетических проблем кожи, удалению нежелательных волос. При работе с клиентами используется высококлассное оборудование от ведущих мировых производителей. Эффективность и безопасность использования такого оборудования подтверждается специальными клиническими исследованиями, ' +
+        'а также результатами его использования в ведущих центрах лазерной косметологии Европы и Америки.'  +
+        'В сочетании с техническими достижениями современности, ' +
+        'наша медицинская система способна творить чудеса.\n' +
+        'Приоритетом нашей работы является качество. Мы добиваемся долговременного результата, ' +
+        'так как всегда стремимся превзойти ваши ожидания.' +
+        ' Когда счастливы наши пациенты, счастливы и мы!'
+};
 
 const Home = () => {
     return (
         <div className='home-container'>
-            <CarouselCustom images = {
-                [im2,im3]}/>
-           <ServicePreview background='https://aesteemclinic.sg/wp-content/uploads/2019/09/eye_bag_removal.jpg'
-                            title = 'Laser Removal'
+            <CarouselCustom images = {images}/>
+            <InfoSection {...info}/>
+            <ServicePreview/>
 
-
-           />
+            <Footer />
         </div>
     )
 

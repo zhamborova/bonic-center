@@ -8,10 +8,10 @@ const Service = ({background, title, laser}) => {
             <div className='content-hover'/>
             <div className='content'>
             <span> {laser} </span>
-            <button> Learn More </button>
+            <button> Подробнее </button>
             </div>
         </div>
-        <h4 className='title'> {title}</h4>
+        <p className='title'> {title}</p>
         </div>
     )
 };

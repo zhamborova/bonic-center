@@ -3,10 +3,15 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+
+    h1{
+      font-size: 3.2vw;
+    }
 }
 
 .service-preview{
-   margin: 20px 20px;
+  margin: 2vw 0px;
    display:flex;
+   justify-content: center;
 
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import './carousel.styles.css';
+import './carousel.styles.scss';
 import Carousel from "react-bootstrap/Carousel";
 
 const CarouselCustom = ({images}) => {
@@ -10,7 +10,7 @@ const CarouselCustom = ({images}) => {
             {images.map(img=> {
                return <Carousel.Item>
                     <img src={img}
-                     className='d-block w-100'/>
+                     className='d-block'/>
                 </Carousel.Item>
             })}
 

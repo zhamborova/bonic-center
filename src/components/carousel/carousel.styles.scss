@@ -1,11 +1,13 @@
 .carousel-item > img {
     height: 100%;
-    width: 90vw;
+    width: 100vw;
 }
 
 .carousel-container{
     overflow: hidden;
-    height: 450px;
+    height: 100%;
+
+
 }
 
 .carousel{
@@ -14,7 +16,12 @@
 }
 
 div.carousel-container > div > ol > li {
- border-top: 1px solid black;
- border-bottom: 10px solid black;
+  border-bottom: 1vw solid black;
+
+  margin-right: 0.2vw;
+  margin-left: 0.1vw;
+  width: 2.2vw;
+  height: 1vh;
+
 
 }

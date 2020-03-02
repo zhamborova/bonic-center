@@ -1,9 +1,22 @@
 .info-section-container {
-
-    margin: 70px;
     display: flex;
     justify-content: space-evenly;
+    margin-top: 2em;
+    background-color: white;
 
+  img {
+    max-height: 30vw;
+    max-width: 34vw;
+    margin:auto;
+  }
+}
+
+.wrap-info{
+  margin: 2em 3em;
+  h1{
+    text-align: center;
+    font-size: 3.2em;
+  }
 }
 
 .row-reverse {
@@ -12,13 +25,7 @@
 }
 
 .info-description {
-     display: flex;
-     align-items: center;
-      width: 40vw;
+     width: 45%;
+     font-size: 1.2em;
 }
 
-img {
- width: 30vw;
- height: 70vh;
-
-}

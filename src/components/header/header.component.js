@@ -1,33 +1,41 @@
 import React from 'react';
-import './header.styles.css'
+import './header.styles.scss';
+import ServiceDropDown from "../service-dropdown/service-dropdown.component";
+import {serviceList} from "../service-dropdown/service-list";
 
-const Header = () => {
+class Header extends React.Component {
+   state ={
+    hidden: true
+};
 
-  return (
+ render() {
+
+
+    return (
     <div className='header-container'>
      <div className='logo-container'>
-         <span className='logo'> Bonic </span>
+         <span className='logo'> B O N I C </span>
+         <p className='sub-logo'>ЦЕНТР ЛАЗЕРНОЙ КОСМЕТОЛОГИИ</p>
      </div>
-
      <div className='header-options'>
       <span className='option'>
-       Home
+       Главная
+      </span>
+         <span className='option' onClick={()=>(this.setState({hidden: !this.state.hidden}))}>
+       Услуги
       </span>
          <span className='option'>
-       Services
+       FAQ
       </span>
          <span className='option'>
-        FAQ
-      </span>
-         <span className='option'>
-        About
+        О нас
       </span>
      </div>
 
-
+        {this.state.hidden ? null: <ServiceDropDown serviceItems={serviceList}/>}
     </div>
   );
-
+  }
 };
 
 export default Header;
