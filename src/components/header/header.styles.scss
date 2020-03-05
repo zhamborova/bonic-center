@@ -19,10 +19,24 @@
     font-size: 1.3em;
     transition: color 1.5s;
     cursor: pointer;
+
+    .service-dropdown{
+        transition: height 2s ease-in-out, border-color 0s ease-in-out 1.9s;
+        border: 1px solid white;
+    }
+
 }
 
+
 .option:hover{
-    color: #6f7c85 ;
+    color: #6f7c85;
+
+     .service-dropdown{
+         transition: height 2s ease-in-out, border-width 0s;
+         height:300px;
+         border: 1px solid #6f7c85;
+}
+
 }
 
 

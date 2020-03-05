@@ -2,6 +2,7 @@ import React from 'react';
 import './header.styles.scss';
 import ServiceDropDown from "../service-dropdown/service-dropdown.component";
 import {serviceList} from "../service-dropdown/service-list";
+import {Link} from "react-router-dom";
 
 class Header extends React.Component {
    state ={
@@ -13,26 +14,28 @@ class Header extends React.Component {
 
     return (
     <div className='header-container'>
-     <div className='logo-container'>
+        <Link to = {"/"}>
+          <div className='logo-container'>
          <span className='logo'> B O N I C </span>
          <p className='sub-logo'>ЦЕНТР ЛАЗЕРНОЙ КОСМЕТОЛОГИИ</p>
-     </div>
-     <div className='header-options'>
-      <span className='option'>
-       Главная
-      </span>
-         <span className='option' onClick={()=>(this.setState({hidden: !this.state.hidden}))}>
-       Услуги
-      </span>
-         <span className='option'>
+         </div></Link>
+        <div className='header-options'>
+        <Link to={"/"} className='option'>
+         Главная
+        </Link>
+        <Link to={"/services"} className='option' >
+            Услуги
+           <ServiceDropDown className={"service"} serviceItems={serviceList}/>
+        </Link>
+         <Link to={"/faq"} className='option'>
        FAQ
-      </span>
-         <span className='option'>
+      </Link>
+         <Link to={"/about"} className='option'>
         О нас
-      </span>
+      </Link>
      </div>
 
-        {this.state.hidden ? null: <ServiceDropDown serviceItems={serviceList}/>}
+
     </div>
   );
   }
