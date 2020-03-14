@@ -4,6 +4,7 @@ import CarouselCustom from "../../components/carousel/carouser.component";
 import ServicePreview from "../../components/service-preview/service-preview.component";
 import InfoSection from "../../components/info-section/info-section.component";
 import Footer from "../../components/footer/footer.component";
+import ContactForm from "../../components/contact-form/contact-form.component";
 
 const images =    ['https://aesteemclinic.sg/wp-content/uploads/2019/09/banner2.png',
                    'https://aesteemclinic.sg/wp-content/uploads/2019/09/banner1.png'];
@@ -24,6 +25,7 @@ const Home = () => {
         <div className='home-container'>
             <CarouselCustom images = {images}/>
             <InfoSection {...info}/>
+            <ContactForm />
             <ServicePreview/>
 
             <Footer />

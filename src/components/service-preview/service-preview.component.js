@@ -6,7 +6,7 @@ import services from "./service-list";
 const ServicePreview = () => {
   return (
        <div className='service-preview-wrapper'>
-           <h1>Процедуры</h1>
+           <h3>Процедуры</h3>
          <div className='service-preview'>
           {services.map(service=>(<MiniService {...service}/>))}
       </div>

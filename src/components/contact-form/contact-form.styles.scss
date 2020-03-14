@@ -1,0 +1,34 @@
+
+.contact-form{
+
+  height: 500px;
+  background: #bec2c587;
+  width: 80%;
+  margin: 50px auto;
+
+  form{
+
+    display: flex;
+    height: 100%;
+
+    h2{
+      font-size: 36px;
+      margin-left:15px;
+    }
+    .contact-left{
+      margin: auto;
+    }
+    .contact-right{
+      margin: auto;
+    }
+  }
+  button{
+    width: 91%;
+    background: #003152;
+    border: none;
+    color: white;
+    margin-left: 16px;
+    height: 40px;
+    margin-top: 32px;
+  }
+}

@@ -13,9 +13,9 @@ const Footer = () => {
           <div className='map'>
               <div className="mapouter">
                   <div className="gmap_canvas">
-                      <iframe width="300" height="320" frameBorder="0" style={{border: "0"}}
-    src="https://www.google.com/maps/embed/v1/place?q=nalchik%20centr%20lazernoy%20cosmetology%20bonic&key=AIzaSyDp8gS2I1Zv-HlNPHrl0fXJlay1Q7pufno"
-    allowFullScreen/>
+                      <iframe
+                          src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad90a3cc95a89b635f85aa086ee368c6228e6c95507c37d4805370325f594e323&amp;source=constructor"
+                          width="320" height="340" frameBorder="0"/>
                   </div>
               </div>
           </div>
