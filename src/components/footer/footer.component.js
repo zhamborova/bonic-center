@@ -9,30 +9,27 @@ import {ReactComponent as Clock } from '../../assets/clock.svg';
 const Footer = () => {
   return (
       <div className='footer'>
-         <div className='footer-info'>
-          <div className='footer-logo-container'>
-              <span className='footer-logo'> B O N I C </span>
-              <p className='footer-sub-logo'>ЦЕНТР ЛАЗЕРНОЙ КОСМЕТОЛОГИИ</p>
-
-          </div>
-
-          <div className='contact'>
-              <p> <Location/> Пушкина, 6, Нальчик, Кабардино-Балкарская Респ., 360051</p>
-              <p> <Phone/> +7 967 424-21-01</p>
-              <p> <Clock/>  09:00am - 07:00pm every day</p>
-          </div>
-
-         </div>
 
           <div className='map'>
               <div className="mapouter">
                   <div className="gmap_canvas">
-                      <iframe width="400" height="250" frameBorder="0" style={{border:"0"}}
-                              src="https://www.google.com/maps/embed/v1/place?q=nalchik%20centr%20lazernoy%20cosmetology%20bonic&key=AIzaSyDp8gS2I1Zv-HlNPHrl0fXJlay1Q7pufno"
-                              allowFullScreen></iframe>
+                      <iframe width="300" height="320" frameBorder="0" style={{border: "0"}}
+    src="https://www.google.com/maps/embed/v1/place?q=nalchik%20centr%20lazernoy%20cosmetology%20bonic&key=AIzaSyDp8gS2I1Zv-HlNPHrl0fXJlay1Q7pufno"
+    allowFullScreen/>
                   </div>
               </div>
           </div>
+
+
+          <div className='contact'>
+              <h2> Контакты</h2>
+              <p> <Location/> Пушкина, 6, Нальчик, Кабардино-Балкарская Респ., 360051</p>
+              <p> <Phone/> +7 967 424-21-01</p>
+              <p> <Clock/>  09:00am - 07:00pm every day</p>
+
+
+         </div>
+
 
       </div>
 

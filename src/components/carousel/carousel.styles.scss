@@ -11,17 +11,12 @@
 }
 
 .carousel{
-   width: 90vw;
     margin: auto;
 }
 
 div.carousel-container > div > ol > li {
-  border-bottom: 1vw solid black;
-
-  margin-right: 0.2vw;
-  margin-left: 0.1vw;
-  width: 2.2vw;
-  height: 1vh;
+  background-color: black;
+  height: 9px;
 
 
 }
