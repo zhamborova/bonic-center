@@ -1,3 +1,13 @@
 *{
-  box-sizing: border-box!important;
+  box-sizing: border-box;
+}
+.custom-control {
+  position: unset!important;
+  display: unset!important;
+  min-height: 0rem!important;
+  padding-left: 0!important;
+}
+
+.custom-switch {
+  padding-left: 0!important;
 }

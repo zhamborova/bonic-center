@@ -1,6 +1,6 @@
 import React from 'react';
 import './service-preview.styles.scss';
-import Service from "../service/service.component";
+import MiniService from "../mini-service/mini-service.component";
 import services from "./service-list";
 
 const ServicePreview = () => {
@@ -8,7 +8,7 @@ const ServicePreview = () => {
        <div className='service-preview-wrapper'>
            <h1>Процедуры</h1>
          <div className='service-preview'>
-          {services.map(service=>(<Service {...service}/>))}
+          {services.map(service=>(<MiniService {...service}/>))}
       </div>
        </div>
   )

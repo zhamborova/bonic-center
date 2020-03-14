@@ -1,14 +1,17 @@
 import React from 'react';
-import './service.styles.scss';
+import './mini-service.styles.scss';
+import {Link} from "react-router-dom";
 
-const Service = ({background, title, laser}) => {
+
+const MiniService = ({background, title, laser, serviceUrl}) => {
+    console.log(serviceUrl)
     return (
         <div className='service'>
         <div className='service-wrapper' style={{backgroundImage:`url(${background})`}}>
             <div className='content-hover'/>
             <div className='content'>
             <span> {laser} </span>
-            <button> Подробнее </button>
+            <Link to={`/services${serviceUrl}`}> Подробнее </Link>
             </div>
         </div>
         <p className='title'> {title}</p>
@@ -16,4 +19,4 @@ const Service = ({background, title, laser}) => {
     )
 };
 
-export default Service;
+export default MiniService;

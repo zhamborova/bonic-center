@@ -1,7 +1,6 @@
 import React from 'react';
 import './header.styles.scss';
 import ServiceDropDown from "../service-dropdown/service-dropdown.component";
-import {serviceList} from "../service-dropdown/service-list";
 import {Link} from "react-router-dom";
 
 class Header extends React.Component {
@@ -25,7 +24,7 @@ class Header extends React.Component {
         </Link>
         <Link to={"/services"} className='option' >
             Услуги
-           <ServiceDropDown className={"service"} serviceItems={serviceList}/>
+           <ServiceDropDown className={"service"} serviceItems={[]}/>
         </Link>
          <Link to={"/faq"} className='option'>
        FAQ
