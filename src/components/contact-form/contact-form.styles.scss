@@ -1,19 +1,30 @@
 
 .contact-form{
+  display: flex;
+  height: 28rem;
 
-  height: 500px;
-  background: #bec2c587;
-  width: 80%;
-  margin: 50px auto;
 
+  margin: 5.13rem auto;
+
+  .bluebox{
+    height: 28rem;
+    width: 470px;
+    background-color: #003152;
+  }
   form{
-
+    position: relative;
+    top: 51px;
+    left: 237px;
+    background: #d6dee4f5;
+    align-items:center;
     display: flex;
+    flex-direction: column;
     height: 100%;
+    width: 510px;
 
     h2{
-      font-size: 36px;
-      margin-left:15px;
+      
+      margin-left: -46px;
     }
     .contact-left{
       margin: auto;
