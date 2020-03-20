@@ -1,30 +1,54 @@
 
 .contact-form{
   display: flex;
-  height: 28rem;
-
-
-  margin: 5.13rem auto;
+  flex-direction: row;
+  height: min-content;
+  max-width: 800px;
 
   .bluebox{
     height: 28rem;
-    width: 470px;
+    width: 480px;
     background-color: #003152;
+    position: relative;
+    top: 21px;
+    left: -148px;
   }
   form{
+    z-index: 1;
     position: relative;
     top: 51px;
-    left: 237px;
+    left: 94px;
     background: #d6dee4f5;
     align-items:center;
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 510px;
+    width: 480px;
 
-    h2{
-      
-      margin-left: -46px;
+
+    .message{
+      display: flex;
+      flex-direction: column;
+      margin: 5px;
+    label{
+      font-size: 18px;
+    }
+    textarea{
+      width:300px;
+      height: 90px;
+      background: transparent;
+      border: 1px solid  #003152;
+      padding: 5px;
+
+    }
+
+    textarea:focus{
+      outline: none;
+    }}
+    h3{
+
+      margin:auto;
+      margin-top:10px;
     }
     .contact-left{
       margin: auto;
@@ -33,13 +57,19 @@
       margin: auto;
     }
   }
-  button{
-    width: 91%;
+  .send{
+    width: 51%;
     background: #003152;
     border: none;
     color: white;
-    margin-left: 16px;
+
     height: 40px;
-    margin-top: 32px;
+    margin:20px;
+
+  }
+
+  .send:hover{
+
+    background: #00558f;
   }
 }

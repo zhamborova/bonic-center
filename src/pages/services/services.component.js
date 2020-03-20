@@ -1,12 +1,24 @@
 import React from 'react';
 import './services.styles.scss';
-import ServicePreview from "../../components/service-preview/service-preview.component";
+import Preview from "../../components/preview/preview.component";
 
 
 const Services = () =>{
 
-  return <ServicePreview />
 
+  return (<div className='services-container'>
+
+         <div className='previews-container'>
+           <div className='little-intro'>
+             <h2>Услуги</h2>
+             <span> Описание предлагаемых услуг, у меня нет вооброжения, еще немного текста для вида норм</span>
+           </div>
+        {[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1].map(()=>{
+          return <Preview />
+        })}
+         </div>
+  </div>
+)
 };
 
 export default Services;

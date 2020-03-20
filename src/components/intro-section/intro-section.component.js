@@ -1,7 +1,8 @@
 import React from 'react';
-import './info-section.styles.scss';
+import './intro-section.styles.scss';
+import {Link} from "react-router-dom";
 
-const InfoSection = ({image, description, side}) => {
+const IntroSection = ({image, description, side}) => {
     return (
 
        <div className='wrap-info'>
@@ -18,7 +19,10 @@ const InfoSection = ({image, description, side}) => {
            <p>Приоритетом нашей работы является качество. Мы добиваемся долговременного результата,
                так как всегда стремимся превзойти ваши ожидания.
                 Когда счастливы наши пациенты, счастливы и мы!</p>
+
+             <Link to='/services'>-Все процедуры-></Link>
          </div>
+
         {/*</div>*/}
        </div>
 
@@ -28,4 +32,4 @@ const InfoSection = ({image, description, side}) => {
 
 };
 
-export default InfoSection;
+export default IntroSection;

@@ -1,0 +1,45 @@
+.wrap-info{
+  display:flex;
+  height: 100vh;
+  margin-top: 2em;
+  background: linear-gradient(to right,#EC9B3B 30%, white 30%);
+  border-bottom: 0.5px solid whitesmoke;
+
+  img {
+    margin-top: 40px;
+    margin-left: 210px;
+    margin-bottom:40px;
+  }
+  .description{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    margin-top: 120px;
+    margin-left: 70px;
+
+    a{
+      margin-top: 90px;
+      margin-left:auto;
+      margin-right: 20px;
+      font-size: 26px;
+      color: orange;
+    }
+    a:hover{
+      cursor: pointer;
+      color:darkblue;
+    }
+  }
+
+  p{
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.2px;
+    color: #797d84;
+    margin: 0;
+  }
+  p:first-of-type{
+    margin-bottom:20px;
+  }
+}
+
