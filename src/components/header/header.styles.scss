@@ -1,8 +1,7 @@
 
 $white-color:#e8e8e8;
 .header-container {
-    padding: 1.4em;
-    padding-bottom: 7px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     background: #003152;
@@ -18,8 +17,8 @@ $white-color:#e8e8e8;
 
 .option{
     color: $white-color;
-    padding: 1em 1em;
-    font-size: 1.3em;
+    font-size: 1.5em;
+    margin: 10px;
     transition: color 1.5s;
     cursor: pointer;
 
