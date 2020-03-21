@@ -1,0 +1,26 @@
+.qa-container{
+
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e9edf4;
+  border-radius: 4px;
+  box-shadow: -10px 20px 60px 0 rgba(6,74,99,.08);
+
+  padding: 20px 40px 20px 30px;
+  margin: 5px 0;
+
+}
+span.icon:after{
+  content: "\002B";
+  font-size: 30px;
+  font-weight: 900;
+  width: 40px;
+  color: #003152;
+  margin-left: 214px;
+  cursor: pointer;
+
+}
+
+.answer{
+  transition: display 2s ease-in-out;
+}

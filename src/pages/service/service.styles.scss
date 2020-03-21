@@ -1,0 +1,18 @@
+.service-container{
+  display:flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  .imgs-container{
+    width: 40%;
+
+    background: #EC9B3B;
+  }
+
+  .qa{
+
+    display:flex;
+    flex-direction: column;
+     width:600px;
+
+  }
+}
