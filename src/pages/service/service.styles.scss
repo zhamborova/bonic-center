@@ -1,18 +1,44 @@
 .service-container{
   display:flex;
-  justify-content: space-evenly;
+  flex-direction: column;
   padding-top: 30px;
+
+  .test{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+  }
   .imgs-container{
     width: 40%;
-
+    height: 291px;
+    position: absolute;
+    left: 0;
     background: #EC9B3B;
+
+  }
+  img{
+    border-style: none;
+    position: relative;
+    top: 61px;
+    left:58px;
+    height: 301px;
+    width: 505px;
+
+  }
+
+  .basic-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    max-width: 440px;
   }
 
   .qa{
 
+    margin: 100px 20px;
     display:flex;
     flex-direction: column;
-     width:600px;
+    width:500px;
 
   }
 }

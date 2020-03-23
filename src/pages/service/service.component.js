@@ -2,50 +2,45 @@ import React from 'react';
 import './service.styles.scss';
 import {useParams} from "react-router-dom";
 import Question from "../../components/question/question.component";
-
-
-const info = {
-  title: "",
-  short: "",
-  purpose: "",
-  pics: [[],[]],
-  procedure: "",
-  faq: [[],[]],
+import cover from '../../assets/cover.PNG'
+import service_list from "../../services-list";
 
 
 
-};
-
-const qa = {
-    question:"Описание процедуры лазерной шлифовки",
-    answer:"FT лазерная шлифовка – эффективный метод выравнивания и омоложения кожи с длительным сохранением достигнутого результата. Это оптимальный метод для тех, кто хочет значительно омолодить кожу лица, не прибегая к помощи пластического хирурга. Процедура лазерной шлифовки проводится при точном контроле глубины воздействия лазерного луча, что позволяет свести к нулю риск осложнений.\n" +
-        "\n" +
-        "FT лазерная шлифовка позволяет справиться с такими проблемами, как: внешние признаки старения, неровный кожный рельеф, кожные новообразования, то есть со всеми эстетическими проблемами, которые доставляют женщине массу проблем и хлопот.\n" +
-        "\n" +
-        "Кроме того, процедура FT лазерной шлифовки кожи является эффективным способом сглаживания и удаления рубцов, шрамов, стрий и растяжек Она позволяет значительно выровнять рельеф кожи и сделать ее максимально гладкой."
-
-}
 
 const Service = (props) => {
-
-
-    let {serviceId} = useParams();
+let {serviceId} = useParams();
+console.log(service_list);
+const {cover,title, recovery, effect_length, course, price,description} = service_list['laser_resurficing'];
 
   return (<div className='service-container'>
+
+         <div className="test">
+         <div>
           <div className='imgs-container'>
           </div>
+          <img src={cover}/>
+        </div>
 
-           <div className='qa'>
+      <div className="basic-info">
+          <h1>{title}</h1>
+          <strong> Период восстановления</strong>
+          <p>{recovery}</p>
+          <strong> Длительность эффекта</strong>
+          <p>{effect_length}</p>
+          <strong> Курс</strong>
+          <p>{course}</p>
+          <strong> Цена </strong>
+          <p>{price}</p>
+      </div>
+         </div>
 
-               <Question {...qa}/>
+      <div className="qa">
+          <Question question={'Показание'} answer={description}/>
+          <Question question={'Описание'} answer={description}/>
+      </div>
 
-               <Question {...qa}/>
 
-               <Question {...qa}/>
-
-               <Question {...qa}/>
-
-           </div>
 
   </div>)
 

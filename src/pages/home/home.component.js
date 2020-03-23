@@ -23,7 +23,7 @@ const Home = () => {
         <div className='home-container'>
             <CarouselCustom images = {images}/>
             <IntroSection {...info}/>
-            <Footer />
+            {/*<Footer />*/}
 
         </div>
     )

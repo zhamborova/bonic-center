@@ -7,6 +7,12 @@ class Question extends React.Component{
         expanded: false
     };
 
+
+    formatText = (text) =>{
+
+     return text.split ('\n').map ((item, i) => <p key={i}>{item}</p>);
+    };
+
     render() {
         return(
            <div className='qa-container'>
@@ -16,7 +22,7 @@ class Question extends React.Component{
                       onClick={()=>{this.setState({expanded: !this.state.expanded})}}> </span>
 
             </div>
-               {this.state.expanded ?  <p className="answer">{this.props.answer}</p> : null }
+               {this.state.expanded ?  this.formatText(this.props.answer) : null }
            </div>
 
 
