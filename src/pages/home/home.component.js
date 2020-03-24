@@ -3,12 +3,13 @@ import './home.styles.scss';
 import CarouselCustom from "../../components/carousel/carouser.component";
 import IntroSection from "../../components/intro-section/intro-section.component";
 import Footer from "../../components/footer/footer.component";
+import intro from '../../assets/intro.jpg'
 
 const images =    ['https://aesteemclinic.sg/wp-content/uploads/2019/09/banner2.png',
                    'https://aesteemclinic.sg/wp-content/uploads/2019/09/banner1.png'];
 
 const info = {
-    image: 'https://as1.ftcdn.net/jpg/03/02/19/56/500_F_302195663_wmjHPDEp7p3oLhD5bomRhqpOP0bGPgIC.jpg',
+    image: intro,
     description: 'Наш центр предлагает широкий спектр процедур по омоложению и решению различных эстетических проблем кожи, удалению нежелательных волос. При работе с клиентами используется высококлассное оборудование от ведущих мировых производителей. Эффективность и безопасность использования такого оборудования подтверждается специальными клиническими исследованиями, ' +
         'а также результатами его использования в ведущих центрах лазерной косметологии Европы и Америки.'  +
         'В сочетании с техническими достижениями современности, ' +
