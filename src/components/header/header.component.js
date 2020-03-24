@@ -16,7 +16,7 @@ class Header extends React.Component {
         <Link to = {"/"}>
           <div className='logo-container'>
          <span className='logo'> B O N I C </span>
-         <p className='sub-logo'>ЦЕНТР ЛАЗЕРНОЙ КОСМЕТОЛОГИИ</p>
+         <p className='sub-logo'>Цeнтр лазерной косметологии</p>
          </div></Link>
         <div className='header-options'>
         <Link to={"/"} className='option'>
