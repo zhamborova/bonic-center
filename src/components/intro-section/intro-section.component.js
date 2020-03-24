@@ -1,11 +1,12 @@
 import React from 'react';
 import './intro-section.styles.scss';
 import {Link} from "react-router-dom";
+import '../../index.scss';
 
 const IntroSection = ({image}) => {
     return (
 
-       <div className='wrap-info'>
+       <div className='intro-info'>
          <img src={image} />
          <div className="description">
            <h1>Наши услуги</h1>

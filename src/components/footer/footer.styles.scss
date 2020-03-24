@@ -1,29 +1,23 @@
 
 
-
-
-.contact{
-  margin-top:25px;
-  margin-left: auto;
-  margin-right: 200px;
-}
-
-.footer-right{
-  display: flex;
-  flex-direction: column;
-}
-
 .footer {
+  margin-top: 10vh;
+  height: auto;
+  overflow: visible;
   display: flex;
-  padding: 20px 0;
-  height: 100vh;
-  background: linear-gradient(to left, #EC9B3B 15%,white 15%);
+  justify-content: center;
 
-}
+  .contact {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20vh;
+  }
+
+ .contact-form{
+   margin: 20vh 0;
+
+ }
 
 
-.map{
 
-  margin-left: auto;
-  margin-top: 15px;
 }

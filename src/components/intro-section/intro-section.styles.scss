@@ -1,16 +1,16 @@
-.wrap-info{
+
+.intro-info{
   display:flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   height: 100vh;
   margin-top: 2vh;
-  background: linear-gradient(to right,#EC9B3B 30%, white 30%);
 
   h1{
-    font-size: 1.9vw;
+    font-size: 1.5rem;
     margin:2vh 0 2vh 0;
   }
   img {
-
+    box-shadow: -190px 0px 0px 60px #003152;
     margin: auto 0 auto 2.53rem;
     max-width: 100%;
     height: 80vh;
@@ -19,13 +19,13 @@
     display: flex;
     flex-direction: column;
     height: auto;
-    max-width: 31.25vw;
+    max-width: 500px;
     margin: auto 0;
 
     a{
       margin-top: 1vh;
-      font-size: 1.8vw;
-      color: orange;
+      font-size: 1rem;
+      color: #003152;
     }
     a:hover{
       cursor: pointer;
@@ -35,7 +35,7 @@
 
   p{
     font-family: 'Muli', sans-serif;
-    font-size: 1.3vw;
+    font-size: 1rem;
     line-height: 1.67;
     letter-spacing: 0.2px;
     color: #797d84;

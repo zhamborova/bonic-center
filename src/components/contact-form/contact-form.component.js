@@ -46,7 +46,6 @@ class ContactForm extends React.Component{
               <button className="send" type='submit' >Отправить</button>
 
           </form>
-          <div className={'bluebox'}/>
       </div>
 
 

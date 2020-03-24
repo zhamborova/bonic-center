@@ -4,17 +4,16 @@
   margin: 5px;
   width: fit-content;
  input{
-   width: 300px;
-   height: 30px;
+   width: 353px;
+   height: 44px;
    border: none;
    padding: 5px;
-   background: transparent;
-   border-bottom: 1px solid #003152;
+   border-radius: 5px;
  }
 
   input:focus{
     outline:none;
-    border-bottom: 2px solid #EC9B3B;
+
   }
 }
 
