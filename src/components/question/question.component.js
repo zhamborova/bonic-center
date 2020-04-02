@@ -16,7 +16,7 @@ class Question extends React.Component{
     render() {
         return(
            <div className='qa-container'>
-            <div>
+            <div className='qa-sub'>
                <span>{this.props.question}</span>
                 <span className='icon'
                       onClick={()=>{this.setState({expanded: !this.state.expanded})}}> </span>

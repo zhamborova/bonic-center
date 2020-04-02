@@ -5,6 +5,10 @@ $dark-navy:#003152;
     padding: 10px;
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    z-index: 20;
+    position: fixed;
+    background-color: white;
 
     .header-options{
         margin: auto  1.3em;

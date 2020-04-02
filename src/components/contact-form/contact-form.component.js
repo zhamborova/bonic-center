@@ -33,7 +33,6 @@ class ContactForm extends React.Component{
     return(
       <div className='contact-form'>
           <form onSubmit={(e)=>{this.onSubmit(e)}}>
-               <h3>Свяжитесь с нами</h3>
               <CustomInput title={'Имя'} name='name'  type={'text'}
                onChange={this.changeHandler}/>
               <CustomInput title={'Email'} name='email'  type={'email'}
@@ -43,7 +42,7 @@ class ContactForm extends React.Component{
               <div className='message' > <label htmlFor="message">Сообщение </label>
               <textarea name='message' onChange={(e)=>{this.changeHandler(e.target.value,'message')}}/>
               </div>
-              <button className="send" type='submit' >Отправить</button>
+              <button className="send" type='submit' >Отправить сообщение</button>
 
           </form>
       </div>

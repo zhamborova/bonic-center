@@ -1,6 +1,6 @@
 import React from 'react';
 import './home.styles.scss';
-import CarouselCustom from "../../components/carousel/carouser.component";
+
 import IntroSection from "../../components/intro-section/intro-section.component";
 import Footer from "../../components/footer/footer.component";
 import intro from '../../assets/intro.jpg'
@@ -22,7 +22,7 @@ const info = {
 const Home = () => {
     return (
         <div className='home-container'>
-            <CarouselCustom images = {images}/>
+
             <IntroSection {...info}/>
             <Footer />
 

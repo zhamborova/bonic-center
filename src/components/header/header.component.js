@@ -26,9 +26,6 @@ class Header extends React.Component {
             Услуги
            {/*<ServiceDropDown className={"service"} serviceItems={[]}/>*/}
         </Link>
-         <Link to={"/faq"} className='option'>
-       FAQ
-      </Link>
          <Link to={"/about"} className='option'>
         О нас
       </Link>

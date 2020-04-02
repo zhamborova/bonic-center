@@ -2,11 +2,12 @@ import React from 'react';
 import './service.styles.scss';
 import {useParams} from "react-router-dom";
 import Question from "../../components/question/question.component";
-import cover from '../../assets/cover.PNG'
 import service_list from "../../services-list";
-
-
-
+import Slider from "react-slick";
+import before from '../../assets/before.PNG'
+import after from '../../assets/after.PNG'
+import right from '../../assets/right.svg'
+import left from '../../assets/left.svg'
 
 const Service = (props) => {
 let {serviceId} = useParams();
@@ -19,7 +20,7 @@ const {cover,title, recovery, effect_length, course, price,description} = servic
          <div>
           <div className='imgs-container'>
           </div>
-          <img src={cover}/>
+          <img className='cover-img' src={cover}/>
         </div>
 
       <div className="basic-info">
@@ -32,19 +33,58 @@ const {cover,title, recovery, effect_length, course, price,description} = servic
           <p>{course}</p>
           <strong> Цена </strong>
           <p>{price}</p>
+
+
+              <Question question={'Показание'} answer={description}/>
+              <Question question={'Описание'} answer={description}/>
+
+
       </div>
          </div>
 
-      <div className="qa">
-          <Question question={'Показание'} answer={description}/>
-          <Question question={'Описание'} answer={description}/>
-      </div>
 
+ <div className='slider-container'>
+    <Slider {...settings}>
 
-
+        <div className='before-after'>
+            <label htmlFor={'before'}>До</label>
+            <label htmlFor={'after'}>После</label>
+            <img id='before'src={before} />
+            <img id='after' src={after}/>
+        </div>
+        <div className='before-after'>
+            <label htmlFor={'before'}>До</label>
+            <label htmlFor={'after'}>После</label>
+            <img id='before'src={before} />
+            <img id='after' src={after}/>
+        </div>
+    </Slider>
+ </div>
   </div>)
 
 
 };
+
+var settings = {
+    className: "slider",
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    nextArrow: <Arrow side={"right"}/>,
+    prevArrow: <Arrow side={"left"}/>
+};
+
+
+function Arrow(props) {
+    const { className, style, onClick, side } = props;
+    return (
+        <img src={ side == "right" ? right : left}
+            className={className}
+            style={{ ...style, display: "block" }}
+            onClick={onClick}
+        />
+    );
+}
 
 export default Service;

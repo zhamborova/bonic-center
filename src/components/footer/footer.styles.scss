@@ -4,20 +4,46 @@
   margin-top: 10vh;
   height: auto;
   overflow: visible;
-  display: flex;
-  justify-content: center;
+  padding-top:100px;
+  position: relative;
+  .container{
+    display: flex;
+  }
 
+  .img{
+    height: 500px;
+    width: 100%;
+
+  }
   .contact {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: 20vh;
+    position: absolute;
+    left: 25%;
+    top: 0;
+    text-align: right;
+
+    h2:last-of-type{
+      color: #033f73;
+    }
   }
 
  .contact-form{
-   margin: 20vh 7vw 20vh 0;
+   position: absolute;
+   left: 55%;
+   top:0;
 
  }
 
+   .blue{
+     height: 150px;
+     width: 100%;
+     background-color: #003152;
+     display: flex;
+     justify-content: space-around;
+     padding-top:50px;
+     p{
+       color: white;
+     }
+   }
 
 
 }

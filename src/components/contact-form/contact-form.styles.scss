@@ -1,19 +1,17 @@
 
 .contact-form{
-  display: flex;
-  flex-direction: row;
-  height: min-content;
-  max-width: 800px;
-  -webkit-box-shadow: 39px -22px 0px 8px #E25822;
-  box-shadow: 70px -34px 0px 8px #E25822;
+
+ // -webkit-box-shadow: 39px -22px 0px 8px #E25822;
+  //box-shadow: 70px -34px 0px 8px #E25822;
   form{
     z-index: 1;
-    background: #ECECEB;
+    background-color: whitesmoke;;
     align-items:center;
     display: flex;
     flex-direction: column;
     height: 100%;
     width: 480px;
+    padding: 30px 10px;
 
 
     .message{
@@ -24,7 +22,7 @@
       font-size: 18px;
     }
     textarea{
-      width:352px;
+      width:400px;
       height: 90px;
       border:none;
       border-radius: 5px;
@@ -48,8 +46,8 @@
     }
   }
   .send{
-    width: 51%;
-    background: #E25822;
+    width: 86%;
+    background: #003152;
     border: none;
     color: white;
 
