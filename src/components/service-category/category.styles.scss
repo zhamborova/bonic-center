@@ -1,0 +1,30 @@
+.category{
+  margin: 70px auto;
+  width:90%;
+  height: auto;
+
+  .category-1{
+    margin-left: 18px;
+    font-size: 36px;
+    line-height: 42px;
+    color: #474747;
+  }
+
+  .slick-prev, .slick-next{
+    width: 50px;
+    height: 50px;
+  }
+  .slick-prev{
+    left: -5%;
+    z-index: 2;
+  }
+  .slick-next{
+    right: -58px;
+  }
+
+  .slick-slide{
+    width: 384px;
+    height: 245px;
+  }
+}
+

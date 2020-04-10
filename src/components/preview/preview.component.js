@@ -4,9 +4,7 @@ import icon from '../../assets/icon.PNG';
 const Preview =()=>{
     return(
         <div className='preview-container'>
-            <img src={icon} />
-            <span>Лечение акне</span>
-            <span>Описание лечения акне</span>
+
         </div>
 
 

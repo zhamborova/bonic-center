@@ -8,6 +8,7 @@ import before from '../../assets/before.PNG'
 import after from '../../assets/after.PNG'
 import right from '../../assets/right.svg'
 import left from '../../assets/left.svg'
+import Arrow from "../../components/arrows/arrow.component";
 
 const Service = (props) => {
 let {serviceId} = useParams();
@@ -76,15 +77,6 @@ var settings = {
 };
 
 
-function Arrow(props) {
-    const { className, style, onClick, side } = props;
-    return (
-        <img src={ side == "right" ? right : left}
-            className={className}
-            style={{ ...style, display: "block" }}
-            onClick={onClick}
-        />
-    );
-}
+
 
 export default Service;
