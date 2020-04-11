@@ -1,3 +1,4 @@
+@import "../../colors.scss";
 .services-container{
   padding-top: 62px;
   .service-banner{
@@ -5,7 +6,7 @@
     background-size: cover;
     height: 465px;
     display: flex;
-
+    margin-bottom: 60px;
     .service-btn{
       font-size: 32px;
       line-height: 42px;
@@ -13,7 +14,7 @@
       height: 80px;
       color:white;
       margin: auto auto 0 0 ;
-      background-color: #003152;
+      background-color: $primary;
       display: flex;
 
       span{

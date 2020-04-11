@@ -1,0 +1,86 @@
+@import "../../colors.scss";
+
+.about-container{
+  color: $text-color;
+  padding-top:74px;
+  display: flex;
+  flex-direction: column;
+
+   .history-container{
+     display:flex;
+     height: auto;
+     justify-content: space-between;
+
+
+     img{
+       width: 620px;
+       height:450px;
+       object-fit: cover;
+     }
+     .history{
+       display: flex;
+       flex-direction: column;
+       width:529px;
+       margin: auto;
+
+     p{
+     font-size: 18px;
+       margin-bottom: 30px;
+     }
+     span{
+       font-size: 36px;
+       margin-bottom:10px;
+      }
+     }
+   }
+
+
+  .doctor-container{
+    margin-top: 90px;
+
+   display:flex;
+   flex-direction: column;
+    span{
+      font-size: 36px;
+      margin: auto auto 46px;
+    }
+  }
+
+
+}
+
+.doctor-slide-container{
+  .slick-next, .slick-prev {
+    top: 29%;
+  }
+  width: 1091px;
+  margin:  auto;
+
+
+
+.doctor-slide{
+  margin: auto;
+  width: 215px;
+  min-height: 401px;
+  display: flex;
+  flex-direction: column;
+
+  .fill{
+    background: $grey;
+
+    width: 215px;
+    height: 224px;
+  }
+  #doc-name{
+
+    text-align: center;
+    font-size: 18px;
+    color: $primary;
+    margin-top: 20px;
+  }
+
+
+
+}
+
+}

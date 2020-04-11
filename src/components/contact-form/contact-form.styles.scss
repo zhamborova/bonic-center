@@ -1,11 +1,11 @@
+@import "../../colors.scss";
 
 .contact-form{
 
- // -webkit-box-shadow: 39px -22px 0px 8px #E25822;
-  //box-shadow: 70px -34px 0px 8px #E25822;
+
   form{
     z-index: 1;
-    background-color: whitesmoke;;
+    background-color: whitesmoke;
     align-items:center;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
   }
   .send{
     width: 86%;
-    background: #003152;
+    background: $primary;
     border: none;
     color: white;
 

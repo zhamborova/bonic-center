@@ -2,6 +2,7 @@ import React from 'react';
 import './intro-section.styles.scss';
 import {Link} from "react-router-dom";
 import '../../index.scss';
+import CustomButton from "../custom-button/custom-button.component";
 
 const IntroSection = ({image}) => {
     return (
@@ -16,7 +17,7 @@ const IntroSection = ({image}) => {
                так как всегда стремимся превзойти ваши ожидания.
                 Когда счастливы наши пациенты, счастливы и мы!</p>
 
-             <Link to='/services'>Все процедуры</Link>
+             <Link to='/services'><CustomButton text='Все процедуры'/></Link>
          </div>
 
        </div>

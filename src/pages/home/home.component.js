@@ -3,7 +3,7 @@ import './home.styles.scss';
 
 import IntroSection from "../../components/intro-section/intro-section.component";
 import Footer from "../../components/footer/footer.component";
-import intro from '../../assets/intro.jpg'
+import intro from '../../assets/intro.png'
 
 const images =    ['https://aesteemclinic.sg/wp-content/uploads/2019/09/banner2.png',
                    'https://aesteemclinic.sg/wp-content/uploads/2019/09/banner1.png'];

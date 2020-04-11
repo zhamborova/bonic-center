@@ -13,7 +13,7 @@ import './category.styles.scss'
          prevArrow: <Arrow side={"left"}/>
      };
     return <div className="category">
-         <span className='category-1'>Категория 3</span>
+         <span className='category-1'>Категория 1</span>
          <Slider {...settings}>
              <CustomSlide index={1}/>
              <CustomSlide index={2}/>

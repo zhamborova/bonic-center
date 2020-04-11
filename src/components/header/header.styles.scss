@@ -1,6 +1,5 @@
+@import "../../colors.scss";
 
-$white-color:#e8e8e8;
-$dark-navy:#003152;
 .header-container {
     padding: 10px;
     display: flex;
@@ -25,7 +24,7 @@ $dark-navy:#003152;
     margin:  0 20px;
     transition: color 1.5s;
     cursor: pointer;
-    color:#474747;
+    color: $text-color;
 
     .service-dropdown{
 
@@ -47,7 +46,7 @@ $dark-navy:#003152;
 
 
 .logo-container{
-    color: #474747;
+    color: $text-color;
     margin-left: 2em;
     display: flex;
     min-width: fit-content;

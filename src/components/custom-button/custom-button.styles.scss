@@ -1,0 +1,11 @@
+@import "../../colors.scss";
+.custom-btn{
+  background-color: $secondary;
+  color: whitesmoke;
+  text-align: center;
+  width: 240px;
+  height: 53px;
+  border: none;
+  box-shadow: none;
+  font-size: 18px;
+}

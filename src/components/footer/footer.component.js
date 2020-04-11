@@ -11,22 +11,19 @@ const Footer = () => {
   return (
 
       <div className='footer' >
-
-              <div className='contact'>
+      <div className='contact'>
                   <h2>Есть вопросы?</h2>
                   <h2>Отправьте нам сообщение!</h2>
-              </div>
+      </div>
 
           <ContactForm/>
-           <div className='img' style={{backgroundImage: `url(${map})`, backgroundPosition: 'center',
-               backgroundSize: 'cover',
-               backgroundRepeat: 'no-repeat'}} />
+           <div className='img' style={{backgroundImage: `url(${map})`}} />
         <div className='blue'>
-            <div> <p>Телефон</p>
+            <div> <p><strong>Телефон</strong></p>
                 <p> +7 (967) 424-21-01</p></div>
-            <div><p>Адрес</p>
+            <div><p><strong>Адрес</strong></p>
                 <p>Пушкина 6, Нальчик, КБР, 360051</p></div>
-            <div><p>Часы работы</p>
+            <div><p><strong>Часы работы</strong></p>
              <p>Пн-Вс: 09:00-19:00</p></div>
 
         </div>

@@ -1,3 +1,5 @@
+@import "../../colors.scss";
+
 .service-container{
   display:flex;
   flex-direction: column;
@@ -13,7 +15,7 @@
     height: 291px;
     position: absolute;
     left: 0;
-    background: #EC9B3B;
+    background: $secondary;
 
   }
   .cover-img{
@@ -47,7 +49,7 @@
 
   .slider{
    max-width: max-content;
-  background-color: #ECECEB;
+  background-color: $grey;
   .slick-prev {
     left: 20%;
     z-index: 20;

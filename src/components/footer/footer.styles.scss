@@ -1,7 +1,7 @@
-
+@import "../../colors.scss";
 
 .footer {
-  margin-top: 10vh;
+  margin-top: 155px;
   height: auto;
   overflow: visible;
   padding-top:100px;
@@ -11,24 +11,27 @@
   }
 
   .img{
-    height: 500px;
+    height: 557px;
     width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
   }
   .contact {
     position: absolute;
-    left: 22%;
+    left: 15%;
     top: 0;
     text-align: right;
 
     h2:last-of-type{
-      color: #033f73;
+      color: #6D867E;
     }
   }
 
  .contact-form{
    position: absolute;
-   left: 55%;
+   right: 170px;
    top:0;
 
  }
@@ -36,7 +39,7 @@
    .blue{
      height: 150px;
      width: 100%;
-     background-color: #003152;
+     background-color: $primary;
      display: flex;
      justify-content: space-around;
      padding-top:50px;
