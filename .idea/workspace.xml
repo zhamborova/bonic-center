@@ -9,6 +9,7 @@
       <change beforePath="$PROJECT_DIR$/src/assets/cover.PNG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/question/question.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/question/question.component.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/question/question.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/question/question.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/about/about.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about/about.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/home.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.styles.scss" afterDir="false" />
@@ -27,7 +28,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,7 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/info-section/info-section.component.js" />
         <option value="$PROJECT_DIR$/src/components/info-section/info-section.styles.scss" />
         <option value="$PROJECT_DIR$/src/components/custom-input/custom-input.component.js" />
         <option value="$PROJECT_DIR$/src/components/intro-section/info-section.component.js" />
@@ -95,6 +105,7 @@
         <option value="$PROJECT_DIR$/src/pages/service/service.component.js" />
         <option value="$PROJECT_DIR$/src/components/question/question.styles.scss" />
         <option value="$PROJECT_DIR$/src/pages/service/service.styles.scss" />
+        <option value="$PROJECT_DIR$/src/index.js" />
       </list>
     </option>
   </component>
@@ -227,23 +238,24 @@
       <workItem from="1585418711897" duration="597000" />
       <workItem from="1585480010682" duration="16136000" />
       <workItem from="1585830586567" duration="10172000" />
-      <workItem from="1586526330486" duration="34503000" />
+      <workItem from="1586526330486" duration="34819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224476000" />
+    <option name="totallyTimeSpent" value="224792000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991119" visible="true" weight="0.20985691" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991119" visible="true" weight="0.20985691" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5008881" side_tool="true" weight="0.24960254" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38010657" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38010657" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -552,15 +564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -654,6 +657,13 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
         </state>
       </provider>
     </entry>
