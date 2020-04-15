@@ -1,15 +1,43 @@
+@import "../../colors.scss";
 .qa-container{
 
   display: flex;
   flex-direction: column;
-  max-width: 320px;
+  max-width: 1000px;
+  width: 1000px;
+  margin: 20px;
+
+  .qa-sub{
+    padding-bottom: 16px;
+    display: flex;
+  }
+  .question{
+
+    font-size:20px;
+    font-weight: 600;
+
+  }
+
+  .line{
+    height: 0.7px;
+    width: 100%;
+    background-color: #C4C4C4;
+  }
+
+  .answer{
+    margin: 40px auto auto;
+    padding:20px;
+    border: 0.5px solid #C4C4C4;
+    width: 98%;
+  }
 }
-span.icon:after{
-  content: "\002B";
+ .icon{
+  margin-left: auto;
+  height: 30px;
+  width:30px;
   font-size: 30px;
   font-weight: 900;
-  width: 40px;
-  color: #003152;
+  color: $text-color;
   float: right;
   cursor: pointer;
 

@@ -3,71 +3,78 @@
 .service-container{
   display:flex;
   flex-direction: column;
-  padding-top: 30px;
 
-  .test{
+
+  .service-1 {
     display: flex;
     justify-content: space-around;
-    width:100%;
-  }
-  .imgs-container{
-    width: 40%;
-    height: 291px;
-    position: absolute;
-    left: 0;
-    background: $secondary;
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
 
-  }
-  .cover-img{
-    border-style: none;
-    position: relative;
-    top: 61px;
-    left:58px;
-    height: 301px;
-    width: 505px;
 
-  }
+    .cover-img {
+      border-style: none;
+      height: 340px;
+      width: 505px;
+      margin: 82px 0 auto 132px;
+      box-shadow: -134px -94px 0px 10px $secondary;}
 
-  .basic-info{
-    display: flex;
-    flex-direction: column;
-    margin-left: 30px;
-    max-width: 440px;
-  }
+    .basic-info {
+      color:$text-color;
+      display: flex;
+      flex-direction: column;
+      margin-top: 82px;
+      margin-right: auto;
+      margin-left: 87px;
+      max-width: 440px;
 
+     .attributes{
+       font-size: 14px;
+       font-weight: 600;
+     }
+      p{
+        font-size: 14px;
+      }
+      .title {
+        font-size: 30px;
+        display: block;
+        margin-bottom: 14px;
+      }
+    }
+  }
   .qa{
 
-    margin: 100px 20px;
     display:flex;
     flex-direction: column;
-    width:500px;
+    width:auto;
+    margin: auto auto 100px;
 
   }
 .slider-container{
-   margin: 0px 0;
+
+  margin: auto auto 100px;
+  width: 90%;
 
 
   .slider{
-   max-width: max-content;
+
   background-color: $grey;
   .slick-prev {
-    left: 20%;
-    z-index: 20;
+    left: 8%;
+
   }
   .slick-next, .slick-prev{
     width: 90px;
     height: 90px;
+    top:57%;
   }
 
   .slick-next{
-    left: 73%;
+    left: 84%;
   }
 
-  .slick-next:before, .slick-prev:before {
-    font-size: 41px;
-    line-height: 1;
-    color: black;
-  }
+
   .before-after{
     display: grid!important;
     grid-template-columns: 300px 300px ;
@@ -75,7 +82,6 @@
     max-width: 808px;
     margin: auto;
     justify-items: center;
-
     padding: 50px 100px;
 
     label{

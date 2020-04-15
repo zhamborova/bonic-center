@@ -1,6 +1,6 @@
 import React from 'react';
 import './question.styles.scss';
-
+import plus from '../../assets/plus.svg'
 
 class Question extends React.Component{
     state = {
@@ -17,12 +17,14 @@ class Question extends React.Component{
         return(
            <div className='qa-container'>
             <div className='qa-sub'>
-               <span>{this.props.question}</span>
-                <span className='icon'
-                      onClick={()=>{this.setState({expanded: !this.state.expanded})}}> </span>
+               <span className='question'>{this.props.question}</span>
+                <img src={plus} className='icon'
+                      onClick={()=>{this.setState({expanded: !this.state.expanded})}}/>
 
             </div>
-               {this.state.expanded ?  this.formatText(this.props.answer) : null }
+               <div className='line'/>
+               {this.state.expanded ?
+                   <div className='answer'>{this.formatText(this.props.answer)}</div> : null }
            </div>
 
 

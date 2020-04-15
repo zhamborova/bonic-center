@@ -13,58 +13,63 @@ import Arrow from "../../components/arrows/arrow.component";
 const Service = (props) => {
 let {serviceId} = useParams();
 console.log(service_list);
-const {cover,title, recovery, effect_length, course, price,description} = service_list['laser_resurficing'];
+const {cover,title, recovery, effect_length, course, price,description,used_for, additional} = service_list['laser_resurficing'];
 
   return (<div className='service-container'>
 
-         <div className="test">
-         <div>
-          <div className='imgs-container'>
-          </div>
+         <div className="service-1">
+
           <img className='cover-img' src={cover}/>
-        </div>
+
 
       <div className="basic-info">
-          <h1>{title}</h1>
-          <strong> Период восстановления</strong>
+          <span className='title'>{title}</span>
+           <span className='attributes'>Период восстановления</span>
           <p>{recovery}</p>
-          <strong> Длительность эффекта</strong>
+              <span className='attributes'>Длительность эффекта</span>
           <p>{effect_length}</p>
-          <strong> Курс</strong>
+             <span className='attributes'> Курс</span>
           <p>{course}</p>
-          <strong> Цена </strong>
+              <span className='attributes'>Цена</span>
           <p>{price}</p>
-
-
-              <Question question={'Показание'} answer={description}/>
-              <Question question={'Описание'} answer={description}/>
-
-
       </div>
          </div>
 
 
  <div className='slider-container'>
     <Slider {...settings}>
-
-        <div className='before-after'>
-            <label htmlFor={'before'}>До</label>
-            <label htmlFor={'after'}>После</label>
-            <img id='before'src={before} />
-            <img id='after' src={after}/>
-        </div>
-        <div className='before-after'>
-            <label htmlFor={'before'}>До</label>
-            <label htmlFor={'after'}>После</label>
-            <img id='before'src={before} />
-            <img id='after' src={after}/>
-        </div>
+        <BeforeAfter index={1}/>
+        <BeforeAfter index={2}/>
     </Slider>
  </div>
+
+
+   <div className='qa'>
+       <Question question={'ПОКАЗАНИЯ'} answer={used_for}/>
+       <Question question={'ОПИСАНИЕ ПРОЦЕДУРЫ'} answer={description}/>
+       <Question question={'ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ'} answer={additional}/>
+   </div>
+
   </div>)
 
 
 };
+
+
+class BeforeAfter extends React.Component {
+    render() {
+        return (
+            <div {...this.props}>
+                <div className='before-after'>
+                    <label htmlFor={'before'}>До</label>
+                    <label htmlFor={'after'}>После</label>
+                    <img id='before'src={before} />
+                    <img id='after' src={after}/>
+                </div>
+            </div>
+        );
+    }
+}
 
 var settings = {
     className: "slider",
