@@ -7,7 +7,7 @@ import CustomButton from "../custom-button/custom-button.component";
 const IntroSection = ({image}) => {
     return (
 
-       <div className='intro-info'>
+         <div className='intro-info'>
          <img src={image} />
          <div className="description">
            <h1>Наши услуги</h1>
@@ -19,8 +19,8 @@ const IntroSection = ({image}) => {
 
              <Link to='/services'><CustomButton text='Все процедуры'/></Link>
          </div>
+         </div>
 
-       </div>
 
     )
 
