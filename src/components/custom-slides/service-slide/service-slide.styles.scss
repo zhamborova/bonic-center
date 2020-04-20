@@ -1,6 +1,5 @@
-@import "../../colors.scss";
+@import "../../../colors.scss";
 .preview-container{
-
   width: 336px;
   height: 250px;
   margin: auto;
@@ -10,13 +9,13 @@
 
   flex-direction: column;
   cursor: pointer;
-   transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 
- img{
-   height: 94px;
-   width: 90px;
-   margin:3px;
- }
+  img{
+    height: 94px;
+    width: 90px;
+    margin:3px;
+  }
   span{
     margin-left:10px;
   }

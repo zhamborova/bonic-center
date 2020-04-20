@@ -1,0 +1,23 @@
+@import "../../../colors.scss";
+.doctor-slide{
+  margin: auto;
+  width: 215px;
+
+  display: flex;
+  flex-direction: column;
+
+  .fill{
+    background: $grey;
+
+    width: 215px;
+    height: 224px;
+  }
+  #doc-name{
+
+    text-align: center;
+    font-size: 18px;
+    color: $primary;
+    margin-top: 20px;
+  }
+
+}

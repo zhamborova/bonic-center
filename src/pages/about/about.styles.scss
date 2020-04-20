@@ -2,7 +2,7 @@
 
 .about-container{
   color: $text-color;
-
+  margin-bottom:200px;
   display: flex;
   flex-direction: column;
 
@@ -46,9 +46,15 @@
     }
   }
 
-
+  .slick-track:focus{
+    outline: none;
+  }
 }
 
+div.doctor-container > div > div > div > div > div > div :focus{
+  outline: none;
+
+}
 .doctor-slide-container{
   .slick-next, .slick-prev {
     top: 29%;
@@ -57,30 +63,5 @@
   margin:  auto;
 
 
-
-.doctor-slide{
-  margin: auto;
-  width: 215px;
-  min-height: 401px;
-  display: flex;
-  flex-direction: column;
-
-  .fill{
-    background: $grey;
-
-    width: 215px;
-    height: 224px;
-  }
-  #doc-name{
-
-    text-align: center;
-    font-size: 18px;
-    color: $primary;
-    margin-top: 20px;
-  }
-
-
-
-}
 
 }

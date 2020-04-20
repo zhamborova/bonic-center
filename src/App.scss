@@ -1,5 +1,5 @@
 
-
+@import "./colors.scss";
 *{
   box-sizing: border-box;
 }
@@ -10,10 +10,21 @@
   padding-left: 0!important;
 }
 
-.top-padding{
-  padding-top:73px;
+.App{
+  max-width: 1266px;
+  @include breakpoint(desktop) {
+    margin: 0 auto;
+  }
 }
+
+.general{
+
+  padding-top: 73px;
+}
+
 
 .custom-switch {
   padding-left: 0!important;
+
 }
+

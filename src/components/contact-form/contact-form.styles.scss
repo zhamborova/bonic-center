@@ -1,7 +1,9 @@
 @import "../../colors.scss";
 
 .contact-form{
-
+  width: 38%;
+  margin-top: -6.4em;
+  margin-right: 14%;
 
   form{
     z-index: 1;
@@ -9,20 +11,19 @@
     align-items:center;
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 480px;
-    padding: 30px 10px;
 
+    padding: 30px 10px;
+    label{
+      font-size: 1.1rem;
+      padding: 8px 0;
+    }
 
     .message{
       display: flex;
       flex-direction: column;
-      margin: 5px;
-    label{
-      font-size: 18px;
-    }
+      margin: 0.2px;
+      width: 90%;
     textarea{
-      width:400px;
       height: 90px;
       border:none;
       border-radius: 5px;
@@ -31,28 +32,23 @@
     }
 
     textarea:focus{
-      outline: none;
+       outline: none;
+
     }}
+
     h3{
 
-      margin:auto;
-      margin-top:10px;
-    }
-    .contact-left{
-      margin: auto;
-    }
-    .contact-right{
-      margin: auto;
+      margin: 10px auto auto;
     }
   }
   .send{
-    width: 86%;
+    width: 89%;
     background: $primary;
     border: none;
     color: white;
 
     height: 40px;
-    margin:20px;
+    margin:1.4em;
 
   }
 

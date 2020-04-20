@@ -3,6 +3,7 @@ import after from './assets/after.PNG';
 import cover from './assets/cover.png'
 const service_list = {
     laser_resurficing: {
+        url: "",
         title:"Лазерная шлифовка кожи",
         cover: cover,
         short_descrp: "Лазерная шлифовка - это эффективный метод лазерного омоложения, обеспечивающий радикальное обновление вашей кожи",

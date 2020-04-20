@@ -4,8 +4,29 @@ import './about.styles.scss'
 import CustomButton from "../../components/custom-button/custom-button.component";
 import Slider from "react-slick/lib";
 import Arrow from "../../components/arrows/arrow.component";
-const About = () => {
+import Doctor from "../../components/custom-slides/doctors/doctor.component";
 
+
+class About extends React.Component{
+    state={
+        doctors:[]
+   };
+
+    settings = {
+        infinite: true,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        nextArrow: <Arrow side={"right"}/>,
+        prevArrow: <Arrow side={"left"}/>
+    };
+
+    componentDidMount() {
+        //request doctors from firebase
+    }
+
+
+    render() {
     return (
         <div className='about-container'>
             <div className='history-container'>
@@ -21,14 +42,15 @@ const About = () => {
                         рекомендуют.</p>
                     <CustomButton text={'Наши услуги'}  />
                 </div>
-
                 </div>
 
             <div className='doctor-container'>
                 <span >Наши Специалитсы</span>
 
                 <div className='doctor-slide-container'>
-                <Slider {...settings}>
+                <Slider {...this.settings}>
+
+                    {/*TO DO--------------------map over this.doctors*/}
                     <Doctor index={1} name='Жамборов Заур Хасанбиевич'/>
                     <Doctor index={2} name='Шевлокова Джамиля Валентиновна'/>
                     <Doctor index={3} name='Тарабрина Татьяна Викторовна'/>
@@ -38,40 +60,13 @@ const About = () => {
                 </Slider>
                 </div>
 
-
-
-
-
             </div>
         </div>
     )
+     }
 
 };
-
 export default About;
 
-const settings = {
-    infinite: true,
-    speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    nextArrow: <Arrow side={"right"}/>,
-    prevArrow: <Arrow side={"left"}/>
-};
-
-const Doctor = (props) => {
-
-  return (
-      <div  {...props}>
-      <div className='doctor-slide'>
-      <div className='fill'/>
-
-      <span id='doc-name'>{props.name}</span>
-      </div>
-
-      </div>
-
-  )
 
 
-};

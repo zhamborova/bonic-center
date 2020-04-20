@@ -1,6 +1,7 @@
 @import "../../colors.scss";
 
 .header-container {
+    max-width: inherit;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -18,7 +19,7 @@
         display: flex;
         justify-content: center;
         text-decoration: none;
-
+        justify-self: right;
     }
 }
 
@@ -53,7 +54,7 @@
 .logo-container{
     text-decoration: none;
     color: $text-color;
-    margin-left: 2em;
+    margin-left: 0px;
     display: flex;
     min-width: fit-content;
     cursor: pointer;

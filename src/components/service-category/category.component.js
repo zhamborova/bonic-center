@@ -1,9 +1,11 @@
 import Slider from "react-slick/lib";
 import React from "react";
-import Preview from "../preview/preview.component";
 import Arrow from "../arrows/arrow.component";
 import './category.styles.scss'
- const Category = () => {
+import ServiceSlide from "../custom-slides/service-slide/service-slide.component";
+
+
+ const Category = ({services}) => {
      const settings = {
          infinite: true,
          speed: 500,
@@ -12,26 +14,18 @@ import './category.styles.scss'
          nextArrow: <Arrow side={"right"}/>,
          prevArrow: <Arrow side={"left"}/>
      };
+     {/*map over services*/}
     return <div className="category">
          <span className='category-1'>Категория 1</span>
          <Slider {...settings}>
-             <CustomSlide index={1}/>
-             <CustomSlide index={2}/>
-             <CustomSlide index={3}/>
-             <CustomSlide index={4}/>
+             <ServiceSlide index={1}/>
+             <ServiceSlide index={2}/>
+             <ServiceSlide index={3}/>
+             <ServiceSlide index={4}/>
          </Slider>
      </div>
  };
-class CustomSlide extends React.Component {
-    render() {
-        const { index, ...props } = this.props;
-        return (
-            <div {...props}>
-                <Preview />
-            </div>
-        );
-    }
-}
+
 
 
 export default Category;

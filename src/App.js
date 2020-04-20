@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import Header from "./components/header/header.component";
 
 import Home from "./pages/home/home.component";
@@ -13,9 +13,9 @@ import About from "./pages/about/about.component";
 function App() {
   return (
     <div className="App">
-       <Header/>
-       <div className='top-padding'>
-      <Switch >
+        <Header/>
+       <div className='general'>
+      <Switch className = 'switch'>
       <Route exact path='/' component={Home} />
       <Route exact path='/about' component={About}/>
       <Route exact path='/services' component={Services} />

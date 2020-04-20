@@ -10,7 +10,6 @@ class Header extends React.Component {
 
  render() {
 
-
     return (
     <div className='header-container'>
         <Link to = {"/"}>

@@ -10,7 +10,6 @@ class CustomInput extends React.Component{
         this.setState({input: e.target.value}, ()=>{
            this.props.onChange(this.state.input, this.props.name)
         })
-
     };
     render(){
       const {title, placeholder, width, height, type,name}= this.props;

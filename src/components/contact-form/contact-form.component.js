@@ -17,7 +17,6 @@ class ContactForm extends React.Component{
     };
     onSubmit=(e)=>{
         e.preventDefault();
-        const {message, name, phone, email} = this.state;
        emailjs.send('yandex',
            'contact_form', this.state, 'user_tWom2VEWvNWH9D8aB02N7').then((result) => {
            console.log(result.text);
@@ -25,11 +24,7 @@ class ContactForm extends React.Component{
            console.log(error.text);
        });
     };
-
-
-
     render() {
-        console.log(this.state)
     return(
       <div className='contact-form'>
           <form onSubmit={(e)=>{this.onSubmit(e)}}>

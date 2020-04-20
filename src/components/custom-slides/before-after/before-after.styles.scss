@@ -1,0 +1,19 @@
+@import "../../../colors.scss";
+.before-after{
+  display: grid!important;
+  grid-template-columns: 300px 300px ;
+  grid-gap: 10px;
+  max-width: 808px;
+  margin: auto;
+  justify-items: center;
+  padding: 50px 100px;
+
+  label{
+    justify-self: flex-start;
+    margin-left: 24px;
+  }
+  img{
+    width:250px;
+    height:250px;
+  }
+}

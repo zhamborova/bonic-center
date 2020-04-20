@@ -11,14 +11,17 @@ const Footer = () => {
   return (
 
       <div className='footer' >
-      <div className='contact'>
-                  <h2>Есть вопросы?</h2>
-                  <h2>Отправьте нам сообщение!</h2>
-      </div>
 
-          <ContactForm/>
-           <div className='img' style={{backgroundImage: `url(${map})`}} />
-        <div className='blue'>
+
+
+           <div className='img' style={{backgroundImage: `url(${map})`}} >
+               <div className='contact'>
+                   <h2>Есть вопросы?</h2>
+                   <h2>Отправьте нам сообщение!</h2>
+               </div>
+               <ContactForm/>
+           </div>
+        <div className='contact-info'>
             <div> <p><strong>Телефон</strong></p>
                 <p> +7 (967) 424-21-01</p></div>
             <div><p><strong>Адрес</strong></p>
