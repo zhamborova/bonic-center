@@ -1,6 +1,5 @@
 import React from 'react';
 import './service.styles.scss';
-import {useParams} from "react-router-dom";
 import Question from "../../components/question/question.component";
 import service_list from "../../services-list";
 import Slider from "react-slick";
@@ -37,16 +36,20 @@ class Service extends React.Component {
 
 
     componentDidMount() {
-        let {serviceId} = useParams();
-
+       let {category, serviceId} = this.props.match.params;
+        console.log(category, serviceId);
         //firebase....
 
     }
 
 
     render() {
+        let {category, serviceId} = this.props.match.params;
 
-const {cover,title, recovery, effect_length, course, price,description,used_for, additional} = service_list['laser_resurficing'];
+        const {cover,title, recovery, effect_length, course,
+            price,description,used_for, additional} = service_list[category][serviceId];
+
+
         return (<div className='service-container'>
          <div className="service-1">
              <img className='cover-img' src={cover}/>

@@ -18,7 +18,7 @@ class Question extends React.Component{
                <span className='question'>{this.props.question}</span>
                 <img src={plus} className='icon'
                       onClick={()=>{this.setState({expanded: !this.state.expanded})}}/>
-                {/TO DO ------------ add minus icon/}
+                {/*TO DO ------------ add minus icon*/}
             </div>
                <div className='line'/>
                {this.state.expanded ?

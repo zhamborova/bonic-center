@@ -3,9 +3,8 @@ import React from "react";
 import Arrow from "../arrows/arrow.component";
 import './category.styles.scss'
 import ServiceSlide from "../custom-slides/service-slide/service-slide.component";
-
-
- const Category = ({services}) => {
+import service_list from "../../services-list";
+ const Category = ({services,url}) => {
      const settings = {
          infinite: true,
          speed: 500,
@@ -14,14 +13,12 @@ import ServiceSlide from "../custom-slides/service-slide/service-slide.component
          nextArrow: <Arrow side={"right"}/>,
          prevArrow: <Arrow side={"left"}/>
      };
-     {/*map over services*/}
     return <div className="category">
          <span className='category-1'>Категория 1</span>
          <Slider {...settings}>
-             <ServiceSlide index={1}/>
-             <ServiceSlide index={2}/>
-             <ServiceSlide index={3}/>
-             <ServiceSlide index={4}/>
+             {Object.keys(services).map((key,index)=>{
+                return <ServiceSlide index={index} service={service_list[url][key]} url={url}/>
+             })}
          </Slider>
      </div>
  };
