@@ -41,9 +41,7 @@
         color: #797d84;
         margin: 0;
 
-        @include breakpoint(tablet){
-          line-height: 1;
-        }
+    
       }
 
       p:first-of-type {
