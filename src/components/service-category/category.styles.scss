@@ -1,19 +1,24 @@
 @import "../../colors.scss";
 .category{
-  margin: 30px auto;
+  margin: 2em auto;
   width:88%;
   height: auto;
 
 
   .category-1{
-    margin-left: 18px;
-    margin-bottom: 20px;
+    margin-left: 0.5em;
+    margin-bottom: 0.8em;
     display: block;
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 2rem;
+    line-height: 3rem;
     color: $text-color;
   }
 
-
+ .slick-prev{
+    left: -5vw;
+  }
+  .slick-next{
+    right: -5vw;
+  }
 }
 

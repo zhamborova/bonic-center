@@ -4,6 +4,7 @@ import Arrow from "../arrows/arrow.component";
 import './category.styles.scss'
 import ServiceSlide from "../custom-slides/service-slide/service-slide.component";
 import service_list from "../../services-list";
+
  const Category = ({services,url}) => {
      const settings = {
          infinite: true,

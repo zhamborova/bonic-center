@@ -12,11 +12,8 @@ BREAKPOINTS
   @if $point == desktop {
     @media (min-width: 1300px) { @content ; }
   }
-  @else if $point == laptop {
-    @media (min-width: 64em) { @content ; }
-  }
   @else if $point == tablet {
-    @media (min-width: 50em) { @content ; }
+    @media (min-width: 700px) { @content ; }
   }
   @else if $point == phablet {
     @media (min-width: 37.5em)  { @content ; }

@@ -1,34 +1,14 @@
 @import "../../../colors.scss";
 .preview-container{
-  width: 336px;
-  height: 250px;
+  width: 90%;
+  height: calc(10vh + 12em);
   margin: auto;
-
-
   background: #ECECEB;
-
   flex-direction: column;
   cursor: pointer;
   transition: all .3s ease-in-out;
 
-  img{
-    height: 94px;
-    width: 90px;
-    margin:3px;
-  }
-  span{
-    margin-left:10px;
-  }
-  span:first-of-type{
-    font-weight: bold;
-    font-size: 18px;
-    display: inline-block;
-    color:black;
-  }
 
-  span{
-    color:darkgrey;
-  }
 }
 
 .preview-container:hover{

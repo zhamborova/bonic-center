@@ -2,7 +2,7 @@
 
 .about-container{
   color: $text-color;
-  margin-bottom:200px;
+  margin-bottom:12.5em;
   display: flex;
   flex-direction: column;
 
@@ -13,36 +13,34 @@
 
 
      img{
-       width: 620px;
-       height:450px;
+       width: 51%;
        object-fit: cover;
      }
      .history{
        display: flex;
        flex-direction: column;
-       width:529px;
+       width: 42%;
        margin: auto;
 
      p{
-     font-size: 18px;
-       margin-bottom: 30px;
+     font-size: 1.1rem;
+     margin-bottom: 2em;
+       line-height: 1.5em;
      }
      span{
-       font-size: 36px;
-       margin-bottom:10px;
+       font-size: 2.1rem;
       }
      }
    }
 
 
   .doctor-container{
-    margin-top: 90px;
-
+    margin-top: 5.6em;
    display:flex;
    flex-direction: column;
     span{
-      font-size: 36px;
-      margin: auto auto 46px;
+      font-size: 2.1em;
+      margin: auto auto 1.4em;
     }
   }
 
@@ -58,10 +56,17 @@ div.doctor-container > div > div > div > div > div > div :focus{
 .doctor-slide-container{
   .slick-next, .slick-prev {
     top: 29%;
+
   }
-  width: 1091px;
+
+  .slick-next{
+    right:-5vw;
+  }
+
+  .slick-prev{
+    left: -5vw;
+  }
+  width: 86%;
   margin:  auto;
-
-
 
 }

@@ -36,19 +36,37 @@ class Service extends React.Component {
 
 
     componentDidMount() {
-       let {category, serviceId} = this.props.match.params;
-        console.log(category, serviceId);
-        //firebase....
+       let {serviceId} = this.props.match.params;
+
+        const requestOptions = {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json'},
+            mode:"cors",
+
+            body: JSON.stringify({ procedureId: "ztXEX3KEBtVJ8bYf0Ypo" })
+        };
+
+        fetch("https://europe-west3-bonic-81df6.cloudfunctions.net/get-procedure-by-id",requestOptions)
+            .then(res => res.json())
+            .then(
+                (result) => {
+                const {cover,title, recovery, effect_length, course,
+                        price,description,used_for, additional} = result;
+                console.log(result)
+                this.setState({cover,title, recovery, effect_length, course,
+                    price,description,used_for, additional})
+                })
+
 
     }
 
 
     render() {
         let {category, serviceId} = this.props.match.params;
-
-        const {cover,title, recovery, effect_length, course,
-            price,description,used_for, additional} = service_list[category][serviceId];
-
+        console.log(this.state)
+        const {cover} = service_list[category][serviceId];
+        const {title, recovery, effect_length, course,
+            price,description,used_for, additional} = this.state;
 
         return (<div className='service-container'>
          <div className="service-1">
@@ -73,9 +91,9 @@ class Service extends React.Component {
              </Slider>
          </div>
          <div className='qa'>
-             <Question question={'ПОКАЗАНИЯ'} answer={used_for}/>
-             <Question question={'ОПИСАНИЕ ПРОЦЕДУРЫ'} answer={description}/>
-             <Question question={'ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ'} answer={additional}/>
+             <Question question={'ПОКАЗАНИЯ'} answer={used_for} used_for/>
+             <Question question={'ОПИСАНИЕ ПРОЦЕДУРЫ'} answer={description} used_for={false}/>
+             <Question question={'ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ'} answer={additional} used_for={false}/>
          </div>
 
      </div>)
