@@ -1,13 +1,14 @@
 @import "../../colors.scss";
 
 .footer {
-  margin-top: 155px;
+  margin-top: 5em;
   height: auto;
   overflow: visible;
   padding-top:100px;
 
-  .container{
-    display: flex;
+  @include breakpoint(mobile){
+    margin-top: 40em;
+
   }
 
   .img{
@@ -16,8 +17,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-
     overflow: visible;
+    @include breakpoint(mobile){
+      height: 26rem;
+    }
 
   }
   .contact {
@@ -26,22 +29,53 @@
     margin-top: -6.5em;
     margin-left: auto;
 
+    @include breakpoint(mobile){
+      display:none;
+    }
+
     h2:last-of-type{
       color: #6D867E;
     }
   }
 
    .contact-info{
+
      display:flex;
      min-height: 120px;
      width: 100%;
      background-color: $primary;
      justify-content: space-around;
+     color: white;
      div{
        margin: auto;
      }
-     p{
-       color: white;
+
+      .contacty{
+        display: none;
+        @include breakpoint(mobile) {
+         display:block;
+         font-size: 1.5rem;
+         width: 80%;
+         margin: 1.4em auto 0em auto;
+
+
+
+        }
+
+      }
+
+
+     @include breakpoint(mobile){
+       flex-direction: column;
+       width: 80%;
+       margin:auto;
+       margin-top: -33rem;
+       div{
+        width:80%;
+       }
+       p{
+         color: white;
+       }
      }
    }
 

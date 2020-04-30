@@ -22,6 +22,7 @@ const Footer = () => {
                <ContactForm/>
            </div>
         <div className='contact-info'>
+            <span className='contacty'>Контакты</span>
             <div> <p><strong>Телефон</strong></p>
                 <p> +7 (967) 424-21-01</p></div>
             <div><p><strong>Адрес</strong></p>

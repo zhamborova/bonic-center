@@ -27,7 +27,10 @@ class ContactForm extends React.Component{
     render() {
     return(
       <div className='contact-form'>
+
           <form onSubmit={(e)=>{this.onSubmit(e)}}>
+              <span className='svyzhites'>Свяжитесь с нами</span>
+              <div className='line'/>
               <CustomInput title={'Имя'} name='name'  type={'text'}
                onChange={this.changeHandler}/>
               <CustomInput title={'Email'} name='email'  type={'email'}

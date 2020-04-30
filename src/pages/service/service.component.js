@@ -5,6 +5,7 @@ import service_list from "../../services-list";
 import Slider from "react-slick";
 import Arrow from "../../components/arrows/arrow.component";
 import BeforeAfter from "../../components/custom-slides/before-after/before-after";
+import Footer from "../../components/footer/footer.component";
 
 const settings = {
     className: "slider",
@@ -63,7 +64,6 @@ class Service extends React.Component {
 
     render() {
         let {category, serviceId} = this.props.match.params;
-        console.log(this.state)
         const {cover} = service_list[category][serviceId];
         const {title, recovery, effect_length, course,
             price,description,used_for, additional} = this.state;
@@ -91,10 +91,12 @@ class Service extends React.Component {
              </Slider>
          </div>
          <div className='qa'>
-             <Question question={'ПОКАЗАНИЯ'} answer={used_for} used_for/>
-             <Question question={'ОПИСАНИЕ ПРОЦЕДУРЫ'} answer={description} used_for={false}/>
-             <Question question={'ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ'} answer={additional} used_for={false}/>
+             <Question question={'Показания'} answer={used_for} used_for/>
+             <Question question={'Описание процедуры'} answer={description} used_for={false}/>
+             <Question question={'Дополнительная информация'} answer={additional} used_for={false}/>
          </div>
+
+
 
      </div>)
 
