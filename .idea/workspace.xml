@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8accd5c7-2d34-47c0-9bdf-261f643af0c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/menu.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/intro.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/intro.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/intro.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact-form/contact-form.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact-form/contact-form.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact-form/contact-form.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact-form/contact-form.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-slides/before-after/before-after.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-slides/before-after/before-after.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-slides/before-after/before-after.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-slides/before-after/before-after.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/header.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/question/question.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/question/question.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/home.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/service/service.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/service/service.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about/about.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about/about.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about/about.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about/about.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/service/service.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/service/service.styles.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -34,10 +26,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/service/service.component.js">
+        <entry file="file://$PROJECT_DIR$/src/pages/about/about.component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="95" column="59" selection-start-line="95" selection-start-column="59" selection-end-line="95" selection-end-column="59" />
+            <state relative-caret-position="141">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -46,40 +38,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/custom-slides/before-after/before-after.styles.scss">
+        <entry file="file://$PROJECT_DIR$/src/components/header/header.component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="31" selection-start-column="31" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/service/service.styles.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="91" column="22" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/question/question.styles.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/question/question.component.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+            <state relative-caret-position="-136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/header/header.styles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="92" column="25" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/about/about.styles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="96" column="12" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/custom-slides/doctors/doctor.component.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/custom-slides/doctors/doctor.styles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -118,11 +122,9 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/custom-slides/before-after.styles.scss" />
         <option value="$PROJECT_DIR$/src/components/custom-slides/BeforeAfter.js" />
-        <option value="$PROJECT_DIR$/src/components/custom-slides/before-after/before-after.js" />
         <option value="$PROJECT_DIR$/src/pages/home/home.component.js" />
         <option value="$PROJECT_DIR$/src/components/custom-input/custom-input.component.js" />
         <option value="$PROJECT_DIR$/src/components/custom-slides/doctors/doctor.component.js" />
-        <option value="$PROJECT_DIR$/src/components/custom-slides/before-after/before-after.styles.scss" />
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/App.scss" />
         <option value="$PROJECT_DIR$/src/components/custom-input/custom-input.styles.scss" />
@@ -134,11 +136,9 @@
         <option value="$PROJECT_DIR$/src/pages/services/services.styles.scss" />
         <option value="$PROJECT_DIR$/src/components/service-category/category.component.js" />
         <option value="$PROJECT_DIR$/src/components/custom-slides/service-slide/service-slide.styles.scss" />
-        <option value="$PROJECT_DIR$/src/pages/about/about.component.js" />
         <option value="$PROJECT_DIR$/src/components/custom-slides/doctors/doctor.styles.scss" />
         <option value="$PROJECT_DIR$/src/components/arrows/arrow.styles.scss" />
         <option value="$PROJECT_DIR$/src/components/service-category/category.styles.scss" />
-        <option value="$PROJECT_DIR$/src/pages/about/about.styles.scss" />
         <option value="$PROJECT_DIR$/src/components/header/header.component.js" />
         <option value="$PROJECT_DIR$/src/assets/menu.svg" />
         <option value="$PROJECT_DIR$/src/colors.scss" />
@@ -147,11 +147,15 @@
         <option value="$PROJECT_DIR$/src/components/contact-form/contact-form.styles.scss" />
         <option value="$PROJECT_DIR$/src/components/footer/footer.component.js" />
         <option value="$PROJECT_DIR$/src/components/footer/footer.styles.scss" />
-        <option value="$PROJECT_DIR$/src/components/header/header.styles.scss" />
         <option value="$PROJECT_DIR$/src/pages/home/home.styles.scss" />
         <option value="$PROJECT_DIR$/src/pages/service/service.component.js" />
+        <option value="$PROJECT_DIR$/src/components/custom-slides/before-after/before-after.js" />
         <option value="$PROJECT_DIR$/src/components/question/question.styles.scss" />
         <option value="$PROJECT_DIR$/src/pages/service/service.styles.scss" />
+        <option value="$PROJECT_DIR$/src/components/custom-slides/before-after/before-after.styles.scss" />
+        <option value="$PROJECT_DIR$/src/components/header/header.styles.scss" />
+        <option value="$PROJECT_DIR$/src/pages/about/about.component.js" />
+        <option value="$PROJECT_DIR$/src/pages/about/about.styles.scss" />
       </list>
     </option>
   </component>
@@ -167,6 +171,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,26 +203,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="custom-slides" type="462c0819:PsiDirectoryNode" />
-              <item name="before-after" type="462c0819:PsiDirectoryNode" />
+              <item name="doctors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bonic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bonic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="header" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bonic" type="b2602c69:ProjectViewProjectNode" />
               <item name="bonic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bonic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bonic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,24 +315,27 @@
       <workItem from="1587764990376" duration="10601000" />
       <workItem from="1587998088419" duration="1583000" />
       <workItem from="1588072335073" duration="7387000" />
-      <workItem from="1588169861320" duration="8619000" />
+      <workItem from="1588169861320" duration="9212000" />
+      <workItem from="1588324888083" duration="6771000" />
+      <workItem from="1588434298854" duration="1639000" />
+      <workItem from="1588439771142" duration="2111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="298659000" />
+    <option name="totallyTimeSpent" value="309773000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4962963" visible="true" weight="0.20985691" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4962963" visible="true" weight="0.20985691" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5008881" side_tool="true" weight="0.24960254" />
       <window_info id="Favorites" order="3" sideWeight="0.5037037" side_tool="true" weight="0.20985691" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.053285968" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39964476" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -447,16 +454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/custom-slides/before-after/before-after.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/intro-section/intro-section.styles.scss" />
     <entry file="file://$PROJECT_DIR$/src/components/intro-section/intro-section.component.js" />
     <entry file="file://$PROJECT_DIR$/src/components/preview/preview.styles.scss" />
@@ -539,26 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/about/about.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/custom-slides/doctors/doctor.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/custom-slides/service-slide/service-slide.styles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -570,20 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="28" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/custom-slides/doctors/doctor.styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/about/about.styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -626,16 +589,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/menu.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/header/header.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/intro.png">
       <provider selected="true" editor-type-id="images" />
@@ -692,13 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/header/header.styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="95" column="30" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/colors.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -713,34 +659,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/question/question.component.js">
+    <entry file="file://$PROJECT_DIR$/src/components/custom-slides/before-after/before-after.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+        <state relative-caret-position="109">
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/service/service.styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="91" column="22" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/question/question.styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/service/service.component.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="95" column="59" selection-start-line="95" selection-start-column="59" selection-end-line="95" selection-end-column="59" />
+        <state relative-caret-position="1343">
+          <caret line="86" column="2" selection-start-line="86" selection-start-column="2" selection-end-line="91" selection-end-column="15" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -749,8 +681,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/custom-slides/before-after/before-after.styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        <state relative-caret-position="595">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/service/service.styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="92" column="18" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/question/question.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/question/question.styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/custom-slides/doctors/doctor.styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/custom-slides/doctors/doctor.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/header/header.styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="92" column="25" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/about/about.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/about/about.styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="96" column="12" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/header/header.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

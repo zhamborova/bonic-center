@@ -7,9 +7,11 @@
   width: 100%;
   margin: 1.3rem;
   cursor: pointer;
+  color: $text-color;
 
   @include breakpoint(mobile){
-    margin: 1.3em 0;
+    margin: 0.2em auto 1.7em;
+    width: 80%;
   }
 
   .qa-sub{
@@ -58,6 +60,7 @@
    @include breakpoint(mobile){
      height: 22px;
      width: 22px;
+     padding-bottom: 5px;
    }
 
 }

@@ -12,21 +12,25 @@ class About extends React.Component{
         doctors:[]
    };
 
+     mobile = () => {
+       return window.innerWidth <= 600 ? 2 : 4
+    };
+    componentDidMount() {
+        window.addEventListener('resize', this.mobile);
+    }
+
     settings = {
         infinite: true,
         speed: 500,
-        slidesToShow: 4,
+        slidesToShow: this.mobile(),
         slidesToScroll: 1,
         nextArrow: <Arrow side={"right"}/>,
         prevArrow: <Arrow side={"left"}/>
     };
 
-    componentDidMount() {
-        //request doctors from firebase
-    }
-
 
     render() {
+
     return (
         <div className='about-container'>
             <div className='history-container'>
