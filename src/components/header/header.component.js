@@ -17,6 +17,13 @@ class Header extends React.Component {
     componentDidMount() {
         window.addEventListener('resize', this.hideMenu);
     }
+
+
+    close = () =>{
+
+        this.setState({hidden:true})
+
+    };
  render() {
 
     return (
@@ -30,7 +37,8 @@ class Header extends React.Component {
         <img src={menu} className='menu' onClick={()=>{this.setState({hidden:!this.state.hidden})}}/>
         </div>
 
-        <div className={!this.state.hidden ? 'dropdown-header' : 'header-options'}>
+        <div className={!this.state.hidden ? 'dropdown-header' : 'header-options'}
+             onClick={()=>{this.setState({hidden:true})}}>
 
         <Link to={"/"} className='option'>
          Главная

@@ -11,19 +11,36 @@ const Home = () => {
         <div className='home-container'>
 
             <div className='intro-info'>
-                <img src={intro} />
-                <div className="description">
-                    <h1>Наши услуги</h1>
-                    <p>Наш центр предлагает широкий спектр процедур по омоложению и решению различных эстетических проблем кожи, удалению нежелательных волос.
-                        При работе с клиентами используется высококлассное оборудование от ведущих мировых производителей. </p>
-                    <p>Приоритетом нашей работы является качество. Мы добиваемся долговременного результата,
-                        так как всегда стремимся превзойти ваши ожидания.
-                        Когда счастливы наши пациенты, счастливы и мы!</p>
-                    <Link to='/services'><CustomButton text='Все процедуры'/></Link>
+                <div className="wrapper">
+
+                    <div className="two">
+                        <img src={"https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/06/Female_Running_Dog_732x549-thumbnail-732x549.jpg?w=441"}/>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed odio magna. Nunc lacinia congue dui ac tincidunt.</p>
+                    </div>
+                    <div className="three">
+
+                        <img src={"https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/06/People_Hugging_732x549-thumbnail-732x549.jpg?w=1092"} />
+
+                        <h2>   Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed odio magna. Nunc lacinia congue dui ac tincidunt. Aenean iaculis, nisl eget vestibulum feugiat, ligula nunc pulvinar velit, ut pharetra ipsum dolor eget nunc. Integer convallis orci ac tellus suscipit, ac ultrices sem pretium. Nunc at rutrum odio. Ut sit amet ipsum sit amet orci elementum viverra. Cras quis posuere diam.</p>
+                    </div>
+                    <div className="four">
+                        <img src={"https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/06/Face_Masks_Street_732x549-thumbnail-732x549.jpg?w=441"}/>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed odio magna. Nunc lacinia congue dui ac tincidunt.</p>
+
+                    </div>
+                    <div className="five">
+                        <img src={"https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/06/Beers_Masks_732x549-thumbnail-732x549.jpg?w=441"}/>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed odio magna. Nunc lacinia congue dui ac tincidunt.</p>
+
+                    </div>
+
                 </div>
             </div>
-            <Footer />
-
+            <Footer isHome/>
         </div>
     )
 

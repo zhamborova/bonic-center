@@ -6,6 +6,7 @@ import Slider from "react-slick";
 import Arrow from "../../components/arrows/arrow.component";
 import BeforeAfter from "../../components/custom-slides/before-after/before-after";
 import Footer from "../../components/footer/footer.component";
+import WithSpinner from "../../components/with-spinner/with-spinner.component";
 
 const settings = {
     className: "slider",
@@ -20,8 +21,8 @@ const settings = {
 
 
 class Service extends React.Component {
-    state= {
-        title:"",
+    state = {
+        title:null,
         cover: "",
         short_descrp: "",
         used_for: "",
@@ -38,13 +39,13 @@ class Service extends React.Component {
 
     componentDidMount() {
        let {serviceId} = this.props.match.params;
-
+       console.log(serviceId)
         const requestOptions = {
             method: 'POST',
             headers: { 'Content-Type': 'application/json'},
             mode:"cors",
 
-            body: JSON.stringify({ procedureId: "ztXEX3KEBtVJ8bYf0Ypo" })
+            body: JSON.stringify({ procedureId: serviceId})
         };
 
         fetch("https://europe-west3-bonic-81df6.cloudfunctions.net/get-procedure-by-id",requestOptions)
@@ -68,7 +69,8 @@ class Service extends React.Component {
         const {title, recovery, effect_length, course,
             price,description,used_for, additional} = this.state;
 
-        return (<div className='service-container'>
+        return !title ? <WithSpinner/> :
+        <div className='service-container'>
          <div className="service-1">
              <img className='cover-img' src={cover}/>
              <div className="basic-info">
@@ -97,10 +99,10 @@ class Service extends React.Component {
          </div>
 
 
+        <Footer isHome={false}/>
+     </div>}
 
-     </div>)
 
- }
 };
 
 

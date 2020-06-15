@@ -6,7 +6,7 @@
   margin-right: 14%;
   @include breakpoint(mobile){
     width: 100%;
-    margin: -46rem auto auto;
+    margin: -54rem auto auto;
   }
 
 
@@ -19,7 +19,7 @@
       margin-right: auto;
       font-size: 1.4rem;
       color: $text-color;
-      margin-left: 0.5em;
+      margin-left: 8.5%;
       margin-bottom: 0.2em;
     }
   }
@@ -30,10 +30,11 @@
       display: block;
       height: 2px;
       background-color: $primary;
-      width:20%;
+      width:14.2%;
       margin-right: auto;
-      margin-left: 0.8em;
-      margin-bottom: 1em;
+      margin-left: 9%;
+      margin-bottom: 1.875rem;
+
     }
   }
 
@@ -46,17 +47,21 @@
     flex-direction: column;
 
     padding: 30px 10px;
+
+
+    @include breakpoint(mobile){
+      padding:50px 0;
+    }
     label{
       font-size: 1.1rem;
-      padding: 8px 0;
+      padding-bottom: 10px;
     }
 
     .message{
       display: flex;
       flex-direction: column;
-      margin: 0.2px;
-      width: 90%;
-      margin-bottom: 0.5em;
+      width: 82.4%;
+      margin-bottom: 1.875rem;
     textarea{
       height: 90px;
       border:none;
@@ -76,13 +81,13 @@
     }
   }
   .send{
-    width: 89%;
+    width: 187px;
     background: $primary;
     border: none;
     color: white;
-
-    height: 40px;
-    margin:1.4em;
+    font-size: 1rem;
+    height: 44px;
+    margin: 1.4em auto 0 9.5%;
 
   }
 

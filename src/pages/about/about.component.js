@@ -5,6 +5,7 @@ import CustomButton from "../../components/custom-button/custom-button.component
 import Slider from "react-slick/lib";
 import Arrow from "../../components/arrows/arrow.component";
 import Doctor from "../../components/custom-slides/doctors/doctor.component";
+import Footer from "../../components/footer/footer.component";
 
 
 class About extends React.Component{
@@ -65,6 +66,7 @@ class About extends React.Component{
                 </div>
 
             </div>
+          <Footer isHome={false}/>
         </div>
     )
      }

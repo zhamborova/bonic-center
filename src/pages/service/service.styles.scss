@@ -40,7 +40,7 @@
         height: auto;
         width: 90%;
         margin: 1.125em 0 auto 2em;
-        box-shadow: -5.2em -3.8em 0px 0.6em #FFAD87;
+        box-shadow: -5.2em -3.8em 0px 0.6em $secondary;
       }
 
     }
@@ -108,10 +108,10 @@
 
   background-color: $grey;
   .slick-prev {
-    left: 8%;
+    left: 4vw;
     @include breakpoint(mobile){
 
-      left: 0;
+      left: 3vw;
     }
 
   }
@@ -128,10 +128,10 @@
   }
 
   .slick-next{
-    left: 84%;
+    right: 4vw;
     @include breakpoint(mobile){
 
-      left: 87%;
+      right: 3vw;
     }
   }
  }

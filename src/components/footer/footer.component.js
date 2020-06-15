@@ -7,21 +7,23 @@ import ContactForm from "../contact-form/contact-form.component";
 import map from '../../assets/map.png'
 
 
-const Footer = () => {
+const Footer = ({isHome}) => {
+    let contact_info = `contact-info ${isHome ? `` : `modified-info`}`;
+    let img = `img ${isHome ? `` : `modified-img`}`
+    let footer = `footer ${isHome ? `` : `modified-footer`}`
   return (
-
-      <div className='footer' >
-
-
-
-           <div className='img' style={{backgroundImage: `url(${map})`}} >
-               <div className='contact'>
+      <div className={footer} >
+           <div className={img} style={{backgroundImage: `url(${map})`}} >
+               {isHome ?
+                   <React.Fragment>
+                   <div className='contact'>
                    <h2>Есть вопросы?</h2>
                    <h2>Отправьте нам сообщение!</h2>
                </div>
                <ContactForm/>
+                   </React.Fragment> : null}
            </div>
-        <div className='contact-info'>
+        <div className={contact_info}>
             <span className='contacty'>Контакты</span>
             <div> <p><strong>Телефон</strong></p>
                 <p> +7 (967) 424-21-01</p></div>

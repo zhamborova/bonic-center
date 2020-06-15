@@ -40,7 +40,7 @@ class ContactForm extends React.Component{
               <div className='message' > <label htmlFor="message">Сообщение </label>
               <textarea name='message' onChange={(e)=>{this.changeHandler(e.target.value,'message')}}/>
               </div>
-              <button className="send" type='submit' >Отправить сообщение</button>
+              <button className="send" type='submit' >Отправить </button>
 
           </form>
       </div>

@@ -1,16 +1,45 @@
 @import "../../../colors.scss";
-.preview-container{
-  width: 90%;
-  height: calc(10vh + 12em);
-  margin: auto;
-  background: #ECECEB;
-  flex-direction: column;
-  cursor: pointer;
-  transition: all .3s ease-in-out;
 
+.preview-wrapper{
+  a{
+    text-decoration: none;
+    color: black;
 
-}
+  }
+  a:visited{
+    text-decoration: none;
+    color: black;
+  }
 
-.preview-container:hover{
-  transform: scale(1.1);
-}
+  &:focus{
+    outline: none;
+  }
+  .preview-container{
+    width: 90%;
+    height: calc(10vh + 12em);
+    margin: auto;
+    background: #ECECEB;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    justify-content: center;
+    &:focus{
+      outline: none;
+    }
+
+    img{
+      margin-bottom: 1rem;
+      width: 50%;
+      height:50%;
+
+    }
+
+  }
+
+  .preview-container:hover{
+    transform: scale(1.1);
+  }
+ }

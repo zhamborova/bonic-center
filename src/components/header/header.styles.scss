@@ -14,6 +14,7 @@
     @include breakpoint(laptop){
 
         flex-direction: column;
+        padding: 10px 0;
     }
 
 
@@ -62,12 +63,13 @@
     .logo-container{
         text-decoration: none;
         color: $text-color;
-        margin-left: 0px;
+        margin-left: 1em;
         display: flex;
         min-width: fit-content;
         cursor: pointer;
+
          @include breakpoint(mobile){
-             padding-right: 1rem;
+           margin-right: 1rem;
          }
 
         .logo {
@@ -113,6 +115,7 @@
         @include breakpoint(laptop){
             display: block;
             margin-left:auto;
+            margin-right: 1em;
         }
     }
 
@@ -120,6 +123,7 @@
     .dropdown-header{
         @include breakpoint(laptop) {
         flex-direction: column;
+         padding: 15px 15px 5px;
 
         .option{
             display: block;

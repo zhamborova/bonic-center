@@ -24,8 +24,9 @@ class Question extends React.Component{
            <div className='qa-container'  onClick={()=>{this.setState({expanded: !this.state.expanded})}}>
             <div className='qa-sub'>
                <span className='question'>{this.props.question}</span>
-                <img src={plus} className='icon'/>
-                {/*TO DO ------------ add minus icon*/}
+                {this.state.expanded ? <img src={plus} className='icon'/> :
+                                       <img src={plus} className='icon'/>}
+
             </div>
                <div className='line'/>
                {this.state.expanded ?

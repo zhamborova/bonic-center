@@ -3,7 +3,7 @@ import React from "react";
 import Arrow from "../arrows/arrow.component";
 import './category.styles.scss'
 import ServiceSlide from "../custom-slides/service-slide/service-slide.component";
-import service_list from "../../services-list";
+import service_short_list from "../../service-short-list";
 
  const Category = ({services,url}) => {
      const settings = {
@@ -18,7 +18,7 @@ import service_list from "../../services-list";
          <span className='category-1'>Категория 1</span>
          <Slider {...settings}>
              {Object.keys(services).map((key,index)=>{
-                return <ServiceSlide index={index} service={service_list[url][key]} url={url}/>
+                return <ServiceSlide index={index} service={service_short_list[url][key]} url={url}/>
              })}
          </Slider>
      </div>
