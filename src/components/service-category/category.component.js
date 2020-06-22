@@ -6,6 +6,7 @@ import ServiceSlide from "../custom-slides/service-slide/service-slide.component
 import service_short_list from "../../service-short-list";
 
  const Category = ({services,url}) => {
+     console.log(services)
      const settings = {
          infinite: true,
          speed: 500,
@@ -18,7 +19,7 @@ import service_short_list from "../../service-short-list";
          <span className='category-1'>Категория 1</span>
          <Slider {...settings}>
              {Object.keys(services).map((key,index)=>{
-                return <ServiceSlide index={index} service={service_short_list[url][key]} url={url}/>
+                return <ServiceSlide index={index} service={services[key]}/>
              })}
          </Slider>
      </div>

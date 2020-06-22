@@ -2,20 +2,32 @@
 .before-after{
   display: grid!important;
   grid-template-columns:  300px 300px  ;
+  grid-template-rows: 20px 300px;
   grid-gap: 10px;
   max-width: 808px;
   margin: auto;
   justify-items: center;
   padding: 50px 100px;
 
-#before{
-  @include breakpoint(tablet){
-  order:3;}
-}
-  #after{
-    @include breakpoint(tablet){
-      order:4;}
+#before-img{
+  order:1;
 
+
+  @include breakpoint(tablet){
+     order:3;
+  }
+  @include breakpoint(mobile){
+    order: unset;
+  }
+}
+  #after-img{
+
+    @include breakpoint(tablet){
+      order:4;
+    }
+    @include breakpoint(mobile){
+      order: unset;
+    }
   }
 
 
@@ -26,6 +38,7 @@
     grid-template-columns: 200px;
     /* margin: auto; */
     justify-content: center;
+
   }
 
 

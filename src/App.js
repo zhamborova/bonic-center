@@ -20,7 +20,7 @@ function App() {
       <Route exact path='/' component={Home} />
       <Route exact path='/about' component={About}/>
       <Route exact path='/services' component={Services} />
-      <Route path='/services/:category/:serviceId' render={({ match }) => <Service match={match} />}/>
+      <Route path='/services/:serviceId' render={({ match}) => <Service match={match} />}/>
       </Switch>
        </div>
     </div>

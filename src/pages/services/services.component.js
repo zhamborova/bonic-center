@@ -38,13 +38,13 @@ class Services extends React.Component{
 
       return this.state.services  ?
               <div className='services-container'>
-          <div className='service-banner' style={{backgroundImage: `url(${banner})`}}>
+          <div className='service-banner' style={{backgroundImage: `url(https://images.wallpaperscraft.com/image/field_meadow_hill_174550_1600x900.jpg)`}}>
               <div className="service-btn"> <span>Процедуры</span></div>
           </div>
                    <React.Fragment>
                   <Category services={this.state.services['one']} url={'one'}/>
-                  <Category services={this.state.services['one']} url={'one'} />
-                  <Category services={this.state.services['one']} url={'one'} />
+                  <Category services={this.state.services['two']} url={'two'} />
+                  <Category services={this.state.services['three']} url={'three'} />
                    </React.Fragment>
             <Footer isHome={false}/>
             </div>: <WithSpinner/>

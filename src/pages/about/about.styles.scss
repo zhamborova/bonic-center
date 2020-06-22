@@ -1,5 +1,7 @@
 @import "../../colors.scss";
 
+
+
 .about-container{
   color: $text-color;
   display: flex;
@@ -10,7 +12,7 @@
      height: auto;
      justify-content: space-between;
 
-     @include breakpoint(mobile){
+     @include breakpoint(thsnd){
        flex-direction: column;
      }
 
@@ -18,7 +20,7 @@
        width: 51%;
        object-fit: cover;
 
-       @include breakpoint(mobile){
+       @include breakpoint(thsnd){
          width:100%;
        }
      }
@@ -29,8 +31,9 @@
        margin: auto;
 
 
-       @include breakpoint(mobile){
+       @include breakpoint(thsnd){
          width: 80%;
+         margin: 20px auto;
        }
 
      p{

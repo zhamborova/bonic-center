@@ -8,7 +8,7 @@ class ServiceSlide extends React.Component {
 
         return (
             <div index={index}  className='preview-wrapper'>
-                <Link to={`/services/${this.props.url}/${this.props.service.url}`} className='preview-container'>
+                <Link to={`/services/${this.props.service.url}`} className='preview-container'>
                     <img src={icon}/>
                     <span>  {this.props.service.title}</span>
                 </Link>

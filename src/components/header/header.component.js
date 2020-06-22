@@ -5,27 +5,28 @@ import {Link} from "react-router-dom";
 import menu from '../../assets/menu.svg'
 class Header extends React.Component {
    state ={
+    //by default hide hamburger
     hidden: true,
 
 };
 
+  //Hide mobile bar if the window width > 600
     hideMenu = () => {
-        if(window.innerWidth > 800){
+        if(window.innerWidth > 700){
             this.setState({hidden:true})
         }
     };
+
     componentDidMount() {
         window.addEventListener('resize', this.hideMenu);
     }
 
-
+  //close dropdown when changing pages
     close = () =>{
-
         this.setState({hidden:true})
 
     };
  render() {
-
     return (
     <div className='header-container'>
         <div className='toggle-horizontal'>
@@ -34,9 +35,10 @@ class Header extends React.Component {
          <span className='logo'> B O N I C </span>
          <p className='sub-logo'>Цeнтр лазерной косметологии</p>
          </div></Link>
+            {/*Hamburger image toggle */}
         <img src={menu} className='menu' onClick={()=>{this.setState({hidden:!this.state.hidden})}}/>
         </div>
-
+        {/*change style to dropdown header*/}
         <div className={!this.state.hidden ? 'dropdown-header' : 'header-options'}
              onClick={()=>{this.setState({hidden:true})}}>
 

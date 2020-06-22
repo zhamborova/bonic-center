@@ -64,8 +64,8 @@ class Service extends React.Component {
 
 
     render() {
-        let {category, serviceId} = this.props.match.params;
-        const {cover} = service_list[category][serviceId];
+        let {serviceId} = this.props.match.params;
+        const {cover} = service_list["one"][serviceId];
         const {title, recovery, effect_length, course,
             price,description,used_for, additional} = this.state;
 

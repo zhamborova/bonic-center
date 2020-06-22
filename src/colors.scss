@@ -16,13 +16,17 @@ BREAKPOINTS
     @media (min-width: 1300px) { @content ; }
   }
   @else if $point == laptop {
-    @media (max-width: 900px) { @content ; }
+    @media (min-width: 1113px) { @content ; }
   }
   @else if $point == tablet {
-    @media (min-width: 700px)  { @content ; }
+    @media (max-width: 1112px)  { @content ; }
   }
   @else if $point == mobile {
-    @media (max-width: 600px)  { @content ; }
+    @media (max-width: 700px)  { @content ; }
+
+  }
+  @else if $point == thsnd {
+    @media (max-width: 1000px)  { @content ; }
 
   }
 }

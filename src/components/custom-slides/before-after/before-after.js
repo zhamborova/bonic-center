@@ -9,9 +9,9 @@ class BeforeAfter extends React.Component {
             <div {...this.props}>
                 <div className='before-after'>
                     <label htmlFor={'before'}>До</label>
-                    <img id='before'src={before} />
+                    <img id='before-img'src={before} />
                     <label htmlFor={'after'}>После</label>
-                    <img id='after' src={after}/>
+                    <img id='after-img' src={after}/>
                 </div>
             </div>
         );
