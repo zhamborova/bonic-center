@@ -10,13 +10,13 @@ import service_short_list from "../../service-short-list";
      const settings = {
          infinite: true,
          speed: 500,
-         slidesToShow: 3,
+         slidesToShow: 4,
          slidesToScroll: 1,
          nextArrow: <Arrow side={"right"}/>,
          prevArrow: <Arrow side={"left"}/>
      };
     return <div className="category">
-         <span className='category-1'>Категория 1</span>
+
          <Slider {...settings}>
              {Object.keys(services).map((key,index)=>{
                 return <ServiceSlide index={index} service={services[key]}/>

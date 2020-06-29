@@ -48,10 +48,14 @@
      background-color: $primary;
      justify-content: space-around;
      color: white;
-     padding-bottom: 1.4em;
 
      div{
-       margin: auto;
+       margin:1.4em;
+
+       @include breakpoint(mobile){
+         margin: auto;
+
+       }
      }
 
       @include breakpoint(mobile){
@@ -84,8 +88,7 @@
      @include breakpoint(mobile){
        flex-direction: column;
        width: 80%;
-       margin:auto;
-       margin-top: -33rem;
+       margin: -33rem auto auto;
        div{
         width:80%;
        }
@@ -101,8 +104,9 @@
 }
 
 .modified-footer{
+
   order: 4;
-  margin-top: 0;
+  margin-top: 73px;
   //height: 440px;
   overflow: visible;
   padding-top:0;
@@ -111,17 +115,21 @@
 
   @include breakpoint(mobile){
    margin-top: 480px;
+
   }
   .modified-img{
     height: 300px;
     width:100%;
   }
   .modified-info{
-    width: 60%;
+    width: 61%;
+    min-width: max-content;
     margin-bottom: -65px;
 
     @include breakpoint(mobile){
-      margin-bottom: -131px;
-    }
+      margin-bottom: -175px;
+      width: 80vw;
+
+   }
   }
 }

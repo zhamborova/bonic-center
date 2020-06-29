@@ -12,7 +12,7 @@
      height: auto;
      justify-content: space-between;
 
-     @include breakpoint(thsnd){
+     @include breakpoint(tablet){
        flex-direction: column;
      }
 
@@ -20,7 +20,7 @@
        width: 51%;
        object-fit: cover;
 
-       @include breakpoint(thsnd){
+       @include breakpoint(tablet){
          width:100%;
        }
      }
@@ -31,7 +31,7 @@
        margin: auto;
 
 
-       @include breakpoint(thsnd){
+       @include breakpoint(tablet){
          width: 80%;
          margin: 20px auto;
        }

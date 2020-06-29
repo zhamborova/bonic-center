@@ -11,17 +11,18 @@
       height:20em;
     }
     .service-btn{
-      font-size: 2rem;
-      line-height:3rem;
-      width: 30%;
-      height: 80px;
-      color:white;
-      margin: auto auto 0 0 ;
-      background-color: $primary;
+      font-size: 1.6em;
+      line-height: 3rem;
+      width: 35%;
+      min-width: 200px;
+      color: white;
+      margin: auto auto 0 0;
+      background-color: #608199;
       display: flex;
-
+      justify-content: center;
       span{
-        margin: auto;
+        margin:  0.6em;
+        height: max-content;
       }
     }
   }

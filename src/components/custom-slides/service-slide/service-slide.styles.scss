@@ -1,6 +1,7 @@
 @import "../../../colors.scss";
 
 .preview-wrapper{
+
   a{
     text-decoration: none;
     color: black;
@@ -16,9 +17,8 @@
   }
   .preview-container{
     width: 90%;
-    height: calc(10vh + 12em);
+    height: auto;
     margin: auto;
-    background: #ECECEB;
     cursor: pointer;
     transition: all .3s ease-in-out;
 
@@ -32,14 +32,16 @@
 
     img{
       margin-bottom: 1rem;
-      width: 50%;
-      height:50%;
+      width: 40%;
 
+    }
+    span{
+      text-align: center;
     }
 
   }
 
   .preview-container:hover{
-    transform: scale(1.1);
+    transform: scale(1.04);
   }
  }

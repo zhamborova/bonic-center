@@ -6,6 +6,7 @@ import Slider from "react-slick/lib";
 import Arrow from "../../components/arrows/arrow.component";
 import Doctor from "../../components/custom-slides/doctors/doctor.component";
 import Footer from "../../components/footer/footer.component";
+import {Link} from "react-router-dom";
 
 
 class About extends React.Component{
@@ -13,26 +14,26 @@ class About extends React.Component{
         doctors:[]
    };
 
-     mobile = () => {
-       return window.innerWidth <= 600 ? 2 : 4
-    };
-    componentDidMount() {
-        window.addEventListener('resize', this.mobile);
-    }
-
-    settings = {
+     settings = {
         infinite: true,
         speed: 500,
-        slidesToShow: this.mobile(),
+        slidesToShow: 4,
         slidesToScroll: 1,
         nextArrow: <Arrow side={"right"}/>,
-        prevArrow: <Arrow side={"left"}/>
+        prevArrow: <Arrow side={"left"}/>,
+         responsive: [
+             {
+                 breakpoint: 700,
+                 settings: {
+                     slidesToShow: 2,
+                     slidesToScroll: 2,
+                 }
+             }]
     };
-
 
     render() {
 
-    return (
+        return (
         <div className='about-container'>
             <div className='history-container'>
                 <img src={about}/>
@@ -45,7 +46,7 @@ class About extends React.Component{
                         Мы нацелены на качественный
                         результат и партнерские взаимоотношения со своими клиентами, и поэтому нам доверяют и нас
                         рекомендуют.</p>
-                    <CustomButton text={'Наши услуги'}  />
+                    <Link to={"/services"} > <CustomButton text={'Наши услуги'} /> </Link>
                 </div>
                 </div>
 

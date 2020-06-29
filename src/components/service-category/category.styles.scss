@@ -1,14 +1,14 @@
 @import "../../colors.scss";
 .category{
-  margin: 2em auto;
+  margin: 2em auto 3em;
   width:88%;
   height: auto;
 
 
   .category-1{
-    margin-left: 0.5em;
-    margin-bottom: 0.8em;
-    display: block;
+    min-width: max-content;
+    margin: 0.8em 50%;
+    display: inline-block;
     font-size: 2rem;
     line-height: 3rem;
     color: $text-color;
