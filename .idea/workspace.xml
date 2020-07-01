@@ -3,18 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="8accd5c7-2d34-47c0-9bdf-261f643af0c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/custom-slides/service-slide/service-slide.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-slides/service-slide/service-slide.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/arrows/arrow.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/arrows/arrow.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/footer/footer.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/service-category/category.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/service-category/category.component.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/service-category/category.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/service-category/category.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/with-spinner/with-spinner.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/with-spinner/with-spinner.styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about/about.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about/about.component.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/about/about.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about/about.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/home.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/services/services.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/services/services.styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +127,7 @@
       <workItem from="1592048424036" duration="6324000" />
       <workItem from="1592215707200" duration="395000" />
       <workItem from="1592483927230" duration="5519000" />
-      <workItem from="1592825326417" duration="25673000" />
+      <workItem from="1592825326417" duration="28526000" />
     </task>
     <servers />
   </component>

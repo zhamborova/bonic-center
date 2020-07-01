@@ -3,17 +3,24 @@ import React from "react";
 import Arrow from "../arrows/arrow.component";
 import './category.styles.scss'
 import ServiceSlide from "../custom-slides/service-slide/service-slide.component";
-import service_short_list from "../../service-short-list";
 
  const Category = ({services,url}) => {
-     console.log(services)
+
      const settings = {
          infinite: true,
          speed: 500,
-         slidesToShow: 4,
+         slidesToShow: 3,
          slidesToScroll: 1,
          nextArrow: <Arrow side={"right"}/>,
-         prevArrow: <Arrow side={"left"}/>
+         prevArrow: <Arrow side={"left"}/>,
+         responsive: [
+             {
+                 breakpoint: 700,
+                 settings: {
+                     slidesToShow: 2,
+                     slidesToScroll: 2,
+                 }
+             }]
      };
     return <div className="category">
 
