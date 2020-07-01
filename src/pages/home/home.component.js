@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div className='home-container'>
 
-            <div className='intro-info'>
+
                 <div className="wrapper">
 
                     <div className="two">
@@ -16,8 +16,10 @@ const Home = () => {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed odio magna. Nunc lacinia congue dui ac tincidunt.</p>
                     </div>
                     <div className="three">
+                        <img src={"https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/06/Face_Masks_Street_732x549-thumbnail-732x549.jpg?w=441"}/>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed odio magna. Nunc lacinia congue dui ac tincidunt.</p>
 
-                        <img src={"https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/06/People_Hugging_732x549-thumbnail-732x549.jpg?w=1092"} /></div>
+                    </div>
                     <div className="four">
                         <img src={"https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/06/Face_Masks_Street_732x549-thumbnail-732x549.jpg?w=441"}/>
 
@@ -31,7 +33,7 @@ const Home = () => {
 
                     </div>
 
-                </div>
+
             </div>
             <Footer isHome/>
         </div>
