@@ -111,17 +111,21 @@
 
   background-color: $grey;
   .slick-prev {
-    left: 4vw;
+    left: 6vw;
+    @include breakpoint(tablet){
+
+      left: 4vw;
+    }
     @include breakpoint(mobile){
 
-      left: 3vw;
+      left: 2vw;
     }
 
   }
   .slick-next, .slick-prev{
     width: 90px;
     height: 90px;
-    top:57%;
+    top:50%;
 
     @include breakpoint(mobile){
       width: 50px;
@@ -131,10 +135,14 @@
   }
 
   .slick-next{
-    right: 4vw;
+    right: 6vw;
+    @include breakpoint(tablet){
+
+      right: 4vw;
+    }
     @include breakpoint(mobile){
 
-      right: 3vw;
+      right: 2vw;
     }
   }
  }

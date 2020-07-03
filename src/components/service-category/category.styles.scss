@@ -3,15 +3,8 @@
   margin: 2em auto 3em;
   width:88%;
   height: auto;
-
-
-  .category-1{
-    min-width: max-content;
-    margin: 0.8em 50%;
-    display: inline-block;
-    font-size: 2rem;
-    line-height: 3rem;
-    color: $text-color;
+  @include breakpoint(mobile){
+    margin: 1em auto;
   }
 
 
