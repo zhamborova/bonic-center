@@ -31,16 +31,17 @@
     @include breakpoint(mobile){
       min-height: 100px;
       padding: 10px;
+      transform: scale(1.1);
     }
 
     &:focus{
       outline: none;
     }
-
-    &:hover{
-      transform:scale(0.9)
+    @include breakpoint(laptop) {
+      &:hover {
+       transform: scale(0.9)
     }
-
+}
 
     img{
       margin:auto;
