@@ -51,12 +51,7 @@
 
 
      div{
-       margin:1.4em;
-
-       @include breakpoint(mobile){
          margin: auto;
-
-       }
      }
 
       @include breakpoint(mobile){

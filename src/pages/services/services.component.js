@@ -26,8 +26,6 @@ class Services extends React.Component{
          .then(
              (services) => {
               this.setState({services})
-                 //console.log(result)
-
              })
 
 
