@@ -10,9 +10,15 @@
 
  .slick-prev{
     left: -3vw;
+   @include breakpoint(mobile){
+     left:-5vw;
+   }
   }
   .slick-next{
     right: -3vw;
+    @include breakpoint(mobile){
+      right:-5vw;
+    }
   }
 }
 

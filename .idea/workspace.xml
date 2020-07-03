@@ -34,7 +34,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8accd5c7-2d34-47c0-9bdf-261f643af0c6" name="Default Changelist" comment="css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/custom-slides/service-slide/service-slide.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-slides/service-slide/service-slide.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/service-category/category.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/service-category/category.styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +157,7 @@
       <workItem from="1592215707200" duration="395000" />
       <workItem from="1592483927230" duration="5519000" />
       <workItem from="1592825326417" duration="25673000" />
-      <workItem from="1593612211911" duration="13101000" />
+      <workItem from="1593612211911" duration="13805000" />
     </task>
     <task id="LOCAL-00001" summary="css">
       <created>1593622615625</created>
