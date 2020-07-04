@@ -39,7 +39,6 @@ class Service extends React.Component {
 
     componentDidMount() {
        let {serviceId} = this.props.match.params;
-       console.log(serviceId)
         const requestOptions = {
             method: 'POST',
             headers: { 'Content-Type': 'application/json'},
@@ -70,29 +69,29 @@ class Service extends React.Component {
             price,description,used_for, additional} = this.state;
 
         return !title ? <WithSpinner/> :
-        <div className='service-container'>
-         <div className="service-1">
-             <img className='cover-img' src={cover}/>
-             <div className="basic-info">
-                 <span className='title'>{title}</span>
-                 <span className='attributes'>Период восстановления</span>
+        <div className='service'>
+         <div className='service__info-section'>
+             <img className='info-section__cover-img' src={cover}/>
+             <div className="info-section__details">
+                 <span className='details__title'>{title}</span>
+                 <span className='details__attributes'>Период восстановления</span>
                  <p>{recovery}</p>
-                 <span className='attributes'>Длительность эффекта</span>
+                 <span className='details__attributes'>Длительность эффекта</span>
                  <p>{effect_length}</p>
-                 <span className='attributes'> Курс</span>
+                 <span className='details__attributes'> Курс</span>
                  <p>{course}</p>
-                 <span className='attributes'>Цена</span>
+                 <span className='details__attributes'>Цена</span>
                  <p>{price}</p>
              </div>
          </div>
 
-         <div className='slider-container'>
+         <div className='service__slider-section'>
              <Slider {...settings}>
                  <BeforeAfter index={1}/>
                  <BeforeAfter index={2}/>
              </Slider>
          </div>
-         <div className='qa'>
+         <div className='service__qa-section'>
              <Question question={'Показания'} answer={used_for} used_for/>
              <Question question={'Описание процедуры'} answer={description} used_for={false}/>
              <Question question={'Дополнительная информация'} answer={additional} used_for={false}/>

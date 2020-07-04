@@ -8,7 +8,6 @@ import Switch from "react-bootstrap/esm/Switch";
 import Service from "./pages/service/service.component";
 import Services from "./pages/services/services.component";
 import About from "./pages/about/about.component";
-import Footer from "./components/footer/footer.component";
 
 
 function App() {

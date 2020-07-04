@@ -1,6 +1,6 @@
 @import "../../colors.scss";
-.services-container{
-  .service-banner{
+.services{
+  .services__banner{
     background: no-repeat center center;
     background-size: cover;
     height: 30em;
@@ -11,7 +11,7 @@
       height:20em;
       margin-bottom: 2em;
     }
-    .service-btn{
+    .services__title{
       font-size: 1.5rem;
       line-height: 3rem;
       width: 26%;

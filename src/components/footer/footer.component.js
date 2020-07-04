@@ -8,15 +8,15 @@ import map from '../../assets/map.png'
 
 
 const Footer = ({isHome}) => {
-    let contact_info = `contact-info ${isHome ? `` : `modified-info`}`;
-    let img = `img ${isHome ? `` : `modified-img`}`
-    let footer = `footer ${isHome ? `` : `modified-footer`}`
+    let footer = `footer ${isHome ? `` : ` footer--v2`}`;
+    let contact_info = `footer__contact-info ${isHome ? `` : ` footer--v2__contact-info--v2`}`;
+    let img = `footer__back-section ${isHome ? `` : ` footer--v2__back-section--v2`}`
   return (
       <div className={footer} >
            <div className={img} style={{backgroundImage: `url(${map})`}} >
                {isHome ?
                    <React.Fragment>
-                   <div className='contact'>
+                   <div className='back-section__message-us'>
                    <h2>Есть вопросы?</h2>
                    <h2>Отправьте нам сообщение!</h2>
                </div>
@@ -24,7 +24,7 @@ const Footer = ({isHome}) => {
                    </React.Fragment> : null}
            </div>
         <div className={contact_info}>
-            <span className='contacty'>Контакты</span>
+            <span className='contact-info__contacts'>Контакты</span>
             <div> <p><strong>Телефон</strong></p>
                 <p> +7 (967) 424-21-01</p></div>
             <div><p><strong>Адрес</strong></p>

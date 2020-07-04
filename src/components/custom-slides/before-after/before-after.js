@@ -7,11 +7,11 @@ class BeforeAfter extends React.Component {
     render() {
         return (
             <div {...this.props}>
-                <div className='before-after'>
+                <div className='ba-slide'>
                     <label htmlFor={'before'}>До</label>
-                    <img id='before-img'src={before} />
+                    <img className='ba-slide__before-img' src={before} />
                     <label htmlFor={'after'}>После</label>
-                    <img id='after-img' src={after}/>
+                    <img className='ba-slide__after-img' src={after}/>
                 </div>
             </div>
         );

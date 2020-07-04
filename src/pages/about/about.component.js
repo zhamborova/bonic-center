@@ -34,12 +34,12 @@ class About extends React.Component{
     render() {
 
         return (
-        <div className='about-container'>
-            <div className='history-container'>
-                <img src={about}/>
+        <div className='about'>
+            <div className='about__description'>
+                <img class="about__img" src={about}/>
 
-                <div className='history'>
-                    <span className='about-us'> О нас</span>
+                <div className='description__text'>
+                    <span className='text__about-us'> О нас</span>
                     <p>Центр лазерной косметологии Bonic – это клиника с великолепным сервисом и уютной атмосферой.
                         Для нас каждый человек – это шедевр природы, состоящий из души и тела, обладающий
                         особой уникальностью и неповторимостью. Мы любим свою работу и считаем ее искусством!
@@ -50,10 +50,10 @@ class About extends React.Component{
                 </div>
                 </div>
 
-            <div className='doctor-container'>
-                <span >Наши Специалитсы</span>
+            <div className='about__doctor-slider'>
+                <span className='doctor-slider__title'>Наши Специалитсы</span>
 
-                <div className='doctor-slide-container'>
+                <div className='doctor-slider__slides'>
                 <Slider {...this.settings}>
 
                     {/*TO DO--------------------map over this.doctors*/}

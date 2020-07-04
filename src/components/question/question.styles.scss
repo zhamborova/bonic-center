@@ -1,5 +1,5 @@
 @import "../../colors.scss";
-.qa-container{
+.qa{
 
   display: flex;
   flex-direction: column;
@@ -13,7 +13,7 @@
     width: 80%;
   }
 
-  .qa-sub{
+  .qa__expanded{
     padding-bottom: 6px;
     display: flex;
     @include breakpoint(mobile){
@@ -21,7 +21,7 @@
     }
 
   }
-  .question{
+  .expanded__question{
 
     font-size:1.2rem;
     font-weight: 600;
@@ -33,20 +33,20 @@
 
   }
 
-  .line{
+  .qa__line{
     height: 0.7px;
     width: 100%;
     background-color: #C4C4C4;
   }
 
-  .answer{
+  .qa__answer{
     margin: 40px auto auto;
     padding:20px;
-    border: 0.5px solid #C4C4C4;
+    border: 1px solid #C4C4C4;
     width: 98%;
   }
 }
- .icon{
+ .question__icon{
   margin-left: auto;
   height: 30px;
   width:30px;
@@ -64,6 +64,6 @@
 
 }
 
-.answer{
+.qa__answer{
   transition: display 2s ease-in-out;
 }

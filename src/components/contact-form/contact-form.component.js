@@ -26,24 +26,21 @@ class ContactForm extends React.Component{
     };
     render() {
     return(
-      <div className='contact-form'>
-
-          <form onSubmit={(e)=>{this.onSubmit(e)}}>
-              <span className='svyzhites'>Свяжитесь с нами</span>
-              <div className='line'/>
+          <form className='contact-form' onSubmit={(e)=>{this.onSubmit(e)}}>
+              <span className='contact-form__contact-us'>Свяжитесь с нами</span>
+              <div className='contact-form__line'/>
               <CustomInput title={'Имя'} name='name'  type={'text'}
                onChange={this.changeHandler}/>
               <CustomInput title={'Email'} name='email'  type={'email'}
                            onChange={this.changeHandler}/>
               <CustomInput title={'Телефон'} name='phone'  type={'text'}
                            onChange={this.changeHandler}/>
-              <div className='message' > <label htmlFor="message">Сообщение </label>
+              <div className='contact-form__message' >
+                  <label htmlFor="message">Сообщение </label>
               <textarea name='message' onChange={(e)=>{this.changeHandler(e.target.value,'message')}}/>
               </div>
-              <button className="send" type='submit' >Отправить </button>
-
+              <button className="contact-form__send" type='submit' >Отправить </button>
           </form>
-      </div>
 
 
   )

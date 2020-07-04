@@ -5,9 +5,9 @@ const Doctor = (props) => {
     return (
         <div  {...props}>
             <div className='doctor-slide'>
-                <div className='fill'/>
+                <div className='doctor-slide__fill'/>
 
-                <span id='doc-name'>{props.name}</span>
+                <span className='doctor-slide__doc-name'>{props.name}</span>
             </div>
 
         </div>

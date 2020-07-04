@@ -33,8 +33,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8accd5c7-2d34-47c0-9bdf-261f643af0c6" name="Default Changelist" comment="css">
+      <change afterPath="$PROJECT_DIR$/src/components/with-spinner/with-spinner.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/service-category/category.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/service-category/category.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact-form/contact-form.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact-form/contact-form.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact-form/contact-form.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact-form/contact-form.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-button/custom-button.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-input/custom-input.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-input/custom-input.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-input/custom-input.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-input/custom-input.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-slides/before-after/before-after.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-slides/before-after/before-after.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-slides/before-after/before-after.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-slides/before-after/before-after.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-slides/doctors/doctor.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-slides/doctors/doctor.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-slides/doctors/doctor.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-slides/doctors/doctor.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-slides/service-slide/service-slide.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-slides/service-slide/service-slide.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-slides/service-slide/service-slide.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-slides/service-slide/service-slide.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/question/question.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/question/question.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/question/question.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/question/question.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/service-dropdown/service-dropdown.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/service-dropdown/service-dropdown.styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/with-spinner/with-spinner.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/with-spinner/with-spinner.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/with-spinner/with-spinner.styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about/about.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about/about.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about/about.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about/about.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/home.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/home.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/service/service.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/service/service.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/service/service.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/service/service.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/services/services.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/services/services.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/services/services.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/services/services.styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +190,7 @@
       <workItem from="1592215707200" duration="395000" />
       <workItem from="1592483927230" duration="5519000" />
       <workItem from="1592825326417" duration="25673000" />
-      <workItem from="1593612211911" duration="13805000" />
+      <workItem from="1593612211911" duration="25400000" />
     </task>
     <task id="LOCAL-00001" summary="css">
       <created>1593622615625</created>

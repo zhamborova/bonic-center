@@ -12,7 +12,7 @@
   }
 
 
-  .preview-wrapper{
+  .service_slide__preview{
     min-width: 100px;
     width: 70%;
     min-height: 160px;
@@ -44,12 +44,12 @@
     }
 }
 
-    img{
+    .preview__icon{
       margin:auto;
       width: 40%;
 
     }
-    span{
+    .preview__title{
       text-align: center;
       margin:auto;
       font-size: 1em;

@@ -1,12 +1,12 @@
 @import "../../colors.scss";
 
-.service-container{
+.service{
   display:flex;
   flex-direction: column;
 
 
 
-  .service-container > div {
+  .service > div {
     @include breakpoint(mobile) {
       :nth-child(1) {
         order: 1;
@@ -20,7 +20,7 @@
     }
   }
 
-  .service-1 {
+  .service__info-section{
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -32,7 +32,7 @@
       flex-direction: column;
     }
 
-    .cover-img {
+    .info-section__cover-img {
       border-style: none;
       height: 340px;
       width: 40%;
@@ -48,7 +48,7 @@
 
     }
 
-    .basic-info {
+    .info-section__details {
       color:$text-color;
       display: flex;
       flex-direction: column;
@@ -64,7 +64,7 @@
 
       }
 
-     .attributes{
+     .details__attributes{
        font-size: 0.8rem;
        font-weight: 600;
        order:unset!important;
@@ -73,7 +73,7 @@
       p{
         font-size: 0.8rem;
       }
-      .title {
+      .details__title {
         font-size: 1.8rem;
         display: block;
         margin-bottom: 0.8em;
@@ -84,7 +84,7 @@
       }
     }
   }
-  .qa{
+  .service__qa-section{
     display:flex;
     flex-direction: column;
     width: 83%;
@@ -97,7 +97,9 @@
     }
 
   }
-.slider-container{
+
+
+.service__slider-section{
   @include breakpoint(mobile){
     order: 3;
     width:100%;

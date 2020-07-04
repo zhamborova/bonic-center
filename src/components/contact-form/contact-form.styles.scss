@@ -2,8 +2,26 @@
 
 .contact-form{
   width: 38%;
+  height: 100%;
   margin-top: -6.4em;
   margin-right: 14%;
+  z-index: 1;
+  background-color: whitesmoke;
+  align-items:center;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 10px;
+
+  @include breakpoint(mobile){
+    padding:50px 0;
+    height: unset;
+  }
+
+
+  label{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+  }
   @include breakpoint(mobile){
     width: 100%;
     margin: -54rem auto auto;
@@ -11,7 +29,7 @@
 
 
 
-  .svyzhites{
+  .contact-form__contact-us{
     display: none;
 
     @include breakpoint(mobile){
@@ -23,7 +41,7 @@
       margin-bottom: 0.2em;
     }
   }
-  .line{
+  .contact-form__line{
     display:none;
 
     @include breakpoint(mobile){
@@ -39,30 +57,16 @@
   }
 
 
-  form{
-    z-index: 1;
-    background-color: whitesmoke;
-    align-items:center;
-    display: flex;
-    flex-direction: column;
-
-    padding: 30px 10px;
 
 
-    @include breakpoint(mobile){
-      padding:50px 0;
-    }
-    label{
-      font-size: 1.1rem;
-      padding-bottom: 10px;
-    }
 
-    .message{
+    .contact-form__message{
       display: flex;
       flex-direction: column;
       width: 82.4%;
       margin-bottom: 1.875rem;
-    textarea{
+
+     textarea{
       height: 90px;
       border:none;
       border-radius: 5px;
@@ -75,12 +79,9 @@
 
     }}
 
-    h3{
 
-      margin: 10px auto auto;
-    }
-  }
-  .send{
+
+  .contact-form__send{
     width: 187px;
     background: $primary;
     border: none;
@@ -91,8 +92,7 @@
 
   }
 
-  .send:hover{
-
-    background: #00558f;
+  .contact-form__send:hover {
+    background: $primary;
   }
 }

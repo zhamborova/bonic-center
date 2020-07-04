@@ -11,7 +11,7 @@
 
   }
 
-  .img{
+  .footer__back-section{
     height: 557px;
     background-position: center;
     background-size: cover;
@@ -25,7 +25,7 @@
   }
 
 
-  .contact {
+  .back-section__message-us {
     margin-right: 1.5em;
     text-align: right;
     margin-top: -6.5em;
@@ -40,7 +40,7 @@
     }
   }
 
-   .contact-info{
+   .footer__contact-info{
 
      display:flex;
      min-height: 120px;
@@ -51,7 +51,10 @@
 
 
      div{
+
          margin: auto;
+
+
      }
 
       @include breakpoint(mobile){
@@ -66,7 +69,7 @@
         }
       }
 
-      .contacty{
+      .contact-info__contacts{
         display: none;
         @include breakpoint(mobile) {
          display:block;
@@ -100,11 +103,10 @@
 
 }
 
-.modified-footer{
+.footer--v2{
 
   order: 4;
   margin-top: 73px;
-  //height: 440px;
   overflow: visible;
   padding-top:0;
   display: flex;
@@ -114,11 +116,11 @@
    margin-top: 480px;
 
   }
-  .modified-img{
+  .footer--v2__back-section--v2{
     height: 300px;
     width:100%;
   }
-  .modified-info{
+  .footer--v2__contact-info--v2{
     width: 61%;
     min-width: max-content;
     margin-bottom: -65px;

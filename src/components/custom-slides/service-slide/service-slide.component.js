@@ -7,11 +7,11 @@ class ServiceSlide extends React.Component {
         const { index, ...props } = this.props;
 
         return (
-            <Link to={`/services/${this.props.service.url}`} className='preview-container'>
-            <div index={index}  className='preview-wrapper'>
+            <Link to={`/services/${this.props.service.url}`} className='service_slide'>
+            <div index={index}  className='service_slide__preview'>
 
-                    <img src={icon}/>
-                    <span>  {this.props.service.title}</span>
+                    <img className='preview__icon' src={icon}/>
+                    <span className='preview__title'>  {this.props.service.title}</span>
             </div>
             </Link>
 

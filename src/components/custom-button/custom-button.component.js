@@ -3,7 +3,7 @@ import './custom-button.styles.scss';
 
 
 const CustomButton = ({text}) => {
-    return <button className='custom-btn' >{text}</button>
+    return <button className='btn btn--primary' >{text}</button>
 };
 
 export default CustomButton;

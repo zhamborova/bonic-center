@@ -6,17 +6,17 @@
   display: flex;
   flex-direction: column;
 
-  .fill{
+  .doctor-slide__fill{
     background: $grey;
 
     height: 224px;
   }
-  #doc-name{
+  .doctor-slide__doc-name{
 
     text-align: center;
-    font-size: 18px;
+    font-size: 1.2rem;
+    margin: 1rem auto;
     color: $primary;
-    margin-top: 20px;
   }
 
 }

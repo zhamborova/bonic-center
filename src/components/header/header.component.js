@@ -1,6 +1,5 @@
 import React from 'react';
 import './header.styles.scss';
-import ServiceDropDown from "../service-dropdown/service-dropdown.component";
 import {Link} from "react-router-dom";
 import menu from '../../assets/menu.svg'
 class Header extends React.Component {
@@ -10,7 +9,7 @@ class Header extends React.Component {
 
 };
 
-  //Hide mobile bar if the window width > 600
+  //Hide mobile bar if the window width > 700
     hideMenu = () => {
         if(window.innerWidth > 700){
             this.setState({hidden:true})
@@ -27,29 +26,29 @@ class Header extends React.Component {
 
     };
  render() {
+     let option = this.state.hidden ? 'hide__option' : 'show__option';
     return (
-    <div className='header-container'>
-        <div className='toggle-horizontal'>
+    <div className='header'>
+        <div className='header__toggle'>
         <Link to = {"/"}>
-          <div className='logo-container'>
-         <span className='logo'> B O N I C </span>
-         <p className='sub-logo'>Цeнтр лазерной косметологии</p>
+         <div className='toggle__logo'>
+         <span className='logo__primary'> B O N I C </span>
+         <p className='logo__secondary'>Цeнтр лазерной косметологии</p>
          </div></Link>
-            {/*Hamburger image toggle */}
-        <img src={menu} className='menu' onClick={()=>{this.setState({hidden:!this.state.hidden})}}/>
+         {/*Hamburger image toggle */}
+        <img src={menu} className='toggle__burger' onClick={()=>{this.setState({hidden:!this.state.hidden})}}/>
         </div>
         {/*change style to dropdown header*/}
-        <div className={!this.state.hidden ? 'dropdown-header' : 'header-options'}
+        <div className={this.state.hidden ? 'header__hide' : 'header__show'}
              onClick={()=>{this.setState({hidden:true})}}>
 
-        <Link to={"/"} className='option'>
+        <Link to={"/"} className={option}>
          Главная
         </Link>
-        <Link to={"/services"} className='option' >
+        <Link to={"/services"} className={option} >
             Услуги
-           {/*<ServiceDropDown className={"service"} serviceItems={[]}/>*/}
         </Link>
-         <Link to={"/about"} className='option'>
+         <Link to={"/about"} className={option}>
         О нас
       </Link>
      </div>

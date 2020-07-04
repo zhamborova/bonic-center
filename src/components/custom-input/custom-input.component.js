@@ -13,9 +13,10 @@ class CustomInput extends React.Component{
     };
     render(){
       const {title, placeholder, width, height, type,name}= this.props;
-        return(<div className='custom-input'>
-      <label htmlFor={name}>{title}</label>
-      <input id={name} type={type} placeholder={placeholder} style={{width:width, height:height}}
+        return(
+       <div className='custom-input'>
+      <label className='custom-input__label' htmlFor={name}>{title}</label>
+      <input className='custom-input__input' id={name} type={type} placeholder={placeholder} style={{width:width, height:height}}
       onChange={(e)=>this.onChange(e)}/>
   </div>)}
 
