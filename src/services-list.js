@@ -28,7 +28,7 @@ const service_list = {
               " будто загорелой, после чего покрывается корочкой, которая отшелушивается в течение 1-2 недель.",
           course: "Разовая процедура",
           effect_length: "1-3 года",
-          price: "400",
+          price: null,
           priceArea: [
               {
                   area: "Шлифовка морщин",
@@ -67,7 +67,7 @@ const service_list = {
           recovery: null,
           course: "1-2 процедуры",
           effect_length: "От года и более",
-          price: "15000",
+          price: "15000р",
           priceArea: null
       },
       ft_scar_removal: {
@@ -79,7 +79,7 @@ const service_list = {
           additional: "FT лазерная шлифовка рубцов предназначена для работы с любыми видами рубцовой ткани. Применение лазерной технологии «холодной» абляции позволяет избежать перегрева основания рубца с последующим термонекрозом ложа, что является основным осложнением стандартных методик лазерной шлифовки.",
           pictures: [[before, after], [before, after]],
           recovery: "От 5 до 10 дней",
-          course:  "От 1",
+          course:  "От 1 процедуры",
           effect_length: "Перманентный",
           price: "от 500р за 1 кв.см."
       },
@@ -318,123 +318,180 @@ const service_list = {
           priceArea: [
               {
                   area: "Эпиляция лба",
-                  price: "1200р для женщин/2000р для мужчин"
+                  price: null,
+                  man: "2000р",
+                  woman:"1200р",
               },
               {
                   area: "Лазерная коррекция бровей",
-                  price: "1200 для женщин/1500р для мужчин"
+                  price: null,
+                  man: "1500р",
+                  woman:"1200р",
               },
               {
                   area: "Эпиляция лица полностью",
-                  price: "3800р"
+                  price: "3800р",
+                  man: null,
+                  woman:null,
               },
               {
                   area: "Эпиляция межбровья",
-                  price: "500р"
+                  price: "500р",
+                  man: null,
+                  woman:null,
+
               },
               {
                   area: "Эпиляция скул",
-                  price: "2000р"
+                  price: "2000р",
+                  man: null,
+                  woman:null,
               },
               {
                   area: "Эпиляция щек",
-                  price: "1350"
+                  price: "1350",
+                  man: null,
+                  woman:null,
               },
               {
                   area: "Эпиляция бакенбардов",
-                  price: "3800р"
+                  price: "3800р",
+                  man: null,
+                  woman:null,
               },
               {
                   area: "Эпиляция верхней губы",
-                  price: "750р"
+                  price: "750р",
+                  man: null,
+                  woman:null,
               },
               {
                   area: "Эпиляция крыльев носа",
-                  price: "750р для женщин/1200р для мужчин"
+                  price: null,
+                  man: "750р",
+                  woman:"1200р",
+
               },
               {
                   area: "Эпиляция ушей",
-                  price: "800р для женщин/1200р для мужчин"
+                  price: null,
+                  man: "800р",
+                  woman:"1200р",
               },
               {
                   area: "Эпиляция подбородка",
-                  price: "1200р"
+                  price: "1200р",
+                  man: null,
+                  woman:null,
               },
               {
                   area: "Эпиляция передней/задней поверхности шеи",
-                  price: "2000р для женщин /2800р для мужчин"
+                  price: null,
+                  man: "2000р",
+                  woman:"2800р",
               },
               {
-                  area: "Эпиляция декольте полностью для женщин",
-                  price: "2990р"
-              },
-              {
-                  area: "Эпиляция груди полностью для мужчин",
-                  price: "6500р"
+                  area: "Эпиляция груди полностью",
+                  price: null,
+                  man: "6500р",
+                  woman:"2990р",
+
               },
               {
                   area: "Эпиляция Ареол",
-                  price: "990р"
+                  price: "990р",
+                  man: null,
+                  woman:null,
               },
               {
                   area: "Эпиляция подмышечных впадин",
-                  price: "1990р для женщин/5000р для мужчин"
+                  price: null,
+                  man: "5000р",
+                  woman:"1990р",
               },
               {
                   area: "Эпиляция рук полностью",
-                  price: "5990р"
+                  price: "5990р",
+                  man: null,
+                  woman:null,
               },
               {
                   area: "Эпиляция рук до локтя",
-                  price: "3000р"
+                  price: "3000р",
+                  man: null,
+                  woman:null,
               },
               {
                   area: "Эпиляция плеча",
-                  price: "3500р для женщин/5000р для мужчин"
+                  price: null,
+                  man: "5000р",
+                  woman:"3500р",
               },
               {
                   area: "Эпиляция пальцев на руках",
-                  price: "1000р для женщин/2500р для мужчин"
+                  price: null,
+                  man: "2500р",
+                  woman:"1000р",
               },
               {
                   area: "Эпиляция белой линии живота",
-                  price: "1500р для женщин/2500р для мужчин"
+                  price: null,
+                  man: "2500р",
+                  woman:"1500р",
               },
               {
                   area: "Эпиляция живота полностью",
-                  price: "3500р"
+                  price: "3500р",
+                  man: null,
+                  woman:null,
               },
               {
                   area: "Эпиляция спины полностью",
-                  price: "8990р"
+                  price: "8990р",
+                  man: null,
+                  woman:null,
               },
               {
                   area: "Эпиляция поясницы",
-                  price: "2990р"
+                  price: "2990р",
+                  man: null,
+                  woman:null,
               },
               {
                   area: "Эпиляция ягодиц",
-                  price: "3990р"
+                  price: "3990р",
+                  man: null,
+                  woman:null,
               },
               {
                   area: "Эпиляция бикини",
-                  price: "от 2000р"
+                  price: "от 2000р",
+                  man: null,
+                  woman:null,
               },
               {
                   area: "Эпиляция внутренней поверхности бедра",
-                  price: "2500р"
+                  price: "2500р",
+                  man: null,
+                  woman:null,
               },
               {
                   area: "Эпиляция ног полностью",
-                  price: "11990р"
+                  price: "11990р",
+                  man: null,
+                  woman:null,
               },
               {
                   area: "Эпиляция бедер",
-                  price: "6990р"
+                  price: "6990р",
+                  man: null,
+                  woman:null,
               },
               {
                   area: "Эпиляция голени",
-                  price: "4990р"
+                  price: "4990р",
+                  man: null,
+                  woman:null,
               },
 
 
@@ -580,8 +637,6 @@ const service_list = {
           effect_length: "до трех лет",
           price: null,
           priceArea: [
-
-
 
           ]
       },

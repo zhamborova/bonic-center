@@ -1,7 +1,9 @@
 @import "../../colors.scss";
 .home{
-  flex-direction: column;
+   flex-direction: column;
     padding-top: 30px;
+
+  .home__articles{
     width:90%;
     margin:auto;
     display: grid;
@@ -10,7 +12,7 @@
     grid-row-gap: 10px;
 
   @include breakpoint(mobile){
-     margin: 1em auto 3em;
+      margin: 1em auto 4em;
       padding-top:0;
       grid-template-columns: 100%;
       grid-row-gap: 1em;
@@ -91,6 +93,7 @@
   p{
     margin:auto auto auto 10px;
 
+   }
   }
 }
 

@@ -7,6 +7,8 @@ import Arrow from "../../components/arrows/arrow.component";
 import BeforeAfter from "../../components/custom-slides/before-after/before-after";
 import Footer from "../../components/footer/footer.component";
 import WithSpinner from "../../components/with-spinner/with-spinner.component";
+import Price from "../../components/price/price";
+import ProcedureFormat from "../../components/procedure-format/procedure-format";
 
 const settings = {
     className: "slider",
@@ -52,10 +54,10 @@ class Service extends React.Component {
             .then(
                 (result) => {
                 const {cover,title, recovery, effect_length, course,
-                        price,description,used_for, additional} = result;
+                        price,description,used_for, additional, priceArea} = result;
                 console.log(result)
                 this.setState({cover,title, recovery, effect_length, course,
-                    price,description,used_for, additional})
+                    price,description,used_for, additional,priceArea})
                 })
 
 
@@ -66,7 +68,7 @@ class Service extends React.Component {
         let {serviceId} = this.props.match.params;
         const {cover} = service_list["one"][serviceId];
         const {title, recovery, effect_length, course,
-            price,description,used_for, additional} = this.state;
+            price,description,used_for, additional, priceArea} = this.state;
 
         return !title ? <WithSpinner/> :
         <div className='service'>
@@ -75,13 +77,20 @@ class Service extends React.Component {
              <div className="info-section__details">
                  <span className='details__title'>{title}</span>
                  <span className='details__attributes'>Период восстановления</span>
-                 <p>{recovery}</p>
+                 <p>{!recovery ? "Отсутствует" : recovery}</p>
                  <span className='details__attributes'>Длительность эффекта</span>
                  <p>{effect_length}</p>
                  <span className='details__attributes'> Курс</span>
                  <p>{course}</p>
-                 <span className='details__attributes'>Цена</span>
-                 <p>{price}</p>
+
+                 {!price ?
+                      null:
+                     <React.Fragment>
+                     <span className='details__attributes'>Цена</span>
+                         <p>{price}</p></React.Fragment>
+
+                 }
+
              </div>
          </div>
 
@@ -92,9 +101,19 @@ class Service extends React.Component {
              </Slider>
          </div>
          <div className='service__qa-section'>
-             <Question question={'Показания'} answer={used_for} used_for/>
-             <Question question={'Описание процедуры'} answer={description} used_for={false}/>
-             <Question question={'Дополнительная информация'} answer={additional} used_for={false}/>
+             {
+                 !price ? <Question question={'Цена'} >
+                     <ProcedureFormat text={priceArea} type="price"/>
+                 </Question> : null
+             }
+             <Question question={'Показания'} >
+                 <ProcedureFormat text={used_for} type="used_for" /></Question>
+             <Question question={'Описание процедуры'} >
+                 <ProcedureFormat text={description} type="description" />
+             </Question>
+             <Question question={'Дополнительная информация'} >
+                 <ProcedureFormat text={additional} type="description"/>
+             </Question>
          </div>
 
 

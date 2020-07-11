@@ -6,13 +6,14 @@ import {articles} from "../../constants";
 const Home = () => {
     return (
         <div className='home'>
+            <div className='home__articles'>
             { articles.map(article => {
                 return <div key={article['className']} className={article['className']}>
                     <img src={article['img']}/>
                     <p>{article['text']}</p>
                 </div>
                 })}
-
+            </div>
             <Footer isHome/>
         </div>
     )

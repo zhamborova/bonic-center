@@ -36,7 +36,7 @@ class About extends React.Component{
         return (
         <div className='about'>
             <div className='about__description'>
-                <img class="about__img" src={about}/>
+                <img className="about__img" src={about}/>
 
                 <div className='description__text'>
                     <span className='text__about-us'> О нас</span>

@@ -7,32 +7,23 @@ class Question extends React.Component{
         expanded: false
     };
 
-    formatText = (text) =>{
 
-     return text.split("\\n").map((item, i) => <p key={i}>{item}</p>);
-    };
-
-    formatList = (list) =>{
-        return list.map(point => (
-            <li>{point}</li>
-        ))
-    };
 
     render() {
-
+     console.log(this.props)
         return(
            <div className='qa'  onClick={()=>{this.setState({expanded: !this.state.expanded})}}>
             <div className='qa__expanded'>
                <span className='expanded__question'>{this.props.question}</span>
-                {this.state.expanded ? <img src={minus} className='question__icon'/> :
+                {this.state.expanded ? <img src={minus} className='question__icon icon--minus'/> :
                                        <img src={plus} className='question__icon'/>}
 
             </div>
                <div className='qa__line'/>
                {this.state.expanded ?
-                   <div className='qa__answer'>{
-                       this.props.used_for ? this.formatList(this.props.answer) :
-                       this.formatText(this.props.answer)}</div> : null }
+                   <div className='qa__answer'>
+                       {this.props.children}
+                   </div> : null }
            </div>
 
 

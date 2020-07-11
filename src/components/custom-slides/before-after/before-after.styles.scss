@@ -1,13 +1,15 @@
 @import "../../../colors.scss";
 .ba-slide{
-  display: grid!important;
-  grid-template-columns:  300px 300px  ;
-  grid-template-rows: 20px 300px;
+  display: grid !important;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 20px 262px;
   grid-gap: 10px;
-  max-width: 808px;
-  margin: auto;
+  max-width: max-content;
+  margin: 20px auto;
   justify-items: center;
-  padding: 50px 100px;
+
+
+
 
   @include breakpoint(mobile){
     grid-template-rows: 30px 217px 30px 250px;
@@ -17,13 +19,14 @@
 
   }
 .ba-slide__before-img{
-  order:1;
+  order:3;
 
   @include breakpoint(tablet){
      order:3;
   }
 }
   .ba-slide__after-img{
+    order:4;
     @include breakpoint(tablet){
       order:4;
     }

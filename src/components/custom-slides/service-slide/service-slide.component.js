@@ -1,7 +1,7 @@
 import React from "react";
 import './service-slide.styles.scss'
 import {Link} from "react-router-dom";
-import icon from '../../../assets/icon.PNG'
+import icon from '../../../assets/icons/1.svg'
 class ServiceSlide extends React.Component {
     render() {
         const { index, ...props } = this.props;

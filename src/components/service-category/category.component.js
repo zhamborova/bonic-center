@@ -26,7 +26,7 @@ import ServiceSlide from "../custom-slides/service-slide/service-slide.component
 
          <Slider {...settings}>
              {Object.keys(services).map((key,index)=>{
-                return <ServiceSlide index={index} service={services[key]}/>
+                return <ServiceSlide key={key} index={index} service={services[key]}/>
              })}
          </Slider>
      </div>

@@ -114,16 +114,12 @@
   background-color: $grey;
   .slick-prev {
     left: 6vw;
-    @include breakpoint(tablet){
-
-      left: 4vw;
-    }
-    @include breakpoint(mobile){
-
-      left: 2vw;
-    }
 
   }
+
+
+
+
   .slick-next, .slick-prev{
     width: 90px;
     height: 90px;
@@ -138,14 +134,29 @@
 
   .slick-next{
     right: 6vw;
-    @include breakpoint(tablet){
 
-      right: 4vw;
-    }
-    @include breakpoint(mobile){
-
-      right: 2vw;
-    }
   }
+
+    @media screen and (min-width: 700px) and (max-width:750px) {
+     .slick-next {
+         right: -1vw;
+       width: 50px;
+      }
+      .slick-prev{
+        left: -1vw;
+        width: 50px;
+      }
+    }
+    @media screen and (min-width: 751px) and (max-width:950px) {
+      .slick-next {
+        right: 2vw;
+        width: 70px;
+      }
+      .slick-prev{
+        left: 2vw;
+        width: 70px;
+      }
+    }
+
  }
 }}
