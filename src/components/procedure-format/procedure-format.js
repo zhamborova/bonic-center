@@ -1,31 +1,36 @@
-import React from "react";
-import "./procedure-text.scss";
-const ProcedureFormat = ({type, text}) => {
-    console.log(text)
-    const formatPrice = () =>{
+import React from 'react';
+import "./procedure-format.scss";
 
+const ProcedureFormat = ({type, text}) => {
+    const formatPrice = () =>{
+     let areas = text[0].hasOwnProperty("woman");
         return(
             <table>
                 <tbody>
             <tr>
                 <th>Зона</th>
                 <th>Цена</th>
+                { areas ?
+                <React.Fragment>
                 <th>Ж</th>
                 <th>М</th>
+                </React.Fragment> : null}
             </tr>
-                { text.map((price) => (
-                  price["price"]  ?
-                  <tr key={price["area"]}>
-                    <td>{price["area"]}</td>
-                    <td>{price["price"]}</td>
+                { text.map((service) => (
+                  service["price"]  ?
+                  <tr key={service["area"]}>
+                    <td>{service["area"]}</td>
+                    <td>{service["price"]}</td>
+                      { areas? <React.Fragment>
                     <td>-</td>
                     <td>-</td>
+                    </React.Fragment> : null}
                 </tr> :
-                      <tr key={price["area"]}>
-                          <td>{price["area"]}</td>
+                      <tr key={service["area"]}>
+                          <td>{service["area"]}</td>
                           <td>-</td>
-                          <td>{price["woman"]}</td>
-                          <td>{price["man"]}</td>
+                          <td>{service["woman"]}</td>
+                          <td>{service["man"]}</td>
                       </tr>
 
                 ))}
