@@ -41,9 +41,10 @@ console.log(this.state)
               <div className="services__title"> <span>Процедуры</span></div>
           </div>
                    <React.Fragment>
-                  <Category services={this.state.services['rejuvination']} url={'rejuvination'}/>
-                  <Category services={this.state.services['problematic_skin']} url={'problematic_skin'} />
-                  <Category services={this.state.services['other']} url={'other'} />
+                  <Category services={this.state.services['rejuvination']} name="Омоложение"/>
+                  <Category services={this.state.services['problematic_skin']} name="Проблемная кожа"/>
+                  <Category services={this.state.services['other']} name="Другое" />
+
                    </React.Fragment>
             <Footer isHome={false}/>
             </div>: <WithSpinner/>

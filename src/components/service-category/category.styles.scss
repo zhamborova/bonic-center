@@ -1,4 +1,4 @@
-@import "../../colors.scss";
+@import "../../general";
 .category{
   margin: 2em auto 3em;
   width:88%;
@@ -7,6 +7,20 @@
     margin: 1em auto;
   }
 
+  .title{
+    color: $text-color;
+    margin-left: 6.4%;
+    font-size: 1.5rem;
+    @include breakpoint(tablet){
+
+      font-size: 1rem;
+    }
+    @include breakpoint(mobile){
+
+      font-size: 0.9rem;
+    }
+
+  }
 
  .slick-prev{
     left: -3vw;
