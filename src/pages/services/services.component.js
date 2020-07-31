@@ -26,6 +26,7 @@ class Services extends React.Component{
          .then(
              (services) => {
               this.setState({services})
+
              })
 
 
@@ -33,16 +34,16 @@ class Services extends React.Component{
 
 
     render(){
-
+console.log(this.state)
       return this.state.services  ?
               <div className='services'>
           <div className='services__banner' style={{backgroundImage: `url(https://images.wallpaperscraft.com/image/field_meadow_hill_174550_1600x900.jpg)`}}>
               <div className="services__title"> <span>Процедуры</span></div>
           </div>
                    <React.Fragment>
-                  <Category services={this.state.services['one']} url={'one'}/>
-                  <Category services={this.state.services['two']} url={'two'} />
-                  <Category services={this.state.services['three']} url={'three'} />
+                  <Category services={this.state.services['rejuvination']} url={'rejuvination'}/>
+                  <Category services={this.state.services['problematic_skin']} url={'problematic_skin'} />
+                  <Category services={this.state.services['other']} url={'other'} />
                    </React.Fragment>
             <Footer isHome={false}/>
             </div>: <WithSpinner/>

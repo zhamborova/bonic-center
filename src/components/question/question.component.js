@@ -10,7 +10,7 @@ class Question extends React.Component{
 
 
     render() {
-     console.log(this.props)
+
         return(
            <div className='qa'  onClick={()=>{this.setState({expanded: !this.state.expanded})}}>
             <div className='qa__expanded'>

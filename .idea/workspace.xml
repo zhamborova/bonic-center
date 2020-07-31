@@ -33,7 +33,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8accd5c7-2d34-47c0-9bdf-261f643af0c6" name="Default Changelist" comment="css">
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/acne.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/botox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/chistka.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/epilation.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/fotona4D.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/fract3t3omolozhenie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/ftfracomolozhenie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/giuluronaplastika.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/gynecology.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/konturnaya plastica.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/novoobrazovaniya.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/pigmintation.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/piling.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/rubcovaya_tkan.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/smooth.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/sosudy.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-slides/service-slide/service-slide.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-slides/service-slide/service-slide.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-slides/service-slide/service-slide.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-slides/service-slide/service-slide.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/question/question.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/question/question.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/service/service.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/service/service.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/services/services.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/services/services.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service-short-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/service-short-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services-list.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,16 +107,16 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Master\WebstormProjects\bonic\src\components" />
-      <recent name="C:\Users\Master\WebstormProjects\bonic\src\assets" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets/icons" />
       <recent name="C:\Users\Master\WebstormProjects\bonic\src\assets" />
       <recent name="C:\Users\Master\WebstormProjects\bonic\src\components\custom-slides\before-after" />
       <recent name="C:\Users\Master\WebstormProjects\bonic\src\components" />
       <recent name="C:\Users\Master\WebstormProjects\bonic\src\components\slide-show\slider" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Master\WebstormProjects\bonic\src\components" />
+      <recent name="C:\Users\Master\WebstormProjects\bonic\src\assets" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -167,6 +196,7 @@
       <workItem from="1593612211911" duration="29937000" />
       <workItem from="1593877053404" duration="3267000" />
       <workItem from="1594217895396" duration="14907000" />
+      <workItem from="1596196861058" duration="8250000" />
     </task>
     <task id="LOCAL-00001" summary="css">
       <created>1593622615625</created>
@@ -212,34 +242,38 @@
     <option name="LAST_COMMIT_MESSAGE" value="css" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="378" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596199636616">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state x="378" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.709@0.23.1280.709" timestamp="1596199636616" />
     <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1591556956559">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1591556956559" />
-    <state width="619" height="202" key="GridCell.Tab.0.bottom" timestamp="1594631503335">
+    <state width="619" height="117" key="GridCell.Tab.0.bottom" timestamp="1596196906060">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state width="1259" height="148" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593176217807" />
     <state width="619" height="115" key="GridCell.Tab.0.bottom/0.23.1280.697@0.23.1280.697" timestamp="1593622581344" />
-    <state width="619" height="202" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1594631503335" />
-    <state width="619" height="202" key="GridCell.Tab.0.center" timestamp="1594631503334">
+    <state width="619" height="117" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1596196906060" />
+    <state width="619" height="117" key="GridCell.Tab.0.center" timestamp="1596196906059">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state width="1259" height="148" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1593176217807" />
     <state width="619" height="115" key="GridCell.Tab.0.center/0.23.1280.697@0.23.1280.697" timestamp="1593622581343" />
-    <state width="619" height="202" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1594631503334" />
-    <state width="619" height="202" key="GridCell.Tab.0.left" timestamp="1594631503334">
+    <state width="619" height="117" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1596196906059" />
+    <state width="619" height="117" key="GridCell.Tab.0.left" timestamp="1596196906058">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state width="1259" height="148" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1593176217807" />
     <state width="619" height="115" key="GridCell.Tab.0.left/0.23.1280.697@0.23.1280.697" timestamp="1593622581342" />
-    <state width="619" height="202" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1594631503334" />
-    <state width="619" height="202" key="GridCell.Tab.0.right" timestamp="1594631503334">
+    <state width="619" height="117" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1596196906058" />
+    <state width="619" height="117" key="GridCell.Tab.0.right" timestamp="1596196906060">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state width="1259" height="148" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1593176217807" />
     <state width="619" height="115" key="GridCell.Tab.0.right/0.23.1280.697@0.23.1280.697" timestamp="1593622581343" />
-    <state width="619" height="202" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1594631503334" />
+    <state width="619" height="117" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1596196906059" />
     <state width="619" height="202" key="GridCell.Tab.1.bottom" timestamp="1594631503336">
       <screen x="0" y="23" width="1280" height="709" />
     </state>

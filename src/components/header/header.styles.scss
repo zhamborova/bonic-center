@@ -14,7 +14,7 @@
     @include breakpoint(mobile){
 
         flex-direction: column;
-        padding: 10px 0;
+        padding: 10px 0 0;
     }
 
 
@@ -109,7 +109,7 @@
     .header__show{
         @include breakpoint(mobile) {
         flex-direction: column;
-        padding: 15px 15px 5px;
+        padding: 15px 15px 0;
         .show__option{
             display: block;
             height: auto;
