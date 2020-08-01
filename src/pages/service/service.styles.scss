@@ -38,7 +38,7 @@
       width: 45%;
       margin: 4.125em 0 1em 5.25em;
       box-shadow: -5.35em -5.8em 0px 0.6em $secondary;
-
+      background-color: $primary;
       @media screen and (min-width: 700px) and (max-width:800px) {
         width: 65%;
         margin: 3.125em 0 0 1em;
@@ -73,21 +73,24 @@
 
       }
      .details__attributes{
-       font-size: 0.8rem;
+       font-size: 0.9rem;
        font-weight: 600;
        order:unset!important;
 
      }
       p{
         font-size: 0.8rem;
+        margin-top: 0.4rem;
       }
       .details__title {
         font-size: 1.8rem;
         display: block;
-        margin-bottom: 0.8em;
+        margin-bottom: 0.2em;
 
         @include breakpoint(mobile){
           font-size: 1.3rem;
+          margin-bottom: 0.8em;
+
         }
       }
     }

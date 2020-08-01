@@ -7,8 +7,8 @@ import Arrow from "../../components/arrows/arrow.component";
 import BeforeAfter from "../../components/custom-slides/before-after/before-after";
 import Footer from "../../components/footer/footer.component";
 import WithSpinner from "../../components/with-spinner/with-spinner.component";
-import Price from "../../components/price/price";
 import ProcedureFormat from "../../components/procedure-format/procedure-format";
+import pics from "../../pics_before_after";
 
 const settings = {
     className: "slider",
@@ -35,7 +35,8 @@ class Service extends React.Component {
         course:"",
         effect_length:"",
         price:"",
-        priceArea: []
+        priceArea: [],
+        pics:[]
     };
 
 
@@ -54,16 +55,18 @@ class Service extends React.Component {
             .then(
                 (result) => {
                 const {cover,title, recovery, effect_length, course,
-                        price,description,used_for, additional, priceArea} = result;
+                        price,description,used_for, additional, priceArea,pics} = result;
                 this.setState({cover,title, recovery, effect_length, course,
-                    price,description,used_for, additional,priceArea})
+                    price,description,used_for, additional,priceArea,pics})
                 })
+
 
 
     }
 
 
     render() {
+        console.log(pics["rejuvination"]['smooth_rejuvination']['pics'])
         let {serviceId} = this.props.match.params;
         const {cover} = service_list[serviceId];
         const {title, recovery, effect_length, course,
@@ -72,7 +75,8 @@ class Service extends React.Component {
         return !title ? <WithSpinner/> :
         <div className='service'>
          <div className='service__info-section'>
-             <img className='info-section__cover-img' src={cover}/>
+             {/*<img className='info-section__cover-img' src={cover}/>*/}
+             <div className='info-section__cover-img' />
              <div className="info-section__details">
                  <span className='details__title'>{title}</span>
                  <span className='details__attributes'>Период восстановления</span>
@@ -95,8 +99,9 @@ class Service extends React.Component {
 
          <div className='service__slider-section'>
              <Slider {...settings}>
-                 <BeforeAfter index={1}/>
-                 <BeforeAfter index={2}/>
+                 {pics["rejuvination"]['smooth_rejuvination']['pics'].map((pic,index) => {
+                  return <BeforeAfter key={index} index={index} before={pic["before"]} after={pic['after']}/>
+                 })}
              </Slider>
          </div>
          <div className='service__qa-section'>
