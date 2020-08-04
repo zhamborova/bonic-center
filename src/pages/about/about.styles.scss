@@ -17,7 +17,8 @@
      }
 
      .about__img{
-       width: 51%;
+       width: 46%;
+       height:20%;
        object-fit: cover;
 
        @include breakpoint(tablet){

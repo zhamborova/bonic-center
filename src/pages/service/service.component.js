@@ -68,14 +68,13 @@ class Service extends React.Component {
     render() {
         console.log(pics["rejuvination"]['smooth_rejuvination']['pics'])
         let {serviceId} = this.props.match.params;
-        const {cover} = service_list[serviceId];
+
         const {title, recovery, effect_length, course,
             price,description,used_for, additional, priceArea} = this.state;
 
         return !title ? <WithSpinner/> :
         <div className='service'>
          <div className='service__info-section'>
-             {/*<img className='info-section__cover-img' src={cover}/>*/}
              <div className='info-section__cover-img' />
              <div className="info-section__details">
                  <span className='details__title'>{title}</span>

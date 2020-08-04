@@ -1,8 +1,7 @@
 import React from 'react';
 import './services.styles.scss';
-import banner from '../../assets/banner.png'
 import Category from "../../components/service-category/category.component";
-import service_short_list from "../../service-short-list";
+import uslugi from '../../assets/uslugi.jpg'
 import WithSpinner from "../../components/with-spinner/with-spinner.component";
 import Footer from "../../components/footer/footer.component";
 
@@ -37,7 +36,7 @@ class Services extends React.Component{
 console.log(this.state)
       return this.state.services  ?
               <div className='services'>
-          <div className='services__banner' style={{backgroundImage: `url(https://images.wallpaperscraft.com/image/field_meadow_hill_174550_1600x900.jpg)`}}>
+          <div className='services__banner' style={{backgroundImage: `url(${uslugi}`}}>
               <div className="services__title"> <span>Процедуры</span></div>
           </div>
                    <React.Fragment>

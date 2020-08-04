@@ -34,7 +34,7 @@
 
     .info-section__cover-img {
       border-style: none;
-      height: auto;
+      height: 26vh;
       width: 45%;
       margin: 4.125em 0 1em 5.25em;
       box-shadow: -5.35em -5.8em 0px 0.6em $secondary;
@@ -46,8 +46,9 @@
       }
       @include breakpoint(mobile){
         width: 90%;
-        margin: 3.125em 0 0 2em;
-        box-shadow: -5.2em -3.8em 0px 0.6em $secondary;
+        height: 0;
+        margin: 0;
+        box-shadow: -6.2em -0.8em 0px 0.8em $secondary;
       }
    }
 

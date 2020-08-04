@@ -3,6 +3,10 @@
    flex-direction: column;
     padding-top: 30px;
 
+
+  @include breakpoint(mobile){
+   padding-top: 0;
+ }
   .home__articles{
     width:90%;
     margin:auto;

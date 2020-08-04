@@ -1,5 +1,6 @@
 import React from 'react';
-import about from '../../assets/about.png';
+import about from '../../assets/about.jpg';
+
 import './about.styles.scss'
 import CustomButton from "../../components/custom-button/custom-button.component";
 import Slider from "react-slick/lib";
@@ -55,14 +56,12 @@ class About extends React.Component{
 
                 <div className='doctor-slider__slides'>
                 <Slider {...this.settings}>
-
-                    {/*TO DO--------------------map over this.doctors*/}
                     <Doctor index={1} name='Жамборов Заур Хасанбиевич'/>
                     <Doctor index={2} name='Шевлокова Джамиля Валентиновна'/>
-                    <Doctor index={3} name='Тарабрина Татьяна Викторовна'/>
+                    <Doctor index={3} name='Абаева Зульфия Нузюровна'/>
                     <Doctor index={4} name='Мамхегова Дана Замирбековна'/>
-                    <Doctor index={5} name='Тарабрина Татьяна Викторовна'/>
-                    <Doctor index={6} name='Мамхегова Дана Замирбековна'/>
+                    <Doctor index={5} name='Каскулова Жанна Ахмедовна'/>
+
                 </Slider>
                 </div>
 

@@ -128,6 +128,7 @@
     @include breakpoint(mobile){
       margin-bottom: -175px;
       width: 80vw;
+      min-width: unset;
 
    }
   }
