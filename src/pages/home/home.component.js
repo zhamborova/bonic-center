@@ -8,10 +8,12 @@ const Home = () => {
         <div className='home'>
             <div className='home__articles'>
             { articles.map(article => {
-                return <div key={article['className']} className={article['className']}>
+                console.log(article)
+                return <a href={`/services/${article['url']}`} className={article['className']}>
+                    <div key={article['className']} className={article['className']} >
                     <img src={article['img']}/>
                     <p>{article['text']}</p>
-                </div>
+                </div> </a>
                 })}
             </div>
             <Footer isHome/>

@@ -5,22 +5,26 @@ import sosudy from './assets/sosudy.jpeg'
 export const articles = [
     {   className: "one",
         img: acne,
-        text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed odio magna."
+        text:"Узнайте все про лечение акне с помощью лазерных технологий.",
+        url: "acne_removal"
     },
 
     {   className:"two",
         img: omolozhenie,
-        text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed odio magna. Nunc lacinia congue dui ac tincidunt."
+        text:"Верните коже тонус и здоровье без хирургии с помощью лазерного омоложения.",
+        url: "fotona4D_rejuvination"
     },
     {
         className:"three",
         img: epilation,
-        text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed odio magna. Nunc lacinia congue dui ac tincidunt."
+        text:"Надоели бритва и воск? Хотите избавиться от волос навсегда? Тогда лазерная эпиляция это для вас!",
+        url: "laser_epilation"
 
     },
     {   className:"four",
         img: sosudy,
-        text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed odio magna. Nunc lacinia congue dui ac tincidunt."
+        text:"С помощью наших лазеров вы можете быстро и безболезненно удалить сосуды на лице и теле.",
+        url: "vessel_removal"
     }
 
 ]

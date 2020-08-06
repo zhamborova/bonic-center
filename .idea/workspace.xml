@@ -33,25 +33,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8accd5c7-2d34-47c0-9bdf-261f643af0c6" name="Default Changelist" comment="css">
-      <change afterPath="$PROJECT_DIR$/src/assets/acne.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/epilation.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/omolozhenie.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/sosudy.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact-form/contact-form.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact-form/contact-form.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact-form/contact-form.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact-form/contact-form.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/custom-input/custom-input.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-input/custom-input.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/custom-slides/before-after/before-after.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-slides/before-after/before-after.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/procedure-format/procedure-format.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/procedure-format/procedure-format.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/home.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.component.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/home.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/service/service.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/service/service.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/service/service.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/service/service.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/services/services.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/services/services.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pics_before_after.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pics_before_after.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service-short-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/service-short-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services-list.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +173,7 @@
       <workItem from="1594217895396" duration="14907000" />
       <workItem from="1596196861058" duration="16897000" />
       <workItem from="1596526922462" duration="7716000" />
-      <workItem from="1596563791081" duration="9167000" />
+      <workItem from="1596563791081" duration="13630000" />
     </task>
     <task id="LOCAL-00001" summary="css">
       <created>1593622615625</created>
@@ -246,30 +231,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1591556956559" />
-    <state width="1239" height="117" key="GridCell.Tab.0.bottom" timestamp="1596694820606">
+    <state width="1239" height="292" key="GridCell.Tab.0.bottom" timestamp="1596701352908">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state width="1259" height="148" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593176217807" />
     <state width="619" height="115" key="GridCell.Tab.0.bottom/0.23.1280.697@0.23.1280.697" timestamp="1593622581344" />
-    <state width="1239" height="117" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1596694820606" />
-    <state width="1239" height="117" key="GridCell.Tab.0.center" timestamp="1596694820606">
+    <state width="1239" height="292" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1596701352908" />
+    <state width="1239" height="292" key="GridCell.Tab.0.center" timestamp="1596701352908">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state width="1259" height="148" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1593176217807" />
     <state width="619" height="115" key="GridCell.Tab.0.center/0.23.1280.697@0.23.1280.697" timestamp="1593622581343" />
-    <state width="1239" height="117" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1596694820606" />
-    <state width="1239" height="117" key="GridCell.Tab.0.left" timestamp="1596694820605">
+    <state width="1239" height="292" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1596701352908" />
+    <state width="1239" height="292" key="GridCell.Tab.0.left" timestamp="1596701352907">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state width="1259" height="148" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1593176217807" />
     <state width="619" height="115" key="GridCell.Tab.0.left/0.23.1280.697@0.23.1280.697" timestamp="1593622581342" />
-    <state width="1239" height="117" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1596694820605" />
-    <state width="1239" height="117" key="GridCell.Tab.0.right" timestamp="1596694820606">
+    <state width="1239" height="292" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1596701352907" />
+    <state width="1239" height="292" key="GridCell.Tab.0.right" timestamp="1596701352908">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state width="1259" height="148" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1593176217807" />
     <state width="619" height="115" key="GridCell.Tab.0.right/0.23.1280.697@0.23.1280.697" timestamp="1593622581343" />
-    <state width="1239" height="117" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1596694820606" />
+    <state width="1239" height="292" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1596701352908" />
     <state width="619" height="202" key="GridCell.Tab.1.bottom" timestamp="1594631503336">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
