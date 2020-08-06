@@ -30,13 +30,13 @@ class Service extends React.Component {
         used_for: "",
         description: "",
         additional: "",
-        pictures: "",
+        pictures: [],
         recovery: "",
         course:"",
         effect_length:"",
         price:"",
         priceArea: [],
-        pics:[]
+
     };
 
 
@@ -55,9 +55,9 @@ class Service extends React.Component {
             .then(
                 (result) => {
                 const {cover,title, recovery, effect_length, course,
-                        price,description,used_for, additional, priceArea,pics} = result;
+                        price,description,used_for, additional, priceArea,pictures} = result;
                 this.setState({cover,title, recovery, effect_length, course,
-                    price,description,used_for, additional,priceArea,pics})
+                    price,description,used_for, additional,priceArea,pictures})
                 })
 
 
@@ -66,11 +66,11 @@ class Service extends React.Component {
 
 
     render() {
-        console.log(pics["rejuvination"]['smooth_rejuvination']['pics'])
+        console.log(this.state.pics)
         let {serviceId} = this.props.match.params;
 
         const {title, recovery, effect_length, course,
-            price,description,used_for, additional, priceArea} = this.state;
+            price,description,used_for, additional, priceArea, pictures} = this.state;
 
         return !title ? <WithSpinner/> :
         <div className='service'>
@@ -96,13 +96,14 @@ class Service extends React.Component {
              </div>
          </div>
 
-         <div className='service__slider-section'>
+            {serviceId == 'laser_gynecology' ? null:
+                <div className='service__slider-section'>
              <Slider {...settings}>
-                 {pics["rejuvination"]['smooth_rejuvination']['pics'].map((pic,index) => {
+                 {pictures.map((pic,index) => {
                   return <BeforeAfter key={index} index={index} before={pic["before"]} after={pic['after']}/>
                  })}
              </Slider>
-         </div>
+         </div>}
          <div className='service__qa-section'>
              {
                  !price ? <Question question={'Цена'} >

@@ -24,16 +24,14 @@ class Services extends React.Component{
          .then(res => res.json())
          .then(
              (services) => {
-              this.setState({services})
-
-             })
+              this.setState({services})})
 
 
  }
 
 
     render(){
-console.log(this.state)
+    console.log(this.state)
       return this.state.services  ?
               <div className='services'>
           <div className='services__banner' style={{backgroundImage: `url(${uslugi}`}}>

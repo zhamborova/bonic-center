@@ -8,13 +8,15 @@ class ContactForm extends React.Component{
       name:'',
       email:'',
       phone:'',
-      message:''
+      message:'',
+      clear: false
     };
 
 
     changeHandler = (val, field) => {
       this.setState({[field]: val});
     };
+
     onSubmit=(e)=>{
         e.preventDefault();
        emailjs.send('yandex',
@@ -23,21 +25,27 @@ class ContactForm extends React.Component{
        }, (error) => {
            console.log(error.text);
        });
+       this.setState({  name:'',
+           email:'',
+           phone:'',
+           message:'',})
+
+        window.alert("Сообщение успешно отправлено!")
     };
     render() {
     return(
           <form className='contact-form' onSubmit={(e)=>{this.onSubmit(e)}}>
               <span className='contact-form__contact-us'>Свяжитесь с нами</span>
               <div className='contact-form__line'/>
-              <CustomInput title={'Имя'} name='name'  type={'text'}
-               onChange={this.changeHandler}/>
+              <CustomInput title={'Имя'} name='name'  type={'text'} value={this.state.name}
+               onChange={this.changeHandler} />
               <CustomInput title={'Email'} name='email'  type={'email'}
-                           onChange={this.changeHandler}/>
+                           onChange={this.changeHandler} value={this.state.email}/>
               <CustomInput title={'Телефон'} name='phone'  type={'text'}
-                           onChange={this.changeHandler}/>
+                           onChange={this.changeHandler} value={this.state.phone}/>
               <div className='contact-form__message' >
                   <label htmlFor="message">Сообщение </label>
-              <textarea name='message' onChange={(e)=>{this.changeHandler(e.target.value,'message')}}/>
+              <textarea name='message' value={this.state.message} onChange={(e)=>{this.changeHandler(e.target.value,'message')}}/>
               </div>
               <button className="contact-form__send" type='submit' >Отправить </button>
           </form>

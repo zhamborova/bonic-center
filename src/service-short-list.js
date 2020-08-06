@@ -5,6 +5,7 @@ const service_short_list = {
             url: "fotona4D_rejuvination",
             title: "Fotona 4D омоложение",
             icon: "fotona4D.svg",
+
         },
         ft_laser_frac_rejuvination: {
             url: "ft_laser_frac_rejuvination",

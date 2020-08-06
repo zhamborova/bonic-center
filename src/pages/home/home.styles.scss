@@ -22,18 +22,31 @@
       grid-row-gap: 1em;
 
     }
+    .one{
+
+      @include breakpoint(tablet){
+        grid-column: 1;
+        grid-row: 2;
+      }
+
+    }
 
     .two{
       grid-column: 1;
       grid-row: 1/6;
       display: flex;
+
+      @include breakpoint(tablet){
+        height:170px;
+      }
+
       img{
         width: 100%;
         height: 100%;
 
         @include breakpoint(tablet){
           width:50%;
-          height: 50%;
+
         }
       }
       @include breakpoint(tablet){
@@ -47,13 +60,6 @@
     }
     }
 
-    .one{
-      @include breakpoint(tablet){
-        grid-column: 1;
-        grid-row: 2;
-      }
-
-    }
     .three {
       grid-row-end: 4;
       @include breakpoint(tablet){
@@ -73,13 +79,14 @@
 
     .one, .three, .four {
       display: flex;
+      height:170px;
       img{
         width: 36%;
-        height: 36%;
+        height: 100%;
 
         @include breakpoint(tablet){
           width: 50%;
-          height: 50%;
+          height: 100%;
         }
 
 
@@ -94,6 +101,10 @@
 
   }
 
+    .one, .two, .three, .four{
+
+      cursor:pointer;
+    }
   p{
     margin:auto auto auto 10px;
 

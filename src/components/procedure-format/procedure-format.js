@@ -38,8 +38,7 @@ const ProcedureFormat = ({type, text}) => {
 
     }
     const formatDescription = () =>{
-
-        return text.split("br").map((item, i) => <p key={i}>{item}</p>);
+         return text ? text.split("br").map((item, i) => <p key={i}>{item}</p>) : null;
     };
 
     const formatList = () =>{
