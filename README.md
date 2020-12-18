@@ -8,6 +8,7 @@ https://bonic-center.ru
 
 ## Design 
 Here you can see the initial design of the app, which evolved overtime
+
 https://www.figma.com/file/4Ok22aZGLT3YAJMvUAIQR1/bonic?node-id=0%3A1
 
 
