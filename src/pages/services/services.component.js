@@ -4,7 +4,7 @@ import Category from "../../components/service-category/category.component";
 import uslugi from '../../assets/uslugi.jpg'
 import WithSpinner from "../../components/with-spinner/with-spinner.component";
 import Footer from "../../components/footer/footer.component";
-
+import service_short_list from "../../service-short-list";
 class Services extends React.Component{
 
     state= {
@@ -14,24 +14,11 @@ class Services extends React.Component{
 
 
  async componentDidMount() {
-         const requestOptions = {
-             method: 'POST',
-             headers: { 'Content-Type': 'application/json'},
-             mode:"cors",
-         };
-
-    await fetch("  https://europe-west3-bonic-81df6.cloudfunctions.net/get-procedures-list",requestOptions)
-         .then(res => res.json())
-         .then(
-             (services) => {
-              this.setState({services})})
-
-
+         this.setState({ services: service_short_list });
  }
 
 
     render(){
-    console.log(this.state)
       return this.state.services  ?
               <div className='services'>
           <div className='services__banner' style={{backgroundImage: `url(${uslugi}`}}>

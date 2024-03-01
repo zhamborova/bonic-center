@@ -33,15 +33,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8accd5c7-2d34-47c0-9bdf-261f643af0c6" name="Default Changelist" comment="css">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/services-list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/home.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/home.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/service/service.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/service/service.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/services/services.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/services/services.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,42 +66,42 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectId" id="1cLpeFcWjjw3NhmWBwm7I1vsx7L" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
-    <property name="list.type.of.created.stylesheet" value="SCSS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.standard" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.standard" value="" />
-    <property name="nodejs_interpreter_path" value="node" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/yasmin/bonic-center",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "/Users/yasmin/Applications/IntelliJ IDEA Ultimate.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external"
+  }
+}]]></component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets" />
-      <recent name="$PROJECT_DIR$/src/assets/pics" />
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/src/assets/icons" />
-      <recent name="C:\Users\Master\WebstormProjects\bonic\src\assets" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Master\WebstormProjects\bonic\src\components" />
+      <recent name="C:\Users\Master\WebstormProjects\bonic\src\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/assets/pics" />
+      <recent name="$PROJECT_DIR$/src/assets/icons" />
       <recent name="C:\Users\Master\WebstormProjects\bonic\src\assets" />
     </key>
   </component>
@@ -111,12 +122,8 @@
       <envs />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Node.js.procedure-format.js" />
-      </list>
-    </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -174,6 +181,7 @@
       <workItem from="1596196861058" duration="16897000" />
       <workItem from="1596526922462" duration="7716000" />
       <workItem from="1596563791081" duration="13630000" />
+      <workItem from="1709316762763" duration="5981000" />
     </task>
     <task id="LOCAL-00001" summary="css">
       <created>1593622615625</created>
@@ -186,7 +194,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -212,117 +220,10 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="css" />
     <option name="LAST_COMMIT_MESSAGE" value="css" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="377" y="251" key="#Updates" timestamp="1596572864312">
-      <screen x="0" y="23" width="1280" height="709" />
-    </state>
-    <state x="377" y="251" key="#Updates/0.23.1280.709@0.23.1280.709" timestamp="1596572864312" />
-    <state x="378" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596199636616">
-      <screen x="0" y="23" width="1280" height="709" />
-    </state>
-    <state x="378" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.709@0.23.1280.709" timestamp="1596199636616" />
-    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1591556956559">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1591556956559" />
-    <state width="1239" height="292" key="GridCell.Tab.0.bottom" timestamp="1596701352908">
-      <screen x="0" y="23" width="1280" height="709" />
-    </state>
-    <state width="1259" height="148" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593176217807" />
-    <state width="619" height="115" key="GridCell.Tab.0.bottom/0.23.1280.697@0.23.1280.697" timestamp="1593622581344" />
-    <state width="1239" height="292" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1596701352908" />
-    <state width="1239" height="292" key="GridCell.Tab.0.center" timestamp="1596701352908">
-      <screen x="0" y="23" width="1280" height="709" />
-    </state>
-    <state width="1259" height="148" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1593176217807" />
-    <state width="619" height="115" key="GridCell.Tab.0.center/0.23.1280.697@0.23.1280.697" timestamp="1593622581343" />
-    <state width="1239" height="292" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1596701352908" />
-    <state width="1239" height="292" key="GridCell.Tab.0.left" timestamp="1596701352907">
-      <screen x="0" y="23" width="1280" height="709" />
-    </state>
-    <state width="1259" height="148" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1593176217807" />
-    <state width="619" height="115" key="GridCell.Tab.0.left/0.23.1280.697@0.23.1280.697" timestamp="1593622581342" />
-    <state width="1239" height="292" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1596701352907" />
-    <state width="1239" height="292" key="GridCell.Tab.0.right" timestamp="1596701352908">
-      <screen x="0" y="23" width="1280" height="709" />
-    </state>
-    <state width="1259" height="148" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1593176217807" />
-    <state width="619" height="115" key="GridCell.Tab.0.right/0.23.1280.697@0.23.1280.697" timestamp="1593622581343" />
-    <state width="1239" height="292" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1596701352908" />
-    <state width="619" height="202" key="GridCell.Tab.1.bottom" timestamp="1594631503336">
-      <screen x="0" y="23" width="1280" height="709" />
-    </state>
-    <state width="619" height="202" key="GridCell.Tab.1.bottom/0.23.1280.709@0.23.1280.709" timestamp="1594631503336" />
-    <state width="619" height="202" key="GridCell.Tab.1.center" timestamp="1594631503335">
-      <screen x="0" y="23" width="1280" height="709" />
-    </state>
-    <state width="619" height="202" key="GridCell.Tab.1.center/0.23.1280.709@0.23.1280.709" timestamp="1594631503335" />
-    <state width="619" height="202" key="GridCell.Tab.1.left" timestamp="1594631503335">
-      <screen x="0" y="23" width="1280" height="709" />
-    </state>
-    <state width="619" height="202" key="GridCell.Tab.1.left/0.23.1280.709@0.23.1280.709" timestamp="1594631503335" />
-    <state width="619" height="202" key="GridCell.Tab.1.right" timestamp="1594631503336">
-      <screen x="0" y="23" width="1280" height="709" />
-    </state>
-    <state width="619" height="202" key="GridCell.Tab.1.right/0.23.1280.709@0.23.1280.709" timestamp="1594631503336" />
-    <state width="619" height="202" key="GridCell.Tab.2.bottom" timestamp="1594631503337">
-      <screen x="0" y="23" width="1280" height="709" />
-    </state>
-    <state width="619" height="202" key="GridCell.Tab.2.bottom/0.23.1280.709@0.23.1280.709" timestamp="1594631503337" />
-    <state width="619" height="202" key="GridCell.Tab.2.center" timestamp="1594631503336">
-      <screen x="0" y="23" width="1280" height="709" />
-    </state>
-    <state width="619" height="202" key="GridCell.Tab.2.center/0.23.1280.709@0.23.1280.709" timestamp="1594631503336" />
-    <state width="619" height="202" key="GridCell.Tab.2.left" timestamp="1594631503336">
-      <screen x="0" y="23" width="1280" height="709" />
-    </state>
-    <state width="619" height="202" key="GridCell.Tab.2.left/0.23.1280.709@0.23.1280.709" timestamp="1594631503336" />
-    <state width="619" height="202" key="GridCell.Tab.2.right" timestamp="1594631503336">
-      <screen x="0" y="23" width="1280" height="709" />
-    </state>
-    <state width="619" height="202" key="GridCell.Tab.2.right/0.23.1280.709@0.23.1280.709" timestamp="1594631503336" />
-    <state width="619" height="202" key="GridCell.Tab.3.bottom" timestamp="1594631503337">
-      <screen x="0" y="23" width="1280" height="709" />
-    </state>
-    <state width="619" height="202" key="GridCell.Tab.3.bottom/0.23.1280.709@0.23.1280.709" timestamp="1594631503337" />
-    <state width="619" height="202" key="GridCell.Tab.3.center" timestamp="1594631503337">
-      <screen x="0" y="23" width="1280" height="709" />
-    </state>
-    <state width="619" height="202" key="GridCell.Tab.3.center/0.23.1280.709@0.23.1280.709" timestamp="1594631503337" />
-    <state width="619" height="202" key="GridCell.Tab.3.left" timestamp="1594631503337">
-      <screen x="0" y="23" width="1280" height="709" />
-    </state>
-    <state width="619" height="202" key="GridCell.Tab.3.left/0.23.1280.709@0.23.1280.709" timestamp="1594631503337" />
-    <state width="619" height="202" key="GridCell.Tab.3.right" timestamp="1594631503337">
-      <screen x="0" y="23" width="1280" height="709" />
-    </state>
-    <state width="619" height="202" key="GridCell.Tab.3.right/0.23.1280.709@0.23.1280.709" timestamp="1594631503337" />
-    <state x="238" y="82" key="MergeDialog" timestamp="1593622671827">
-      <screen x="0" y="23" width="1280" height="697" />
-    </state>
-    <state x="238" y="82" key="MergeDialog/0.23.1280.697@0.23.1280.697" timestamp="1593622671827" />
-    <state x="528" y="245" width="443" height="252" key="MultipleFileMergeDialog" timestamp="1593622676399">
-      <screen x="0" y="23" width="1280" height="697" />
-    </state>
-    <state x="528" y="245" width="443" height="252" key="MultipleFileMergeDialog/0.23.1280.697@0.23.1280.697" timestamp="1593622676399" />
-    <state x="141" y="23" key="SettingsEditor" timestamp="1593614008802">
-      <screen x="0" y="23" width="1280" height="697" />
-    </state>
-    <state x="141" y="23" key="SettingsEditor/0.23.1280.697@0.23.1280.697" timestamp="1593614008802" />
-    <state x="240" y="111" key="Vcs.Push.Dialog.v2" timestamp="1593622699771">
-      <screen x="0" y="23" width="1280" height="697" />
-    </state>
-    <state x="240" y="111" key="Vcs.Push.Dialog.v2/0.23.1280.697@0.23.1280.697" timestamp="1593622699771" />
-    <state x="303" y="24" width="672" height="695" key="search.everywhere.popup" timestamp="1593873691378">
-      <screen x="0" y="23" width="1280" height="697" />
-    </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1593357987549" />
-    <state x="303" y="24" width="672" height="695" key="search.everywhere.popup/0.23.1280.697@0.23.1280.697" timestamp="1593873691378" />
   </component>
 </project>

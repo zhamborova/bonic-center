@@ -9,6 +9,7 @@ import Footer from "../../components/footer/footer.component";
 import WithSpinner from "../../components/with-spinner/with-spinner.component";
 import ProcedureFormat from "../../components/procedure-format/procedure-format";
 import pics from "../../pics_before_after";
+import { useParams } from 'react-router-dom';
 
 const settings = {
     className: "slider",
@@ -21,6 +22,13 @@ const settings = {
 };
 
 
+
+function ServiceWrapper() {
+    let { serviceId } = useParams();
+  console.log(serviceId)
+    console.log("hola")
+    return <Service serviceId={serviceId} />;
+}
 
 class Service extends React.Component {
     state = {
@@ -41,25 +49,16 @@ class Service extends React.Component {
 
 
     componentDidMount() {
-       let {serviceId} = this.props.match.params;
-        const requestOptions = {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json'},
-            mode:"cors",
+        const { serviceId } = this.props;
+        console.log(serviceId)
+        const procedure = service_list[serviceId]
+       console.log(procedure)
+        const {cover,title, recovery, effect_length, course,
+                        price,description,used_for, additional, priceArea,pictures} = procedure;
 
-            body: JSON.stringify({ procedureId: serviceId})
-        };
 
-        fetch("https://europe-west3-bonic-81df6.cloudfunctions.net/get-procedure-by-id",requestOptions)
-            .then(res => res.json())
-            .then(
-                (result) => {
-                const {cover,title, recovery, effect_length, course,
-                        price,description,used_for, additional, priceArea,pictures} = result;
-                this.setState({cover,title, recovery, effect_length, course,
+      this.setState({cover,title, recovery, effect_length, course,
                     price,description,used_for, additional,priceArea,pictures})
-                })
-
 
 
     }
@@ -67,12 +66,13 @@ class Service extends React.Component {
 
     render() {
         console.log(this.state.pics)
-        let {serviceId} = this.props.match.params;
+        const { serviceId } = this.props;
 
         const {title, recovery, effect_length, course,
             price,description,used_for, additional, priceArea, pictures} = this.state;
 
         return !title ? <WithSpinner/> :
+            <>
         <div className='service'>
          <div className='service__info-section'>
              <div className='info-section__cover-img' />
@@ -96,7 +96,7 @@ class Service extends React.Component {
              </div>
          </div>
 
-            {serviceId == 'laser_gynecology' ? null:
+           {serviceId == 'laser_gynecology' ? null:
                 <div className='service__slider-section'>
              <Slider {...settings}>
                  {pictures.map((pic,index) => {
@@ -104,6 +104,7 @@ class Service extends React.Component {
                  })}
              </Slider>
          </div>}
+
          <div className='service__qa-section'>
              {
                  !price ? <Question question={'Цена'} >
@@ -120,9 +121,10 @@ class Service extends React.Component {
              </Question>
          </div>
 
-
+        </div>
         <Footer isHome={false}/>
-     </div>}
+        </>
+    }
 
 
 };
@@ -130,4 +132,4 @@ class Service extends React.Component {
 
 
 
-export default Service;
+export  {Service, ServiceWrapper};

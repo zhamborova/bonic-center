@@ -1,29 +1,30 @@
 import React from 'react';
-import './App.scss';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from "./components/header/header.component";
 
 import Home from "./pages/home/home.component";
-import {Route} from "react-router-dom";
-import Switch from "react-bootstrap/esm/Switch";
-import Service from "./pages/service/service.component";
+import {ServiceWrapper} from "./pages/service/service.component";
 import Services from "./pages/services/services.component";
 import About from "./pages/about/about.component";
 
 
 function App() {
-  return (
-    <div className="App">
-        <Header/>
-       <div className='general'>
-      <Switch className = 'switch'>
-      <Route exact path='/' component={Home} />
-      <Route exact path='/about' component={About}/>
-      <Route exact path='/services' component={Services} />
-      <Route path='/services/:serviceId' render={({ match}) => <Service match={match} />}/>
-      </Switch>
-       </div>
-    </div>
-  );
+    return (
+        <Router>
+            <div className="App">
+                <Header/>
+                <div className='general'>
+                    <Routes>
+                        <Route path='/' element={<Home />} />
+                        <Route path='/about' element={<About />} />
+                        <Route path='/services' element={<Services />} />
+                        <Route path='/services/:serviceId' element={<ServiceWrapper />} />
+                    </Routes>
+                </div>
+            </div>
+        </Router>
+    );
 }
+
 
 export default App;
