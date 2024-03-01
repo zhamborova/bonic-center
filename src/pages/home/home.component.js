@@ -1,7 +1,7 @@
 import React from 'react';
 import './home.styles.scss';
-import Footer from "../../components/footer/footer.component";
-import { articles } from "../../constants";
+import Footer from "../../components/footer/footer.component.js";
+import { articles } from "../../constants.js";
 import { Link } from 'react-router-dom';
 
 const Home = () => {

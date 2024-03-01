@@ -2,11 +2,11 @@ import React from 'react';
 import about from '../../assets/about.jpg';
 
 import './about.styles.scss'
-import CustomButton from "../../components/custom-button/custom-button.component";
+import CustomButton from "../../components/custom-button/custom-button.component.js";
 import Slider from "react-slick/lib";
-import Arrow from "../../components/arrows/arrow.component";
-import Doctor from "../../components/custom-slides/doctors/doctor.component";
-import Footer from "../../components/footer/footer.component";
+import Arrow from "../../components/arrows/arrow.component.js";
+import Doctor from "../../components/custom-slides/doctors/doctor.component.js";
+import Footer from "../../components/footer/footer.component.js";
 import {Link} from "react-router-dom";
 
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import './contact-form.styles.scss';
-import CustomInput from "../custom-input/custom-input.component";
+import CustomInput from "../custom-input/custom-input.component.js";
 import emailjs from "emailjs-com";
 
 class ContactForm extends React.Component{

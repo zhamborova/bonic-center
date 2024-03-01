@@ -1,10 +1,10 @@
 import React from 'react';
 import './services.styles.scss';
-import Category from "../../components/service-category/category.component";
+import Category from "../../components/service-category/category.component.js";
 import uslugi from '../../assets/uslugi.jpg'
-import WithSpinner from "../../components/with-spinner/with-spinner.component";
-import Footer from "../../components/footer/footer.component";
-import service_short_list from "../../service-short-list";
+import WithSpinner from "../../components/with-spinner/with-spinner.component.js";
+import Footer from "../../components/footer/footer.component.js";
+import service_short_list from "../../service-short-list.js";
 class Services extends React.Component{
 
     state= {

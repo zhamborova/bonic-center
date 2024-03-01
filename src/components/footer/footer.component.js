@@ -3,7 +3,7 @@ import './footer.styles.scss';
 import {ReactComponent as Location} from '../../assets/location.svg'
 import {ReactComponent as Phone } from '../../assets/phone.svg';
 import {ReactComponent as Clock } from '../../assets/clock.svg';
-import ContactForm from "../contact-form/contact-form.component";
+import ContactForm from "../contact-form/contact-form.component.js";
 import map from '../../assets/map.png'
 
 

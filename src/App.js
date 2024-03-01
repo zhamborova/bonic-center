@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from "./components/header/header.component";
+import Header from "./components/header/header.component.js";
 
-import Home from "./pages/home/home.component";
-import {ServiceWrapper} from "./pages/service/service.component";
-import Services from "./pages/services/services.component";
-import About from "./pages/about/about.component";
+import Home from "./pages/home/home.component.js";
+import {ServiceWrapper} from "./pages/service/service.component.js";
+import Services from "./pages/services/services.component.js";
+import About from "./pages/about/about.component.js";
 
 
 function App() {

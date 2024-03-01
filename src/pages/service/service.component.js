@@ -1,14 +1,14 @@
 import React from 'react';
 import './service.styles.scss';
-import Question from "../../components/question/question.component";
-import service_list from "../../services-list";
+import Question from "../../components/question/question.component.js";
+import service_list from "../../services-list.js";
 import Slider from "react-slick";
-import Arrow from "../../components/arrows/arrow.component";
-import BeforeAfter from "../../components/custom-slides/before-after/before-after";
-import Footer from "../../components/footer/footer.component";
-import WithSpinner from "../../components/with-spinner/with-spinner.component";
-import ProcedureFormat from "../../components/procedure-format/procedure-format";
-import pics from "../../pics_before_after";
+import Arrow from "../../components/arrows/arrow.component.js";
+import BeforeAfter from "../../components/custom-slides/before-after/before-after.js";
+import Footer from "../../components/footer/footer.component.js";
+import WithSpinner from "../../components/with-spinner/with-spinner.component.js";
+import ProcedureFormat from "../../components/procedure-format/procedure-format.js";
+import pics from "../../pics_before_after.js";
 import { useParams } from 'react-router-dom';
 
 const settings = {

@@ -1,8 +1,8 @@
 import Slider from "react-slick/lib";
 import React from "react";
-import Arrow from "../arrows/arrow.component";
+import Arrow from "../arrows/arrow.component.js";
 import './category.styles.scss'
-import ServiceSlide from "../custom-slides/service-slide/service-slide.component";
+import ServiceSlide from "../custom-slides/service-slide/service-slide.component.js";
 
  const Category = ({services, name}) => {
 
