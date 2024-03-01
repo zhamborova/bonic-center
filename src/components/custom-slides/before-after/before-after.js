@@ -5,7 +5,6 @@ class BeforeAfter extends React.Component {
     render() {
         return (
             <div {...this.props}>
-                {console.log(this.props)}
                 <div className='ba-slide'>
                     <label htmlFor={'before'}>До</label>
                     <img className='ba-slide__before-img' src={this.props.before} />

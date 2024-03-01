@@ -50,13 +50,13 @@ class Service extends React.Component {
 
     componentDidMount() {
         const { serviceId } = this.props;
-        console.log(serviceId)
+
         const procedure = service_list[serviceId]
-       console.log(procedure)
+
         const {cover,title, recovery, effect_length, course,
                         price,description,used_for, additional, priceArea,pictures} = procedure;
 
-
+        console.log(procedure)
       this.setState({cover,title, recovery, effect_length, course,
                     price,description,used_for, additional,priceArea,pictures})
 
@@ -96,14 +96,14 @@ class Service extends React.Component {
              </div>
          </div>
 
-           {serviceId == 'laser_gynecology' ? null:
-                <div className='service__slider-section'>
-             <Slider {...settings}>
-                 {pictures.map((pic,index) => {
-                  return <BeforeAfter key={index} index={index} before={pic["before"]} after={pic['after']}/>
-                 })}
-             </Slider>
-         </div>}
+         {/*  {serviceId == 'laser_gynecology' ? null:*/}
+         {/*       <div className='service__slider-section'>*/}
+         {/*    <Slider {...settings}>*/}
+         {/*        {pictures.map((pic,index) => {*/}
+         {/*         return <BeforeAfter key={index} index={index} before={pic["before"]} after={pic['after']}/>*/}
+         {/*        })}*/}
+         {/*    </Slider>*/}
+         {/*</div>}*/}
 
          <div className='service__qa-section'>
              {
