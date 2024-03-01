@@ -641,10 +641,8 @@ const service_list = {
           recovery: null,
           course: "состоит из 2-3 процедур с интервалом в месяц",
           effect_length: "до трех лет",
-          price: null,
-          priceArea: [
-
-          ]
+          price:"-",
+          priceArea: null
       },
 
       countur_plastic: {

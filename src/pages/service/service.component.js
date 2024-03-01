@@ -25,8 +25,7 @@ const settings = {
 
 function ServiceWrapper() {
     let { serviceId } = useParams();
-  console.log(serviceId)
-    console.log("hola")
+
     return <Service serviceId={serviceId} />;
 }
 
@@ -53,24 +52,43 @@ class Service extends React.Component {
 
         const procedure = service_list[serviceId]
 
-        const {cover,title, recovery, effect_length, course,
-                        price,description,used_for, additional, priceArea,pictures} = procedure;
+        const {title,cover, short_descrp,  used_for,
 
-        console.log(procedure)
-      this.setState({cover,title, recovery, effect_length, course,
-                    price,description,used_for, additional,priceArea,pictures})
+            description,
+            additional,
+            pictures,
+            recovery,
+            course,
+            effect_length,
+            price,
+            priceArea} = procedure;
+        console.log(procedure )
+
+      this.setState({title,cover, short_descrp,  used_for,
+          description,
+          additional,
+          pictures,
+          recovery,
+          course,
+          effect_length,
+          price,
+          priceArea})
 
 
     }
 
 
     render() {
-        console.log(this.state.pics)
-        const { serviceId } = this.props;
-
-        const {title, recovery, effect_length, course,
-            price,description,used_for, additional, priceArea, pictures} = this.state;
-
+        const {title,cover, short_descrp,  used_for,
+            description,
+            additional,
+            pictures,
+            recovery,
+            course,
+            effect_length,
+            price,
+            priceArea} = this.state;
+       console.log(price, priceArea)
         return !title ? <WithSpinner/> :
             <>
         <div className='service'>
