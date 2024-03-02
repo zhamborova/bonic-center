@@ -32,11 +32,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8accd5c7-2d34-47c0-9bdf-261f643af0c6" name="Default Changelist" comment="fx">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.js" afterDir="false" />
-    </list>
+    <list default="true" id="8accd5c7-2d34-47c0-9bdf-261f643af0c6" name="Default Changelist" comment="fix link" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,7 +168,7 @@
       <workItem from="1596196861058" duration="16897000" />
       <workItem from="1596526922462" duration="7716000" />
       <workItem from="1596563791081" duration="13630000" />
-      <workItem from="1709316762763" duration="12715000" />
+      <workItem from="1709316762763" duration="13200000" />
     </task>
     <task id="LOCAL-00001" summary="css">
       <created>1593622615625</created>
@@ -209,7 +205,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709330321274</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="remove home section">
+      <created>1709369371628</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709369371628</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix link">
+      <created>1709369776065</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709369776065</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +256,8 @@
     <MESSAGE value="Fixes" />
     <MESSAGE value="rem images temporarily" />
     <MESSAGE value="fx" />
-    <option name="LAST_COMMIT_MESSAGE" value="fx" />
+    <MESSAGE value="remove home section" />
+    <MESSAGE value="fix link" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix link" />
   </component>
 </project>
