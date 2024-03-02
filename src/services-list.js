@@ -82,7 +82,7 @@ const service_list = {
           price: "от 500р за 1 кв.см."
       },
       fotona4D_rejuvination: {
-        url: "ft_scar_removal",
+        url: "fotona4D_rejuvination",
         title: "FT лазерная шлифовка рубцовой ткани на лазером аппарате Fotona",
         cover: cover,
         used_for: ["Удаление шрамов", "Удаление рубцов постакне"],

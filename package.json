@@ -14,9 +14,11 @@
     "react-bootstrap": "latest",
     "react-dom": "latest",
     "react-router-dom": "latest",
+    "react-router-sitemap": "^1.2.0",
     "react-scripts": "latest",
     "react-slick": "latest",
     "sass": "latest",
+    "sitemap": "^7.1.1",
     "styled-components": "latest"
   },
   "scripts": {
