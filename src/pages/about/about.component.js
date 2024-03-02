@@ -47,7 +47,7 @@ class About extends React.Component{
                         Мы нацелены на качественный
                         результат и партнерские взаимоотношения со своими клиентами, и поэтому нам доверяют и нас
                         рекомендуют.</p>
-                    <Link to={"/services"} > <CustomButton text={'Наши услуги'} /> </Link>
+                    <Link to={"/"} > <CustomButton text={'Наши услуги'} /> </Link>
                 </div>
                 </div>
 
