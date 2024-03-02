@@ -34,6 +34,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8accd5c7-2d34-47c0-9bdf-261f643af0c6" name="Default Changelist" comment="web crawl">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,8 +88,8 @@
       <recent name="C:\Users\Master\WebstormProjects\bonic\src\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/assets/pics" />
       <recent name="$PROJECT_DIR$/src/assets/icons" />
       <recent name="C:\Users\Master\WebstormProjects\bonic\src\assets" />
@@ -170,7 +171,7 @@
       <workItem from="1596196861058" duration="16897000" />
       <workItem from="1596526922462" duration="7716000" />
       <workItem from="1596563791081" duration="13630000" />
-      <workItem from="1709316762763" duration="17159000" />
+      <workItem from="1709316762763" duration="17581000" />
     </task>
     <task id="LOCAL-00001" summary="css">
       <created>1593622615625</created>
@@ -235,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709373408951</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="web crawl">
+      <created>1709374723749</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709374723749</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
