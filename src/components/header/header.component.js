@@ -41,11 +41,8 @@ class Header extends React.Component {
         {/*change style to dropdown header*/}
         <div className={this.state.hidden ? 'header__hide' : 'header__show'}
              onClick={()=>{this.setState({hidden:true})}}>
-
-        <Link to={"/"} className={option}>
-         Главная
-        </Link>
-        <Link to={"/services"} className={option} >
+        <div className={option} >+7 (967) 424-21-01</div>
+        <Link to={"/"} className={option} >
             Услуги
         </Link>
          <Link to={"/about"} className={option}>
